@@ -1,0 +1,82 @@
+作品总数        194
+豆瓣评分        108/194（56%）
+任意评分        159/194（82%）
+真实海报        165/194（85%）  （豆瓣 108 / 维基 57）
+真实剧照        108/194（56%）
+豆瓣剧情简介    108/194（56%）
+仍无海报        29 部
+抓取失败记录    100 条
+
+缺海报的作品（仍可用程序化封面兜底）：
+  - splash-1984 | 美人鱼（1984） ← pruned: year 2016≠1984
+  - the-mummy-1999 | 木乃伊（1999） ← pruned: year 2026≠1999
+  - pirates-of-the-caribbean-the-curse-of-the-black-pearl | 加勒比海盗：黑珍珠号的诅咒（2003） ← pruned: no-rating
+  - the-haunted-mansion-2003 | 幽灵鬼屋（2003） ← pruned: year 2023≠2003
+  - barbie-fairytopia-mermaidia | 芭比之美人鱼（2006） ← pruned: no-rating,year 2022≠2006
+  - harry-potter-and-the-deathly-hallows-part-2 | 哈利·波特与死亡圣器（下）（2011） ← pruned: title-mismatch
+  - once-upon-a-time-2011 | 童话镇（2011） ← no-suggest-match
+  - barbie-in-the-pink-shoes-2013 | 芭比之粉红舞鞋（2013） ← HTTP 400 https://m.douban.com/rexxar/api/v2/movie/22790195
+  - barbie-and-her-sisters-in-a-pony-tale-2013 | 芭比姐妹与小马（2013） ← no-suggest-match
+  - barbie-the-pearl-princess-2014 | 芭比之珍珠公主（2014） ← HTTP 400 https://m.douban.com/rexxar/api/v2/movie/25836323
+  - barbie-and-the-secret-door-2014 | 芭比之神秘之门（2014） ← HTTP 400 https://m.douban.com/rexxar/api/v2/movie/25881595
+  - crimson-peak | 猩红山峰（2015） ← HTTP 400 https://m.douban.com/rexxar/api/v2/movie/23424586
+  - barbie-in-princess-power-2015 | 芭比之非凡公主（2015） ← no-suggest-match
+  - barbie-in-rock-n-royals-2015 | 芭比之摇滚训练营（2015） ← no-suggest-match
+  - barbie-and-her-sisters-in-the-great-puppy-adventure-2015 | 芭比之狗狗大冒险（2015） ← no-suggest-match
+  - fantastic-beasts-and-where-to-find-them | 神奇动物在哪里（2016） ← HTTP 400 https://m.douban.com/rexxar/api/v2/movie/25726614
+  - alice-through-the-looking-glass | 爱丽丝梦游仙境2：镜中奇遇记（2016） ← HTTP 400 https://m.douban.com/rexxar/api/v2/movie/21441132
+  - miss-peregrines-home-for-peculiar-children | 佩小姐的奇幻城堡（2016） ← HTTP 400 https://m.douban.com/rexxar/api/v2/movie/7051830
+  - stranger-things-2016 | 怪奇物语（2016） ← pruned: no-rating,year 2010≠2016
+  - barbie-spy-squad-2016 | 芭比之特工队（2016） ← no-suggest-match
+  - pirates-of-the-caribbean-dead-men-tell-no-tales | 加勒比海盗5：死无对证（2017） ← HTTP 400 https://m.douban.com/rexxar/api/v2/movie/6311303
+  - dark-2017 | 暗黑（2017） ← no-suggest-match
+  - the-gifted-2017 | 天赋异禀（2017） ← HTTP 400 https://m.douban.com/rexxar/api/v2/movie/34917477
+  - barbie-video-game-hero-2017 | 芭比之电玩英雄（2017） ← no-suggest-match
+  - the-lion-king-2019 | 狮子王（2019） ← pruned: year 1994≠2019
+  - good-omens-2019 | 好兆头（2019） ← no-suggest-match
+  - wednesday | 星期三（2022） ← HTTP 400 https://m.douban.com/rexxar/api/v2/movie/20445130
+  - barbie-mermaid-power-2022 | 芭比之美人鱼（2022） ← pruned: no-rating
+  - the-boy-and-the-heron-2023 | 你想活出怎样的人生（2023） ← HTTP 400 https://m.douban.com/rexxar/api/v2/movie/26925611
+
+豆瓣抓取失败明细：
+  - barbie-in-the-nutcracker: no-suggest-match
+  - the-chronicles-of-narnia-the-lion-the-witch-and-the-wardrobe: no-suggest-match
+  - barbie-fairytopia: no-suggest-match
+  - barbie-and-the-magic-of-pegasus: no-suggest-match
+  - barbie-in-the-12-dancing-princesses: no-suggest-match
+  - arthur-and-the-invisibles-2006: no-suggest-match
+  - barbie-fairytopia-magic-of-the-rainbow: no-suggest-match
+  - barbie-as-the-island-princess: no-suggest-match
+  - barbie-and-the-diamond-castle: no-suggest-match
+  - barbie-in-a-christmas-carol: no-suggest-match
+  - the-mummy-tomb-of-the-dragon-emperor-2008: no-suggest-match
+  - barbie-and-the-three-musketeers: no-suggest-match
+  - the-chronicles-of-narnia-the-voyage-of-the-dawn-treader: no-suggest-match
+  - once-upon-a-time-2011: no-suggest-match
+  - the-twilight-saga-breaking-dawn-part-2: no-suggest-match
+  - barbie-and-her-sisters-in-a-pony-tale-2013: no-suggest-match
+  - maleficent-2014: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/4301224
+  - barbie-and-the-secret-door-2014: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/25881595
+  - cinderella-2015: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/6875263
+  - inside-out-2015: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/10533913
+  - barbie-in-princess-power-2015: no-suggest-match
+  - fantastic-beasts-and-where-to-find-them: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/25726614
+  - stranger-things-2016: pruned: no-rating,year 2010≠2016
+  - a-monster-calls-2016: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/25872311
+  - barbie-and-her-sisters-in-a-puppy-chase-2016: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/26882612
+  - beauty-and-the-beast-2017: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/25900945
+  - the-shape-of-water-2017: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/26752852
+  - barbie-dolphin-magic-2017: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/27188116
+  - hotel-transylvania-3-2018: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/26630714
+  - the-house-with-a-clock-in-its-walls-2018: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/10759740
+  - aladdin-2019: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/26891256
+  - good-omens-2019: no-suggest-match
+  - barbie-princess-adventure-2020: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/35249302
+  - barbie-and-chelsea-the-lost-birthday-2021: no-suggest-match
+  - wednesday: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/20445130
+  - slumberland-2022: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/35422787
+  - barbie-road-trip-adventure-2022: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/36135134
+  - wonka-2023: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/26897888
+  - barbie-skipper-and-the-big-babysitting-adventure-2023: HTTP 400 https://m.douban.com/rexxar/api/v2/movie/36305423
+  - barbie-and-stacie-to-the-rescue-2024: no-suggest-match
+  … 其余 60 条

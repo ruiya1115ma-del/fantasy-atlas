@@ -1,0 +1,592 @@
+{
+  "generatedAt": "2026-11-01T16:31:38.645Z",
+  "counts": {
+    "candidates": 83,
+    "alreadyInCatalog": 4,
+    "toAdd": 79,
+    "skipped": 0,
+    "byGroup": {
+      "fantasy": 43,
+      "disney": 32,
+      "ghibli": 4
+    }
+  },
+  "existing": [
+    {
+      "input": "故事的故事（Tale of Tales, 2015）",
+      "matched": "tale-of-tales-2015 故事的故事/Il racconto dei racconti 2015",
+      "group": "fantasy"
+    },
+    {
+      "input": "镜子面具（MirrorMask, 2005）",
+      "matched": "mirrormask-2005 镜子面具/MirrorMask 2005",
+      "group": "fantasy"
+    },
+    {
+      "input": "坠入（The Fall, 2006）",
+      "matched": "the-fall-2006 坠入/The Fall 2006",
+      "group": "fantasy"
+    },
+    {
+      "input": "最后的巫师猎人（The Last Witch Hunter, 2015）",
+      "matched": "the-last-witch-hunter-2015 最后的巫师猎人/The Last Witch Hunter 2015",
+      "group": "fantasy"
+    }
+  ],
+  "toAdd": [
+    {
+      "id": "the-neverending-story",
+      "chineseTitle": "大魔域",
+      "originalTitle": "The NeverEnding Story",
+      "year": 1984,
+      "group": "fantasy"
+    },
+    {
+      "id": "legend",
+      "chineseTitle": "诡秘怪谈",
+      "originalTitle": "Legend",
+      "year": 1985,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-dark-crystal",
+      "chineseTitle": "黑水晶",
+      "originalTitle": "The Dark Crystal",
+      "year": 1982,
+      "group": "fantasy"
+    },
+    {
+      "id": "return-to-oz",
+      "chineseTitle": "重返奥兹国",
+      "originalTitle": "Return to Oz",
+      "year": 1985,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-princess-bride",
+      "chineseTitle": "公主新娘",
+      "originalTitle": "The Princess Bride",
+      "year": 1987,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-pagemaster",
+      "chineseTitle": "图书馆员奇幻之旅",
+      "originalTitle": "The Pagemaster",
+      "year": 1994,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-adventures-of-baron-munchausen",
+      "chineseTitle": "终极天将",
+      "originalTitle": "The Adventures of Baron Munchausen",
+      "year": 1988,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-last-unicorn",
+      "chineseTitle": "最后的独角兽",
+      "originalTitle": "The Last Unicorn",
+      "year": 1982,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-7th-voyage-of-sinbad",
+      "chineseTitle": "辛巴达七航妖岛",
+      "originalTitle": "The 7th Voyage of Sinbad",
+      "year": 1958,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-golden-voyage-of-sinbad",
+      "chineseTitle": "辛巴达黄金航程",
+      "originalTitle": "The Golden Voyage of Sinbad",
+      "year": 1973,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-company-of-wolves",
+      "chineseTitle": "狼的公司",
+      "originalTitle": "The Company of Wolves",
+      "year": 1984,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-city-of-lost-children",
+      "chineseTitle": "童梦失魂夜",
+      "originalTitle": "The City of Lost Children",
+      "year": 1995,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-imaginarium-of-doctor-parnassus",
+      "chineseTitle": "魔法奇幻秀",
+      "originalTitle": "The Imaginarium of Doctor Parnassus",
+      "year": 2009,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-witches",
+      "chineseTitle": "女巫（1990）",
+      "originalTitle": "The Witches",
+      "year": 1990,
+      "group": "fantasy"
+    },
+    {
+      "id": "roald-dahl-s-the-witches",
+      "chineseTitle": "女巫（2020）",
+      "originalTitle": "Roald Dahl's The Witches",
+      "year": 2020,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-secret-garden",
+      "chineseTitle": "秘密花园",
+      "originalTitle": "The Secret Garden",
+      "year": 1993,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-indian-in-the-cupboard",
+      "chineseTitle": "印第安人在橱柜里",
+      "originalTitle": "The Indian in the Cupboard",
+      "year": 1995,
+      "group": "fantasy"
+    },
+    {
+      "id": "excalibur",
+      "chineseTitle": "神剑",
+      "originalTitle": "Excalibur",
+      "year": 1981,
+      "group": "fantasy"
+    },
+    {
+      "id": "jason-and-the-argonauts",
+      "chineseTitle": "杰逊王子战群妖",
+      "originalTitle": "Jason and the Argonauts",
+      "year": 1963,
+      "group": "fantasy"
+    },
+    {
+      "id": "clash-of-the-titans",
+      "chineseTitle": "诸神之战",
+      "originalTitle": "Clash of the Titans",
+      "year": 2010,
+      "group": "fantasy"
+    },
+    {
+      "id": "immortals",
+      "chineseTitle": "惊天战神",
+      "originalTitle": "Immortals",
+      "year": 2011,
+      "group": "fantasy"
+    },
+    {
+      "id": "dragonheart",
+      "chineseTitle": "龙之心",
+      "originalTitle": "Dragonheart",
+      "year": 1996,
+      "group": "fantasy"
+    },
+    {
+      "id": "eragon",
+      "chineseTitle": "龙骑士",
+      "originalTitle": "Eragon",
+      "year": 2006,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-green-knight",
+      "chineseTitle": "绿衣骑士",
+      "originalTitle": "The Green Knight",
+      "year": 2021,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-water-horse",
+      "chineseTitle": "尼斯湖水怪",
+      "originalTitle": "The Water Horse",
+      "year": 2007,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-13th-warrior",
+      "chineseTitle": "第十三个勇士",
+      "originalTitle": "The 13th Warrior",
+      "year": 1999,
+      "group": "fantasy"
+    },
+    {
+      "id": "dungeons-dragons-honor-among-thieves",
+      "chineseTitle": "龙与地下城：侠盗荣耀",
+      "originalTitle": "Dungeons & Dragons: Honor Among Thieves",
+      "year": 2023,
+      "group": "fantasy"
+    },
+    {
+      "id": "wolfwalkers",
+      "chineseTitle": "狼行者",
+      "originalTitle": "Wolfwalkers",
+      "year": 2020,
+      "group": "fantasy"
+    },
+    {
+      "id": "song-of-the-sea",
+      "chineseTitle": "海洋之歌",
+      "originalTitle": "Song of the Sea",
+      "year": 2014,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-secret-of-kells",
+      "chineseTitle": "凯尔经的秘密",
+      "originalTitle": "The Secret of Kells",
+      "year": 2009,
+      "group": "fantasy"
+    },
+    {
+      "id": "kubo-and-the-two-strings",
+      "chineseTitle": "魔弦传说",
+      "originalTitle": "Kubo and the Two Strings",
+      "year": 2016,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-boy-and-the-beast",
+      "chineseTitle": "怪物之子",
+      "originalTitle": "The Boy and the Beast",
+      "year": 2015,
+      "group": "fantasy"
+    },
+    {
+      "id": "children-who-chase-lost-voices",
+      "chineseTitle": "追逐繁星的孩子",
+      "originalTitle": "Children Who Chase Lost Voices",
+      "year": 2011,
+      "group": "fantasy"
+    },
+    {
+      "id": "mary-and-the-witch-s-flower",
+      "chineseTitle": "玛丽与魔女之花",
+      "originalTitle": "Mary and the Witch's Flower",
+      "year": 2017,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-cat-returns",
+      "chineseTitle": "猫的报恩",
+      "originalTitle": "The Cat Returns",
+      "year": 2002,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-tale-of-the-princess-kaguya",
+      "chineseTitle": "辉夜姬物语",
+      "originalTitle": "The Tale of the Princess Kaguya",
+      "year": 2013,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-wonderland",
+      "chineseTitle": "生日幻境",
+      "originalTitle": "The Wonderland",
+      "year": 2019,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-sorcerer-s-apprentice",
+      "chineseTitle": "魔法师的学徒",
+      "originalTitle": "The Sorcerer's Apprentice",
+      "year": 2010,
+      "group": "fantasy"
+    },
+    {
+      "id": "seventh-son",
+      "chineseTitle": "第七子：降魔之战",
+      "originalTitle": "Seventh Son",
+      "year": 2014,
+      "group": "fantasy"
+    },
+    {
+      "id": "a-wrinkle-in-time",
+      "chineseTitle": "时间的皱折",
+      "originalTitle": "A Wrinkle in Time",
+      "year": 2018,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-book-of-life",
+      "chineseTitle": "生命之书",
+      "originalTitle": "The Book of Life",
+      "year": 2014,
+      "group": "fantasy"
+    },
+    {
+      "id": "strange-magic",
+      "chineseTitle": "奇异魔法",
+      "originalTitle": "Strange Magic",
+      "year": 2015,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-amazing-maurice",
+      "chineseTitle": "神奇的莫里斯",
+      "originalTitle": "The Amazing Maurice",
+      "year": 2022,
+      "group": "fantasy"
+    },
+    {
+      "id": "the-princess-and-the-frog",
+      "chineseTitle": "公主与青蛙",
+      "originalTitle": "The Princess and the Frog",
+      "year": 2009,
+      "group": "disney"
+    },
+    {
+      "id": "raya-and-the-last-dragon",
+      "chineseTitle": "寻龙传说",
+      "originalTitle": "Raya and the Last Dragon",
+      "year": 2021,
+      "group": "disney"
+    },
+    {
+      "id": "snow-white-and-the-seven-dwarfs",
+      "chineseTitle": "白雪公主和七个小矮人",
+      "originalTitle": "Snow White and the Seven Dwarfs",
+      "year": 1937,
+      "group": "disney"
+    },
+    {
+      "id": "cinderella",
+      "chineseTitle": "灰姑娘（1950）",
+      "originalTitle": "Cinderella",
+      "year": 1950,
+      "group": "disney"
+    },
+    {
+      "id": "sleeping-beauty",
+      "chineseTitle": "睡美人",
+      "originalTitle": "Sleeping Beauty",
+      "year": 1959,
+      "group": "disney"
+    },
+    {
+      "id": "the-little-mermaid",
+      "chineseTitle": "小美人鱼（1989）",
+      "originalTitle": "The Little Mermaid",
+      "year": 1989,
+      "group": "disney"
+    },
+    {
+      "id": "beauty-and-the-beast",
+      "chineseTitle": "美女与野兽（1991）",
+      "originalTitle": "Beauty and the Beast",
+      "year": 1991,
+      "group": "disney"
+    },
+    {
+      "id": "aladdin",
+      "chineseTitle": "阿拉丁（1992）",
+      "originalTitle": "Aladdin",
+      "year": 1992,
+      "group": "disney"
+    },
+    {
+      "id": "pocahontas",
+      "chineseTitle": "风中奇缘",
+      "originalTitle": "Pocahontas",
+      "year": 1995,
+      "group": "disney"
+    },
+    {
+      "id": "mulan",
+      "chineseTitle": "花木兰（1998）",
+      "originalTitle": "Mulan",
+      "year": 1998,
+      "group": "disney"
+    },
+    {
+      "id": "tangled",
+      "chineseTitle": "魔发奇缘",
+      "originalTitle": "Tangled",
+      "year": 2010,
+      "group": "disney"
+    },
+    {
+      "id": "brave",
+      "chineseTitle": "勇敢传说",
+      "originalTitle": "Brave",
+      "year": 2012,
+      "group": "disney"
+    },
+    {
+      "id": "moana",
+      "chineseTitle": "海洋奇缘",
+      "originalTitle": "Moana",
+      "year": 2016,
+      "group": "disney"
+    },
+    {
+      "id": "cinderella-ii-dreams-come-true",
+      "chineseTitle": "灰姑娘2：美梦成真",
+      "originalTitle": "Cinderella II: Dreams Come True",
+      "year": 2002,
+      "group": "disney"
+    },
+    {
+      "id": "cinderella-iii-a-twist-in-time",
+      "chineseTitle": "灰姑娘3：时间魔法",
+      "originalTitle": "Cinderella III: A Twist in Time",
+      "year": 2007,
+      "group": "disney"
+    },
+    {
+      "id": "the-little-mermaid-ii-return-to-the-sea",
+      "chineseTitle": "小美人鱼2：重返大海",
+      "originalTitle": "The Little Mermaid II: Return to the Sea",
+      "year": 2000,
+      "group": "disney"
+    },
+    {
+      "id": "the-little-mermaid-ariel-s-beginning",
+      "chineseTitle": "小美人鱼：艾莉儿的起源",
+      "originalTitle": "The Little Mermaid: Ariel's Beginning",
+      "year": 2008,
+      "group": "disney"
+    },
+    {
+      "id": "beauty-and-the-beast-the-enchanted-christmas",
+      "chineseTitle": "美女与野兽：贝儿的心愿",
+      "originalTitle": "Beauty and the Beast: The Enchanted Christmas",
+      "year": 1997,
+      "group": "disney"
+    },
+    {
+      "id": "beauty-and-the-beast-belle-s-magical-world",
+      "chineseTitle": "美女与野兽：贝儿的奇幻世界",
+      "originalTitle": "Beauty and the Beast: Belle's Magical World",
+      "year": 1998,
+      "group": "disney"
+    },
+    {
+      "id": "the-return-of-jafar",
+      "chineseTitle": "贾方复仇记",
+      "originalTitle": "The Return of Jafar",
+      "year": 1994,
+      "group": "disney"
+    },
+    {
+      "id": "aladdin-and-the-king-of-thieves",
+      "chineseTitle": "阿拉丁和大盗之王",
+      "originalTitle": "Aladdin and the King of Thieves",
+      "year": 1996,
+      "group": "disney"
+    },
+    {
+      "id": "pocahontas-ii-journey-to-a-new-world",
+      "chineseTitle": "风中奇缘2：伦敦之旅",
+      "originalTitle": "Pocahontas II: Journey to a New World",
+      "year": 1998,
+      "group": "disney"
+    },
+    {
+      "id": "mulan-ii",
+      "chineseTitle": "花木兰2",
+      "originalTitle": "Mulan II",
+      "year": 2004,
+      "group": "disney"
+    },
+    {
+      "id": "tangled-before-ever-after",
+      "chineseTitle": "魔发奇缘：幸福前奏",
+      "originalTitle": "Tangled: Before Ever After",
+      "year": 2017,
+      "group": "disney"
+    },
+    {
+      "id": "moana-2",
+      "chineseTitle": "海洋奇缘2",
+      "originalTitle": "Moana 2",
+      "year": 2024,
+      "group": "disney"
+    },
+    {
+      "id": "cinderella-1997",
+      "chineseTitle": "灰姑娘（1997）",
+      "originalTitle": "Cinderella",
+      "year": 1997,
+      "group": "disney"
+    },
+    {
+      "id": "mulan-2020",
+      "chineseTitle": "花木兰（2020）",
+      "originalTitle": "Mulan",
+      "year": 2020,
+      "group": "disney"
+    },
+    {
+      "id": "maleficent-mistress-of-evil",
+      "chineseTitle": "沉睡魔咒2：恶魔夫人",
+      "originalTitle": "Maleficent: Mistress of Evil",
+      "year": 2019,
+      "group": "disney"
+    },
+    {
+      "id": "the-jungle-book",
+      "chineseTitle": "森林王子",
+      "originalTitle": "The Jungle Book",
+      "year": 2016,
+      "group": "disney"
+    },
+    {
+      "id": "mufasa-the-lion-king",
+      "chineseTitle": "狮子王：木法沙传奇",
+      "originalTitle": "Mufasa: The Lion King",
+      "year": 2024,
+      "group": "disney"
+    },
+    {
+      "id": "peter-pan-wendy",
+      "chineseTitle": "彼得潘与温蒂",
+      "originalTitle": "Peter Pan & Wendy",
+      "year": 2023,
+      "group": "disney"
+    },
+    {
+      "id": "pinocchio",
+      "chineseTitle": "匹诺曹",
+      "originalTitle": "Pinocchio",
+      "year": 2022,
+      "group": "disney"
+    },
+    {
+      "id": "the-castle-of-cagliostro",
+      "chineseTitle": "鲁邦三世：卡里奥斯特罗之城",
+      "originalTitle": "The Castle of Cagliostro",
+      "year": 1979,
+      "group": "ghibli"
+    },
+    {
+      "id": "nausicaa-of-the-valley-of-the-wind",
+      "chineseTitle": "风之谷",
+      "originalTitle": "Nausicaä of the Valley of the Wind",
+      "year": 1984,
+      "group": "ghibli"
+    },
+    {
+      "id": "porco-rosso",
+      "chineseTitle": "红猪",
+      "originalTitle": "Porco Rosso",
+      "year": 1992,
+      "group": "ghibli"
+    },
+    {
+      "id": "the-wind-rises",
+      "chineseTitle": "起风了",
+      "originalTitle": "The Wind Rises",
+      "year": 2013,
+      "group": "ghibli"
+    }
+  ],
+  "skipped": []
+}

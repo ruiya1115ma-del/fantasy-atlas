@@ -1,0 +1,2124 @@
+[
+  {
+    "catalog_key": "tale-of-tales-2015",
+    "chinese_title": "故事的故事",
+    "original_title": "Il racconto dei racconti",
+    "release_year": 2015,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "IT",
+      "FR",
+      "GB"
+    ],
+    "director": [
+      "Matteo Garrone"
+    ],
+    "cast": [
+      "Salma Hayek",
+      "Vincent Cassel",
+      "Toby Jones",
+      "John C. Reilly"
+    ],
+    "runtime_minutes": 134,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Tale of Tales (2015 film)",
+    "external_title_hints": [
+      "The Tale of Tales",
+      "Il racconto dei racconti"
+    ],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Fairy Tale"
+      ],
+      "world": [
+        "古代王国",
+        "童话王国"
+      ],
+      "aesthetic": [
+        "暗黑童话",
+        "怪诞美学"
+      ],
+      "element": [
+        "女巫",
+        "魔法生物"
+      ],
+      "mood": [
+        "诡异",
+        "黑暗"
+      ],
+      "exclude": [
+        "血腥"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "三个相邻的王国被各自的执念拖进怪谈：求子心切的王后听信巫术，要吃下海怪的心脏；沉溺享乐的老国王把女儿许给一头巨怪；痴迷跳蚤的君主看着女儿与一只跳蚤共处一室。城堡的走廊长得没有尽头，树林深处住着会换皮的老妇，每个人都在为一点私欲付出代价。",
+    "recommendation_zh": "把意大利童话集《五日谈》拍成三则并联的成人寓言，画面像文艺复兴油画，欲望却毫不遮掩。",
+    "audience_fit": "喜欢暗黑童话、油画质感与分段式叙事的成年观众。",
+    "audience_mismatch": "想要单一完整主线、怕怪诞造型与少量血腥的观众请绕行。"
+  },
+  {
+    "catalog_key": "the-addams-family-1991",
+    "chinese_title": "亚当斯一家",
+    "original_title": "The Addams Family",
+    "release_year": 1991,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Barry Sonnenfeld"
+    ],
+    "cast": [
+      "Anjelica Huston",
+      "Raul Julia",
+      "Christopher Lloyd",
+      "Christina Ricci"
+    ],
+    "runtime_minutes": 100,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "The Addams Family (1991 film)",
+    "external_title_hints": [
+      "Addams Family"
+    ],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Gothic Fantasy"
+      ],
+      "world": [
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "哥特建筑",
+        "怪诞美学"
+      ],
+      "element": [
+        "鬼魂",
+        "超自然力量"
+      ],
+      "mood": [
+        "诡异",
+        "荒诞"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "坟场旁边的一座宅子里住着亚当斯一家：母亲优雅得像一尊黑纱雕像，父亲一心想让孩子过得正常，而孩子最爱的游戏是互相谋杀。一个自称失踪叔父的男人突然归来，带着完美的礼貌与可疑的过去，慢慢挤进这个怪家庭。宅子里的手会自己走路，管家断过的手臂可以借给别人用，而最可怕的其实是门外那些正常人。",
+    "recommendation_zh": "哥特怪家庭的祖师爷，把不正常的幸福拍得比任何一部温情片都更真诚。",
+    "audience_fit": "喜欢哥特幽默、冷面荒诞与黑色家庭喜剧的观众。",
+    "audience_mismatch": "受不了阴森宅邸与尸体笑话的观众可能坐立难安。"
+  },
+  {
+    "catalog_key": "hocus-pocus-1993",
+    "chinese_title": "女巫也疯狂",
+    "original_title": "Hocus Pocus",
+    "release_year": 1993,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Kenny Ortega"
+    ],
+    "cast": [
+      "Bette Midler",
+      "Sarah Jessica Parker",
+      "Kathy Najimy",
+      "Omri Katz",
+      "Thora Birch"
+    ],
+    "runtime_minutes": 96,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Hocus Pocus (1993 film)",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Supernatural Fantasy",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "哥特建筑",
+        "怪诞美学"
+      ],
+      "element": [
+        "女巫",
+        "鬼魂",
+        "魔法生物"
+      ],
+      "mood": [
+        "荒诞",
+        "温暖",
+        "诡异"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "1693 年的塞勒姆，三个靠吸食孩童生气续命的女巫被送上绞架，临死前留下一句诅咒。三百年后，一个刚搬到镇上、怎么都不肯相信鬼故事的少年点燃了那支蜡烛，把她们重新请回人间。这一夜全城的孩子都在敲门讨糖，三个女巫穿着古怪的裙子在街上乱窜，能阻止她们的只有一群孩子和一点笨拙的勇气。",
+    "recommendation_zh": "万圣节电影的固定节目：三个女巫吵吵闹闹，把恐怖片套路演成合家欢闹剧。",
+    "audience_fit": "想在万圣节找一部不吓人的女巫喜剧的家庭观众。",
+    "audience_mismatch": "受不了夸张表演与歌舞段落的观众会觉得吵闹。"
+  },
+  {
+    "catalog_key": "beetlejuice-1988",
+    "chinese_title": "阴间大法师",
+    "original_title": "Beetlejuice",
+    "release_year": 1988,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Tim Burton"
+    ],
+    "cast": [
+      "Michael Keaton",
+      "Alec Baldwin",
+      "Geena Davis",
+      "Winona Ryder",
+      "Catherine O'Hara"
+    ],
+    "runtime_minutes": 92,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Beetlejuice",
+    "external_title_hints": [
+      "Beetle Juice"
+    ],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Supernatural Fantasy"
+      ],
+      "world": [
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "怪诞美学",
+        "哥特建筑"
+      ],
+      "element": [
+        "鬼魂",
+        "超自然力量"
+      ],
+      "mood": [
+        "荒诞",
+        "诡异"
+      ],
+      "exclude": [
+        "恐怖惊吓"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "一对年轻夫妻在山间小镇买下梦想中的房子，还没住满一个月就车祸身亡，变成困在自己家里的鬼。他们请来的驱魔师毫无用处，新搬进来的都市一家却把房子改成了夸张的现代艺术展厅。走投无路之下，两人翻出阴间黄页，召来一个满嘴谎话、造型油腻的生物驱魔师，事情从此彻底失控。",
+    "recommendation_zh": "蒂姆·波顿把死后世界拍成一座排队办事的官僚机构，荒诞得好笑又令人拍腿。",
+    "audience_fit": "喜欢哥特怪趣、冷幽默与老派手工特效质感的观众。",
+    "audience_mismatch": "怕虫、怕鬼脸与不喜欢黏稠笑料的观众会觉得不适。"
+  },
+  {
+    "catalog_key": "kikis-delivery-service-1989",
+    "chinese_title": "魔女宅急便",
+    "original_title": "魔女の宅急便",
+    "release_year": 1989,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [],
+    "runtime_minutes": 102,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Kiki's Delivery Service",
+    "external_title_hints": [
+      "Majo no Takkyubin",
+      "Kiki's Delivery Service (1989 film)"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Animation"
+      ],
+      "world": [
+        "魔法社会",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "复古英伦"
+      ],
+      "element": [
+        "女巫",
+        "魔法生物"
+      ],
+      "mood": [
+        "温暖",
+        "治愈",
+        "怀旧"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "十三岁的小魔女按照规矩离开家，带着黑猫和一架扫帚，在一座靠海的城市落脚，靠替人送东西谋生。她会飞，却不会应付房租、客人的脾气和忽然到来的自我怀疑；有一天她发现扫帚不听话了，连最简单的事都做不好。面包店老板娘、画画的少女和一群陌生邻居，慢慢接住了这个倔强的小孩。",
+    "recommendation_zh": "宫崎骏最温柔的一部：魔法不是战斗力，而是一门需要反复练习的日常手艺。",
+    "audience_fit": "正在离家、换城市或刚进入社会的年轻人，以及吉卜力入门观众。",
+    "audience_mismatch": "期待强冲突与宏大冒险的观众会觉得它太日常。"
+  },
+  {
+    "catalog_key": "ponyo-2008",
+    "chinese_title": "崖上的波妞",
+    "original_title": "崖の上のポニョ",
+    "release_year": 2008,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [],
+    "runtime_minutes": 101,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Ponyo",
+    "external_title_hints": [
+      "Gake no Ue no Ponyo",
+      "Ponyo on the Cliff by the Sea"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Animation",
+        "Fairy Tale"
+      ],
+      "world": [
+        "神话世界",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "自然幻想"
+      ],
+      "element": [
+        "魔法生物",
+        "神祇"
+      ],
+      "mood": [
+        "温暖",
+        "治愈"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "五岁的小男孩住在悬崖上的房子里，某天在岸边捡到一条卡在玻璃罐里的小鱼，把她养在塑料桶里，叫她波妞。波妞其实是海神的女儿，她执意要变成人，回到岸上去。她出走的那个夜晚，海水漫过堤岸，鱼群游上公路，整座小镇变成一片漂浮的浅海，而两个小孩必须自己走完最后一段路。",
+    "recommendation_zh": "手绘海浪与幼儿园式的任性，把喜欢这件事还原成一场世界级的甜蜜灾难。",
+    "audience_fit": "喜欢高密度手绘画面与纯粹童话气的观众，适合亲子共看。",
+    "audience_mismatch": "对幼儿主角缺乏耐心的成年观众可能觉得吵闹。"
+  },
+  {
+    "catalog_key": "the-secret-world-of-arrietty-2010",
+    "chinese_title": "借东西的小人阿莉埃蒂",
+    "original_title": "借りぐらしのアリエッティ",
+    "release_year": 2010,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hiromasa Yonebayashi"
+    ],
+    "cast": [],
+    "runtime_minutes": 95,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Arrietty",
+    "external_title_hints": [
+      "The Secret World of Arrietty",
+      "Kari-gurashi no Arietti"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Animation",
+        "Fairy Tale"
+      ],
+      "world": [
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "自然幻想",
+        "梦幻唯美"
+      ],
+      "element": [
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "治愈",
+        "怀旧"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "在老宅地板下，住着一家只有拇指高的小人，他们从不被人类看见，靠借一点糖、一张纸巾和电来生活。十二岁的小女孩第一次跟着父亲出门借东西，却被搬到乡下养病的人类男孩看见了。两个世界之间隔着一层地板，也隔着被发现就必须搬走的规矩；她一边学着完成自己的第一次任务，一边忍不住想和那个孤单的男孩说话。",
+    "recommendation_zh": "吉卜力把小拍得极精确：一根别针是武器，一张纸巾是被子，一次对视就是背叛。",
+    "audience_fit": "喜欢微缩世界、静谧氛围与吉卜力细腻作画的观众。",
+    "audience_mismatch": "期待冒险冲突的观众会觉得节奏过慢、情节清淡。"
+  },
+  {
+    "catalog_key": "the-secret-of-moonacre-2008",
+    "chinese_title": "月亮坪的秘密",
+    "original_title": "The Secret of Moonacre",
+    "release_year": 2008,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "FR",
+      "GB"
+    ],
+    "director": [
+      "Gábor Csupó"
+    ],
+    "cast": [
+      "Dakota Blue Richards",
+      "Ioan Gruffudd",
+      "Tim Curry",
+      "Natascha McElhone",
+      "Juliet Stevenson"
+    ],
+    "runtime_minutes": 103,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "The Secret of Moonacre",
+    "external_title_hints": [
+      "The Little White Horse"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fairy Tale"
+      ],
+      "world": [
+        "童话王国",
+        "古代王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "复古英伦"
+      ],
+      "element": [
+        "神秘物品",
+        "魔法生物"
+      ],
+      "mood": [
+        "浪漫",
+        "温暖",
+        "神秘"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "父母双亡的少女被送到山谷里的老宅，投靠一个脾气古怪的叔叔。宅子对面住着世仇家族，山谷里的月亮会在特定时刻变成红色，传说只要有一位少女解开旧誓，两个家族就能停止互相掠夺。她在阁楼里找到一本旧书和一枚狮形徽章，也遇到一只会说话、态度傲慢的狮子，慢慢发现自己正是那个被等待的人。",
+    "recommendation_zh": "一部被低估的英式童话：独角兽、月光山谷与两个家族的旧账，画面像绘本。",
+    "audience_fit": "喜欢古典童话、庄园场景与少女成长故事的观众。",
+    "audience_mismatch": "对特效与反派造型要求高的观众会觉得年代感明显。"
+  },
+  {
+    "catalog_key": "the-school-for-good-and-evil-2022",
+    "chinese_title": "善恶魔法学院",
+    "original_title": "The School for Good and Evil",
+    "release_year": 2022,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Paul Feig"
+    ],
+    "cast": [
+      "Sophia Anne Caruso",
+      "Sofia Wylie",
+      "Charlize Theron",
+      "Kerry Washington",
+      "Michelle Yeoh",
+      "Laurence Fishburne"
+    ],
+    "runtime_minutes": 147,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "The School for Good and Evil (film)",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fairy Tale"
+      ],
+      "world": [
+        "魔法学院",
+        "童话王国"
+      ],
+      "aesthetic": [
+        "魔法学院美学",
+        "梦幻唯美"
+      ],
+      "element": [
+        "魔法师",
+        "女巫",
+        "魔法生物"
+      ],
+      "mood": [
+        "神秘",
+        "浪漫",
+        "宏大"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "在一座被森林隔开的村子里，两个孩子是最好的朋友：一个穿粉裙、相信善良，一个穿黑衣、被所有人当成女巫。某夜她们被一只巨大的鸟叼走，落进一所分成善与恶两院的魔法学校，却被分到了彼此相反的那一边。为了回到原来的生活，她们必须弄清楚这所学校真正在挑选什么，也要面对友情被两种命运拉扯的样子。",
+    "recommendation_zh": "把童话学院的分院设定翻过来用，两个女孩之间的友情比魔法对决更好看。",
+    "audience_fit": "喜欢魔法学校、童话改写与少女友情的青少年观众。",
+    "audience_mismatch": "原著党可能嫌改编压缩太多，整体节奏也稍显偏赶。"
+  },
+  {
+    "catalog_key": "paranorman-2012",
+    "chinese_title": "通灵男孩诺曼",
+    "original_title": "ParaNorman",
+    "release_year": 2012,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Chris Butler",
+      "Sam Fell"
+    ],
+    "cast": [
+      "Kodi Smit-McPhee",
+      "Tucker Albrizzi",
+      "Anna Kendrick",
+      "Casey Affleck",
+      "Christopher Mintz-Plasse",
+      "Leslie Mann"
+    ],
+    "runtime_minutes": 92,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "ParaNorman",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "怪诞美学"
+      ],
+      "element": [
+        "鬼魂",
+        "女巫",
+        "超自然力量"
+      ],
+      "mood": [
+        "诡异",
+        "温暖",
+        "荒诞"
+      ],
+      "exclude": [
+        "恐怖惊吓"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "小镇男孩能看见死人，走在街上会跟空气打招呼，因此被同学当成怪胎。三百年前被处死的女巫留下诅咒，每到忌日，镇上的僵尸就会从墓里爬出来。只有他能听见那些亡魂说话，于是这个最不被相信的孩子，得在万圣节之夜说服一群大人和同学，先去听一个被冤枉的女孩到底想说什么。",
+    "recommendation_zh": "定格动画的怪趣味加上一个关于谁才是怪物的温柔反转，比多数真人恐怖片更聪明。",
+    "audience_fit": "喜欢定格动画、黑色幽默与反霸凌主题的成年观众。",
+    "audience_mismatch": "低龄儿童可能被僵尸造型与阴森的配乐吓到，建议陪同。"
+  },
+  {
+    "catalog_key": "phoebe-in-wonderland-2008",
+    "chinese_title": "菲比梦游奇境",
+    "original_title": "Phoebe in Wonderland",
+    "release_year": 2008,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Daniel Barnz"
+    ],
+    "cast": [
+      "Elle Fanning",
+      "Felicity Huffman",
+      "Patricia Clarkson",
+      "Bill Pullman"
+    ],
+    "runtime_minutes": 96,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Phoebe in Wonderland",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Surreal Fantasy"
+      ],
+      "world": [
+        "梦境世界"
+      ],
+      "aesthetic": [
+        "超现实主义",
+        "梦幻唯美"
+      ],
+      "element": [
+        "神秘物品"
+      ],
+      "mood": [
+        "迷离",
+        "温暖",
+        "治愈"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "九岁的女孩总忍不住在课堂上做出格的事：数地砖、吐口水、在别人说话时突然站起来。她被选进学校排演的《爱丽丝梦游仙境》，戴上假发站上舞台时，第一次觉得自己是可控的。可红心皇后的台词越来越像她脑子里的声音，母亲在写一本关于完美小孩的书，老师则相信她只是需要更努力一点。",
+    "recommendation_zh": "用《爱丽丝》的舞台排演，包住一个孩子与强迫症共处的日常，安静而极其准确。",
+    "audience_fit": "关心儿童心理、特殊教育与母女关系的成年观众。",
+    "audience_mismatch": "期待真正奇幻冒险的观众会发现这更像一部家庭剧情片。"
+  },
+  {
+    "catalog_key": "a-monster-calls-2016",
+    "chinese_title": "当怪物来敲门",
+    "original_title": "A Monster Calls",
+    "release_year": 2016,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "ES",
+      "GB",
+      "US"
+    ],
+    "director": [
+      "J. A. Bayona"
+    ],
+    "cast": [
+      "Lewis MacDougall",
+      "Sigourney Weaver",
+      "Felicity Jones",
+      "Toby Kebbell",
+      "Liam Neeson"
+    ],
+    "runtime_minutes": 108,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "A Monster Calls (film)",
+    "external_title_hints": [
+      "Un monstruo viene a verme"
+    ],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Fairy Tale"
+      ],
+      "world": [
+        "梦境世界",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "暗黑童话",
+        "自然幻想"
+      ],
+      "element": [
+        "魔法生物",
+        "妖怪"
+      ],
+      "mood": [
+        "治愈",
+        "黑暗",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "母亲生病之后，男孩每夜都被同一个梦惊醒：教堂塌陷，他死死抓着母亲的手。某天午夜，窗外那棵老紫杉树活了过来，变成巨大的树怪坐在他家院子里，要求听他讲故事。树怪讲三个故事，每个都模棱两可、没有好人坏人；讲完之后，男孩必须说出自己那个不能说的梦，以及他最害怕承认的念头。",
+    "recommendation_zh": "它不哄小孩，而是把希望她好起来和希望这一切结束这两种羞耻的念头一起摊开。",
+    "audience_fit": "经历过亲人重病、需要一部片子替自己说出愧疚的观众。",
+    "audience_mismatch": "正在丧亲期的观众可能被触发情绪，建议有人陪同。"
+  },
+  {
+    "catalog_key": "the-spiderwick-chronicles-2008",
+    "chinese_title": "奇幻精灵事件簿",
+    "original_title": "The Spiderwick Chronicles",
+    "release_year": 2008,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Mark Waters"
+    ],
+    "cast": [
+      "Freddie Highmore",
+      "Mary-Louise Parker",
+      "Nick Nolte",
+      "Joan Plowright",
+      "David Strathairn",
+      "Seth Rogen"
+    ],
+    "runtime_minutes": 96,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "The Spiderwick Chronicles (film)",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "自然幻想",
+        "梦幻唯美"
+      ],
+      "element": [
+        "精灵",
+        "妖怪",
+        "魔法生物"
+      ],
+      "mood": [
+        "神秘",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "母亲带着三个孩子搬进一座荒废的老宅，男孩在阁楼里翻出一本写满奇怪插图的手稿，从此看见了藏在墙缝和草丛里的东西：会偷东西的小妖精、暴躁的猪精，还有一只把书当成猎物的食人魔。那本书记录了所有精灵的弱点，谁拿到它就能控制整片森林，而男孩刚刚把它翻开。",
+    "recommendation_zh": "把搬家后发现阁楼藏着秘密拍得极利落，怪物造型放到今天依然不过时。",
+    "audience_fit": "喜欢精灵设定、老宅探险与少年主角的观众，别错过。",
+    "audience_mismatch": "低龄孩子可能被食人魔与突然的惊吓镜头吓到。"
+  },
+  {
+    "catalog_key": "arthur-and-the-invisibles-2006",
+    "chinese_title": "亚瑟和迷你王国",
+    "original_title": "Arthur and the Invisibles",
+    "release_year": 2006,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "FR"
+    ],
+    "director": [
+      "Luc Besson"
+    ],
+    "cast": [
+      "Freddie Highmore",
+      "Mia Farrow",
+      "Madonna",
+      "David Bowie"
+    ],
+    "runtime_minutes": 103,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Arthur and the Minimoys",
+    "external_title_hints": [
+      "Arthur and the Invisibles",
+      "Arthur et les Minimoys"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "异世界冒险",
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "自然幻想"
+      ],
+      "element": [
+        "精灵",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "神秘"
+      ],
+      "exclude": [
+        "目标受众偏低龄"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "十岁的男孩和祖母住在一座即将被收走的乡下房子里。祖父失踪前在花园埋下过一批红宝石，只有找到它们才能保住房子。他照着祖父的笔记，在月圆之夜钻进花园地下的通道，变成一个只有几厘米高的小人，落进迷你王国：那里有骑蚊子的骑士、用蒲公英做的飞船，还有一个想把整个王国变成黑暗的暴君。",
+    "recommendation_zh": "吕克·贝松把童年冒险做成一整座地下王国，细节密度像玩具箱倒了一地。",
+    "audience_fit": "喜欢微缩世界与少年英雄冒险的家庭观众，尤其适合陪孩子看。",
+    "audience_mismatch": "成年观众可能嫌剧情过于简单、配角也太过聒噪。"
+  },
+  {
+    "catalog_key": "the-last-witch-hunter-2015",
+    "chinese_title": "最后的巫师猎人",
+    "original_title": "The Last Witch Hunter",
+    "release_year": 2015,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Breck Eisner"
+    ],
+    "cast": [
+      "Vin Diesel",
+      "Elijah Wood",
+      "Rose Leslie",
+      "Michael Caine",
+      "Julie Engelbrecht"
+    ],
+    "runtime_minutes": 106,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "The Last Witch Hunter",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Urban Fantasy",
+        "Dark Fantasy"
+      ],
+      "world": [
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "哥特建筑",
+        "怪诞美学"
+      ],
+      "element": [
+        "女巫",
+        "魔法师",
+        "超自然力量"
+      ],
+      "mood": [
+        "黑暗",
+        "神秘",
+        "宏大"
+      ],
+      "exclude": [
+        "血腥"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "八百年前，一个猎人杀死了瘟疫女巫，也被她下了永生不死、永远失去所爱的诅咒。如今他仍住在纽约，替一个秘密的教会组织处理人类与巫师之间的麻烦，靠一杯杯威士忌熬过漫长的夜。老搭档即将退休，新来的神父笨手笨脚，而城里开始出现不该出现的黑魔法痕迹——有人在召唤当年那位女巫。",
+    "recommendation_zh": "把永生拍成一种慢性职业病：活得太久的人，最后只剩下一份工作和一杯酒。",
+    "audience_fit": "喜欢现代都市巫师设定与硬汉式主角的成年观众。",
+    "audience_mismatch": "对剧情逻辑与世界观严谨度要求高的观众会觉得漏洞不少。"
+  },
+  {
+    "catalog_key": "adele-blanc-sec-2010",
+    "chinese_title": "阿黛拉的非凡冒险",
+    "original_title": "Les Aventures extraordinaires d'Adèle Blanc-Sec",
+    "release_year": 2010,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "FR"
+    ],
+    "director": [
+      "Luc Besson"
+    ],
+    "cast": [
+      "Louise Bourgoin",
+      "Mathieu Amalric",
+      "Gilles Lellouche",
+      "Philippe Nahon",
+      "Jean-Paul Rouve"
+    ],
+    "runtime_minutes": 107,
+    "seasons": null,
+    "original_language": "fr",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "The Extraordinary Adventures of Adèle Blanc-Sec (film)",
+    "external_title_hints": [
+      "Les Aventures extraordinaires d'Adèle Blanc-Sec",
+      "Adèle Blanc-Sec"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Supernatural Fantasy"
+      ],
+      "world": [
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "蒸汽朋克",
+        "怪诞美学"
+      ],
+      "element": [
+        "魔法生物",
+        "神秘物品",
+        "超自然力量"
+      ],
+      "mood": [
+        "荒诞",
+        "神秘"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "1912 年的巴黎，一位写冒险小说、脾气比男人还硬的女记者，为了救活昏迷的妹妹，决定去埃及挖一具能让人起死回生的木乃伊。与此同时，一枚恐龙蛋在自然历史博物馆里孵化了，翼龙在塞纳河上空盘旋，总统的猎手们束手无策。她一边跟警察周旋，一边把整座城市当成自己的稿纸。",
+    "recommendation_zh": "贝松最像连环画的一部：木乃伊、翼龙与巴黎警察，节奏快得几乎来不及怀疑。",
+    "audience_fit": "喜欢法式幽默、复古巴黎与冒险连环画气质的观众。",
+    "audience_mismatch": "对历史考据与严肃叙事有期待的观众会觉得它胡闹。"
+  },
+  {
+    "catalog_key": "charlie-and-the-chocolate-factory-2005",
+    "chinese_title": "查理和巧克力工厂",
+    "original_title": "Charlie and the Chocolate Factory",
+    "release_year": 2005,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US",
+      "GB"
+    ],
+    "director": [
+      "Tim Burton"
+    ],
+    "cast": [
+      "Johnny Depp",
+      "Freddie Highmore",
+      "David Kelly",
+      "Helena Bonham Carter",
+      "Noah Taylor",
+      "Christopher Lee"
+    ],
+    "runtime_minutes": 115,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Charlie and the Chocolate Factory (film)",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "童话王国",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "怪诞美学",
+        "梦幻唯美"
+      ],
+      "element": [
+        "魔法师",
+        "神秘物品"
+      ],
+      "mood": [
+        "荒诞",
+        "温暖",
+        "怀旧"
+      ],
+      "exclude": [
+        "含大量歌舞"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "穷人家的男孩在雪地里捡到一枚金币，买下最后一张金奖券，得以进入那座十五年没开过门的巧克力工厂。工厂里的一切都能吃：草地是糖，河水是巧克力，松鼠在流水线上剥坚果。主人威利·旺卡穿着紫色外套，笑容礼貌得不像人类，他带着五个孩子一间间参观，而每个孩子都在某一间屋子里暴露出自己最要命的毛病。",
+    "recommendation_zh": "波顿把达尔的原著拍成一座既馋人又刻薄的糖果地狱，每个惩罚都恰到好处。",
+    "audience_fit": "喜欢怪诞美术、黑色幽默与罗尔德·达尔式恶趣味的观众。",
+    "audience_mismatch": "奥帕伦帕人的歌舞段落密集，不吃这一套的观众会出戏。"
+  },
+  {
+    "catalog_key": "bram-stokers-dracula-1992",
+    "chinese_title": "吸血鬼惊情四百年",
+    "original_title": "Bram Stoker's Dracula",
+    "release_year": 1992,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Francis Ford Coppola"
+    ],
+    "cast": [
+      "Gary Oldman",
+      "Winona Ryder",
+      "Anthony Hopkins",
+      "Keanu Reeves",
+      "Sadie Frost",
+      "Tom Waits"
+    ],
+    "runtime_minutes": 128,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Bram Stoker's Dracula (1992 film)",
+    "external_title_hints": [
+      "Dracula (1992 film)"
+    ],
+    "tags": {
+      "type": [
+        "Gothic Fantasy",
+        "Supernatural Fantasy"
+      ],
+      "world": [
+        "古代王国"
+      ],
+      "aesthetic": [
+        "哥特建筑",
+        "黑暗浪漫"
+      ],
+      "element": [
+        "吸血鬼",
+        "狼人"
+      ],
+      "mood": [
+        "黑暗",
+        "浪漫",
+        "阴森"
+      ],
+      "exclude": [
+        "血腥",
+        "恐怖惊吓"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "年轻的律师受命前往喀尔巴阡山，替一位古老的伯爵办理伦敦房产手续。城堡里没有镜子，走廊上的影子不跟着人走，伯爵本人则在一张旧画像前久久停留——画上的女子与律师的未婚妻长得一模一样。四百年后的伦敦，一艘俄国船搁浅在港口，船员全数失踪，而城里开始流行一种让人脸色苍白、颈侧带伤的病。",
+    "recommendation_zh": "科波拉用模型、烛光与手写字体拍吸血鬼，欲望与宗教恐惧缠在一起，浓得化不开。",
+    "audience_fit": "喜欢哥特文学、古典恐怖与浓烈视觉风格的观众。",
+    "audience_mismatch": "影片有少量血腥与性暗示场面，不适合低龄观众。"
+  },
+  {
+    "catalog_key": "dolittle-2020",
+    "chinese_title": "多力特的奇幻冒险",
+    "original_title": "Dolittle",
+    "release_year": 2020,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US",
+      "CN",
+      "GB",
+      "JP"
+    ],
+    "director": [
+      "Stephen Gaghan"
+    ],
+    "cast": [
+      "Robert Downey Jr.",
+      "Antonio Banderas",
+      "Michael Sheen",
+      "Harry Collett",
+      "Emma Thompson",
+      "Rami Malek"
+    ],
+    "runtime_minutes": 101,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Dolittle (film)",
+    "external_title_hints": [
+      "The Voyage of Doctor Dolittle"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "自然幻想",
+        "复古英伦"
+      ],
+      "element": [
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "荒诞"
+      ],
+      "exclude": [
+        "目标受众偏低龄"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "一位能和动物说话、却不愿再见人的医生，把自己关在庄园里，只跟鹦鹉、长颈鹿和一只悲观的鸵鸟作伴。直到一个男孩带着受伤的松鼠翻墙进来，又有一位年轻的王室成员上门求救，他才被迫重新上船，去寻找一种只长在传说岛屿上的果实。船舱里挤满了会吵架的动物，海图上标着不该存在的航线。",
+    "recommendation_zh": "唐尼把怪医演成一个丧妻后不会跟人说话的怪叔叔，动物群戏才是真正的主角。",
+    "audience_fit": "喜欢动物角色与轻松航海冒险的家庭观众，会很受用。",
+    "audience_mismatch": "成年观众可能觉得笑点偏低龄、整体叙事也松散。"
+  },
+  {
+    "catalog_key": "the-boy-and-the-heron-2023",
+    "chinese_title": "你想活出怎样的人生",
+    "original_title": "君たちはどう生きるか",
+    "release_year": 2023,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [],
+    "runtime_minutes": 124,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "The Boy and the Heron",
+    "external_title_hints": [
+      "Kimitachi wa Do Ikiru ka",
+      "How Do You Live?"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Animation",
+        "Surreal Fantasy"
+      ],
+      "world": [
+        "梦境世界",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "超现实主义"
+      ],
+      "element": [
+        "魔法生物",
+        "神祇"
+      ],
+      "mood": [
+        "迷离",
+        "神秘",
+        "治愈"
+      ],
+      "exclude": [
+        "剧情晦涩"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "战争后期，男孩的母亲死于医院大火，父亲带着他搬到乡下老宅，与新的妻子同住。宅子后面有一座被树根包住的塔，一只灰鹭总在窗台上对他说话，说他的母亲还活着。男孩跟着它钻进塔里，落进一个由海、石与飞行生物组成的世界，那里有掌管生死的老妇、成群的白鹈鹕和一位正在用积木维持世界的老人。",
+    "recommendation_zh": "宫崎骏最私人的一部：把丧母、战争与自己的创作焦虑全塞进一座会塌的塔里。",
+    "audience_fit": "看过他多部作品、愿意接受隐喻与留白的成年观众。",
+    "audience_mismatch": "叙事跳跃且线索密集，第一次看可能觉得难以进入。"
+  },
+  {
+    "catalog_key": "mr-magoriums-wonder-emporium-2007",
+    "chinese_title": "马格瑞姆的神奇玩具店",
+    "original_title": "Mr. Magorium's Wonder Emporium",
+    "release_year": 2007,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US",
+      "CA"
+    ],
+    "director": [
+      "Zach Helm"
+    ],
+    "cast": [
+      "Dustin Hoffman",
+      "Natalie Portman",
+      "Jason Bateman"
+    ],
+    "runtime_minutes": 93,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Mr. Magorium's Wonder Emporium",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Urban Fantasy"
+      ],
+      "world": [
+        "超自然现代社会",
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "怪诞美学"
+      ],
+      "element": [
+        "魔法师",
+        "神秘物品",
+        "魔法生物"
+      ],
+      "mood": [
+        "温暖",
+        "治愈",
+        "怀旧"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "纽约街角有一家玩具店，里面的玩具会自己走动、会跳舞、会挑主人。店主是一位两百四十三岁的老先生，他决定在某个星期一离开，把店交给那个弹钢琴却不敢写曲子的年轻女店员。一个只跟孩子打交道的会计师被请来清算账目，而整间店在听说主人要走之后开始闹脾气：墙纸褪色、玩具装死、连门都不肯开。",
+    "recommendation_zh": "一间会闹脾气、会伤心的玩具店，把相信这件事拍成一种需要反复练习的能力。",
+    "audience_fit": "喜欢奇幻小店、治愈系童话与温柔幽默的成年观众。",
+    "audience_mismatch": "对甜度耐受度较低的观众可能觉得整部片过于糖水。"
+  },
+  {
+    "catalog_key": "a-series-of-unfortunate-events-2004",
+    "chinese_title": "雷蒙·斯尼奇的不幸历险",
+    "original_title": "Lemony Snicket's A Series of Unfortunate Events",
+    "release_year": 2004,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Brad Silberling"
+    ],
+    "cast": [
+      "Jim Carrey",
+      "Jude Law",
+      "Liam Aiken",
+      "Emily Browning",
+      "Meryl Streep",
+      "Timothy Spall"
+    ],
+    "runtime_minutes": 108,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Lemony Snicket's A Series of Unfortunate Events",
+    "external_title_hints": [
+      "A Series of Unfortunate Events"
+    ],
+    "tags": {
+      "type": [
+        "Gothic Fantasy",
+        "Dark Fantasy"
+      ],
+      "world": [
+        "童话王国"
+      ],
+      "aesthetic": [
+        "哥特建筑",
+        "怪诞美学",
+        "复古英伦"
+      ],
+      "element": [
+        "神秘物品"
+      ],
+      "mood": [
+        "阴森",
+        "荒诞",
+        "黑暗"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "一场大火烧毁了波特莱尔家的宅子，三个孩子成了孤儿，被交给一个自称远亲的戏子监护。他满口甜言蜜语，眼里只有他们继承的财产，而每一次意外都恰好发生在他出现之后。孩子们被辗转寄养在各种古怪的亲戚家，必须靠读过的书、修过的机器和彼此的默契活下去，同时追查父母留下的那个秘密社团。",
+    "recommendation_zh": "把儿童文学拍成一场哥特式的美术馆漫游，苦难与幽默始终同时发生着。",
+    "audience_fit": "喜欢哥特童书、冷幽默与倒霉孩子叙事的成年观众。",
+    "audience_mismatch": "片中儿童的处境相当压抑，低龄观众可能感到不适。"
+  },
+  {
+    "catalog_key": "big-fish-2003",
+    "chinese_title": "大鱼",
+    "original_title": "Big Fish",
+    "release_year": 2003,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Tim Burton"
+    ],
+    "cast": [
+      "Ewan McGregor",
+      "Albert Finney",
+      "Billy Crudup",
+      "Jessica Lange",
+      "Helena Bonham Carter",
+      "Alison Lohman"
+    ],
+    "runtime_minutes": 125,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Big Fish",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Surreal Fantasy"
+      ],
+      "world": [
+        "异世界冒险",
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "超现实主义"
+      ],
+      "element": [
+        "女巫",
+        "魔法生物"
+      ],
+      "mood": [
+        "温暖",
+        "怀旧",
+        "迷离"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "父亲一辈子都在讲同一个故事：他如何从闭塞的小镇出发，遇见巨人、狼人、连体歌女和一位在河里裸泳的女孩，如何用黄水仙求婚，如何在战场上遇见双胞胎。儿子听了几十年，只觉得父亲在撒谎，连临终前都不肯说一句真话。直到他回到父亲的病床边，试着把这些故事接下去讲完。",
+    "recommendation_zh": "一部关于人为什么要讲故事的影片，谎言有时比事实更接近一个人的真相。",
+    "audience_fit": "与父辈关系复杂、喜欢口述传奇与南方哥特氛围的观众。",
+    "audience_mismatch": "期待严密情节逻辑的观众可能觉得它过于感伤。"
+  },
+  {
+    "catalog_key": "percy-jackson-the-lightning-thief-2010",
+    "chinese_title": "波西·杰克逊与神火之盗",
+    "original_title": "Percy Jackson & the Olympians: The Lightning Thief",
+    "release_year": 2010,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": "percy-jackson",
+    "franchise_name": "波西·杰克逊",
+    "series_order": 1,
+    "country": [
+      "US",
+      "GB"
+    ],
+    "director": [
+      "Chris Columbus"
+    ],
+    "cast": [
+      "Logan Lerman",
+      "Brandon T. Jackson",
+      "Alexandra Daddario",
+      "Sean Bean",
+      "Pierce Brosnan",
+      "Uma Thurman"
+    ],
+    "runtime_minutes": 119,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Percy Jackson & the Olympians: The Lightning Thief",
+    "external_title_hints": [
+      "The Lightning Thief"
+    ],
+    "tags": {
+      "type": [
+        "Mythological Fantasy",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "神话世界",
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "古典神话"
+      ],
+      "element": [
+        "神祇",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "宏大",
+        "神秘"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "一个总在换学校、总被老师针对的少年，在一次博物馆袭击后发现自己是海神之子。他被送到长岛的一所夏令营，那里其实是半神们的训练场：会动的雕像、住在湖里的宁芙，还有一个总在织东西的预言者。宙斯的闪电权杖被偷了，所有矛头都指向他，他必须带着一个半羊人和一个雅典娜的女儿，在十天内横穿美国去冥界要个说法。",
+    "recommendation_zh": "把希腊神话塞进美国公路片的框架，神祇直接出现在加油站和拉斯维加斯。",
+    "audience_fit": "刚读完希腊神话、喜欢青少年冒险故事的观众，会很投入。",
+    "audience_mismatch": "原著读者可能嫌删改太多，人物与设定也不太相符。"
+  },
+  {
+    "catalog_key": "percy-jackson-sea-of-monsters-2013",
+    "chinese_title": "波西·杰克逊与魔兽之海",
+    "original_title": "Percy Jackson: Sea of Monsters",
+    "release_year": 2013,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": "percy-jackson",
+    "franchise_name": "波西·杰克逊",
+    "series_order": 2,
+    "country": [
+      "US",
+      "CA"
+    ],
+    "director": [
+      "Thor Freudenthal"
+    ],
+    "cast": [
+      "Logan Lerman",
+      "Brandon T. Jackson",
+      "Alexandra Daddario",
+      "Jake Abel",
+      "Douglas Smith",
+      "Stanley Tucci"
+    ],
+    "runtime_minutes": 106,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Percy Jackson: Sea of Monsters",
+    "external_title_hints": [
+      "The Sea of Monsters"
+    ],
+    "tags": {
+      "type": [
+        "Mythological Fantasy",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "神话世界",
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "古典神话"
+      ],
+      "element": [
+        "神祇",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "宏大",
+        "神秘"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "半神营地的那棵守护树被人下了毒，结界一天天变薄，怪物开始成群地闯进来。传说只有金羊毛能救它，而那件宝物被藏在魔兽之海——人类地图上称之为百慕大三角的地方。少年带着伙伴出海，船上多了一个他从未听说过的弟弟，也多了几分说不出口的别扭；他们要在怪物、独眼巨人与自己的血脉之间，决定谁有资格被救。",
+    "recommendation_zh": "比第一部更轻快，把奥德修斯的航海历险压缩成一场少年人的海上冒险。",
+    "audience_fit": "看过第一部、想继续跟着这群角色一起成长的观众。",
+    "audience_mismatch": "没看过前作的话，会有些人物关系和前情接不上。"
+  },
+  {
+    "catalog_key": "percy-jackson-and-the-olympians-2023",
+    "chinese_title": "波西·杰克逊与奥林匹斯众神",
+    "original_title": "Percy Jackson and the Olympians",
+    "release_year": 2023,
+    "media_type": "series",
+    "format": "live_action",
+    "franchise": "percy-jackson",
+    "franchise_name": "波西·杰克逊",
+    "series_order": 3,
+    "country": [
+      "US"
+    ],
+    "director": [],
+    "cast": [
+      "Walker Scobell",
+      "Leah Sava Jeffries",
+      "Aryan Simhadri",
+      "Charlie Bushnell",
+      "Dior Goodjohn"
+    ],
+    "runtime_minutes": null,
+    "seasons": 1,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Percy Jackson and the Olympians (TV series)",
+    "external_title_hints": [
+      "Percy Jackson (TV series)"
+    ],
+    "tags": {
+      "type": [
+        "Mythological Fantasy",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "神话世界",
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "古典神话"
+      ],
+      "element": [
+        "神祇",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "宏大",
+        "神秘",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "十二岁的男孩在寄宿学校接连闯祸，被老师称作问题学生，直到一次校外教学里，他把一个同学变成了石头——对方是复仇女神。他被带到长岛的半神营地，才知道自己是海神之子，而众神之间的停战协议正在崩坏。为了洗清偷走闪电权杖的罪名，他和一个智慧女神之女、一个半羊人踏上横跨美国的旅程，沿途遇见神话里才有的东西。",
+    "recommendation_zh": "原作者亲自参与改编，把电影版删掉的那些细节，一集一集慢慢还了回来。",
+    "audience_fit": "读过原著、希望看到更完整世界观的观众，也适合青少年入门。",
+    "audience_mismatch": "节奏偏青少年向，追求暗黑成人口味的观众会觉得清淡。"
+  },
+  {
+    "catalog_key": "encanto-2021",
+    "chinese_title": "魔法满屋",
+    "original_title": "Encanto",
+    "release_year": 2021,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Jared Bush",
+      "Byron Howard"
+    ],
+    "cast": [
+      "Stephanie Beatriz",
+      "María Cecilia Botero",
+      "John Leguizamo",
+      "Jessica Darrow",
+      "Angie Cepeda",
+      "Carolina Gaitán"
+    ],
+    "runtime_minutes": 102,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Encanto",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Animation"
+      ],
+      "world": [
+        "魔法社会",
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "自然幻想"
+      ],
+      "element": [
+        "超自然力量",
+        "神秘物品",
+        "魔法师"
+      ],
+      "mood": [
+        "温暖",
+        "治愈"
+      ],
+      "exclude": [
+        "含大量歌舞"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "在哥伦比亚的山谷里，一个家族因一场奇迹获得魔法：有人能治伤，有人能控制天气，有人能让花开花落。唯独十五岁的女孩什么也没有，她住在会自己长大的房子里，看着家人们各显神通，努力不让自己显得多余。某个夜晚，她看见房子裂开一道缝，魔法正在消退，而唯一没有天赋的她，也许是唯一能查出原因的人。",
+    "recommendation_zh": "把家族里那个没有天赋的孩子写成主角，歌舞与色彩密得没有一丝空隙。",
+    "audience_fit": "喜欢家族群像、拉丁美洲色彩与音乐剧式叙事的观众。",
+    "audience_mismatch": "歌舞段落几乎不停，不习惯音乐剧的观众会觉得吵。"
+  },
+  {
+    "catalog_key": "hugo-2011",
+    "chinese_title": "雨果",
+    "original_title": "Hugo",
+    "release_year": 2011,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US",
+      "GB"
+    ],
+    "director": [
+      "Martin Scorsese"
+    ],
+    "cast": [
+      "Ben Kingsley",
+      "Sacha Baron Cohen",
+      "Asa Butterfield",
+      "Chloë Grace Moretz",
+      "Ray Winstone",
+      "Jude Law"
+    ],
+    "runtime_minutes": 126,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Hugo (film)",
+    "external_title_hints": [
+      "The Invention of Hugo Cabret"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "蒸汽朋克",
+        "梦幻唯美"
+      ],
+      "element": [
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "怀旧",
+        "神秘"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "十二岁的孤儿藏在巴黎火车站的钟楼里，靠替人修钟和偷面包活着。父亲留下的一具坏掉的机械人是他唯一的念想：只要修好它，也许能读到父亲留下的那句话。他从玩具摊上偷来零件，被脾气暴躁的老店主抓住，也因此认识了店主的孙女。机械人终于画出一幅图，把两人引向电影史上一个被遗忘的名字。",
+    "recommendation_zh": "斯科塞斯拍给电影本身的一封情书，把机械、钟表与早期默片接成一条线。",
+    "audience_fit": "喜欢机械美学、老巴黎与电影史掌故的成年观众。",
+    "audience_mismatch": "前半段节奏缓慢，习惯强情节的观众可能坐不住。"
+  },
+  {
+    "catalog_key": "peter-pan-2003",
+    "chinese_title": "小飞侠彼得潘",
+    "original_title": "Peter Pan",
+    "release_year": 2003,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "GB",
+      "US",
+      "AU"
+    ],
+    "director": [
+      "P. J. Hogan"
+    ],
+    "cast": [
+      "Jason Isaacs",
+      "Jeremy Sumpter",
+      "Rachel Hurd-Wood",
+      "Olivia Williams",
+      "Ludivine Sagnier",
+      "Richard Briers"
+    ],
+    "runtime_minutes": 113,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Peter Pan (2003 film)",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "童话王国",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "复古英伦"
+      ],
+      "element": [
+        "精灵",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "浪漫",
+        "温暖",
+        "怀旧"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "伦敦的夜里，一个永远长不大的男孩飞进育儿室的窗口，带着三个孩子飞向第二颗星星右边的国度。那里有会发光的仙子、用树叶搭成的树屋、肚子里装着闹钟的鳄鱼，还有一群把铁钩当手的海盗。孩子们在那里学会飞行、战斗和想念家；而男孩最怕的，是有人提起长大这个词。",
+    "recommendation_zh": "最接近原著语气的一版：梦幻、危险，还带着一点不该属于童话世界的忧伤。",
+    "audience_fit": "想重温童年冒险、喜欢古典童话美术的成年观众。",
+    "audience_mismatch": "部分海盗场景与打斗场面，对年纪小的孩子来说略吓人。"
+  },
+  {
+    "catalog_key": "only-lovers-left-alive-2013",
+    "chinese_title": "唯爱永生",
+    "original_title": "Only Lovers Left Alive",
+    "release_year": 2013,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "GB",
+      "DE"
+    ],
+    "director": [
+      "Jim Jarmusch"
+    ],
+    "cast": [
+      "Tilda Swinton",
+      "Tom Hiddleston",
+      "Mia Wasikowska",
+      "Anton Yelchin",
+      "Jeffrey Wright",
+      "John Hurt"
+    ],
+    "runtime_minutes": 123,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Only Lovers Left Alive",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Urban Fantasy",
+        "Supernatural Fantasy"
+      ],
+      "world": [
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "黑暗浪漫"
+      ],
+      "element": [
+        "吸血鬼"
+      ],
+      "mood": [
+        "迷离",
+        "浪漫",
+        "黑暗"
+      ],
+      "exclude": [
+        "节奏缓慢"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "两个活了几个世纪的吸血鬼分居两座城市：她住在摩洛哥的旧城里，读诗、跟一位老作家下棋；他躲在底特律的破房子里做音乐，靠一位人类医生替他弄到干净的血。他们通电话，聊科学、聊文学、聊人类的愚蠢，然后她决定飞过去看他。日子过得很慢，直到她那个不请自来的妹妹出现，把血袋、规则和耐心一起打翻。",
+    "recommendation_zh": "一部几乎什么都不发生的吸血鬼电影：他们不咬人，只讨论艺术和还能活多久。",
+    "audience_fit": "喜欢吉姆·贾木许式散漫、摇滚乐与文学趣味的观众。",
+    "audience_mismatch": "几乎没有情节推进，追求叙事速度的观众会睡过去。"
+  },
+  {
+    "catalog_key": "van-helsing-2004",
+    "chinese_title": "范海辛",
+    "original_title": "Van Helsing",
+    "release_year": 2004,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US",
+      "CZ"
+    ],
+    "director": [
+      "Stephen Sommers"
+    ],
+    "cast": [
+      "Hugh Jackman",
+      "Kate Beckinsale",
+      "Richard Roxburgh",
+      "David Wenham",
+      "Will Kemp",
+      "Kevin J. O'Connor"
+    ],
+    "runtime_minutes": 131,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Van Helsing (film)",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Gothic Fantasy"
+      ],
+      "world": [
+        "古代王国"
+      ],
+      "aesthetic": [
+        "哥特建筑",
+        "蒸汽朋克"
+      ],
+      "element": [
+        "吸血鬼",
+        "狼人",
+        "妖怪"
+      ],
+      "mood": [
+        "黑暗",
+        "宏大"
+      ],
+      "exclude": [
+        "血腥",
+        "恐怖惊吓"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "梵蒂冈派出一位专门猎杀怪物的骑士，前往特兰西瓦尼亚，阻止德古拉伯爵用科学手段让他的子嗣在白天行走。他带着一套稀奇古怪的武器，遇上一个声称家族世代守誓的吉普赛女子，还有一个从巴黎来的、满口理论却总在关键时刻掉链子的修士。伯爵的城堡里养着狼人、人造怪物和无数新娘，而猎人的过去也被人拿在手里。",
+    "recommendation_zh": "环球怪物大乱斗的极致版本，哥特美术与动作场面密得像一座游乐设施。",
+    "audience_fit": "喜欢怪物大集合、哥特城堡与爆米花动作片的观众。",
+    "audience_mismatch": "剧情基本靠动作硬推，看重逻辑的观众会觉得吵。"
+  },
+  {
+    "catalog_key": "a-midsummer-nights-dream-1999",
+    "chinese_title": "仲夏夜之梦",
+    "original_title": "A Midsummer Night's Dream",
+    "release_year": 1999,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US",
+      "IT",
+      "GB"
+    ],
+    "director": [
+      "Michael Hoffman"
+    ],
+    "cast": [
+      "Rupert Everett",
+      "Calista Flockhart",
+      "Kevin Kline",
+      "Michelle Pfeiffer",
+      "Stanley Tucci",
+      "Christian Bale"
+    ],
+    "runtime_minutes": 116,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "A Midsummer Night's Dream (1999 film)",
+    "external_title_hints": [
+      "William Shakespeare's A Midsummer Night's Dream"
+    ],
+    "tags": {
+      "type": [
+        "Fairy Tale"
+      ],
+      "world": [
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "古典神话"
+      ],
+      "element": [
+        "精灵",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "浪漫",
+        "荒诞",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "雅典的森林里，两对逃婚的年轻人、一群笨手笨脚的工匠和一个正在闹别扭的仙王仙后，在同一夜里撞到了一起。仙王为了捉弄妻子，让精灵把一株花的汁液滴进她的眼睛，谁被看见就会爱上谁；同一株花也被用在了年轻人身上，于是爱人变成了陌生人。工匠们则在林子里排练一出献给公爵的戏，其中一个被变成了驴头。",
+    "recommendation_zh": "莎翁喜剧最漂亮的一次银幕化，仙后与驴头工匠的搭配既荒诞又相当性感。",
+    "audience_fit": "喜欢莎剧、仲夏夜意象与华丽仙境的成年观众，会看得开心。",
+    "audience_mismatch": "台词密集且古英语，不熟悉莎剧的观众可能跟不上。"
+  },
+  {
+    "catalog_key": "the-fall-2006",
+    "chinese_title": "坠入",
+    "original_title": "The Fall",
+    "release_year": 2006,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "IN",
+      "US",
+      "GB"
+    ],
+    "director": [
+      "Tarsem Singh"
+    ],
+    "cast": [
+      "Lee Pace",
+      "Catinca Untaru",
+      "Justine Waddell"
+    ],
+    "runtime_minutes": 117,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "The Fall (2006 film)",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Surreal Fantasy"
+      ],
+      "world": [
+        "异世界冒险",
+        "梦境世界"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "超现实主义"
+      ],
+      "element": [
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "迷离",
+        "治愈",
+        "史诗感"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "在 1920 年代洛杉矶的医院里，一个因摔伤而卧床的特技演员，认识了一个手臂骨折的小女孩。他开始给她讲故事：五个被流放的英雄，从一座孤岛出发，穿越沙漠、宫殿与雪原，向一个害死他们同伴的恶人复仇。故事在他嘴里越讲越华丽，也越讲越绝望；女孩一边听，一边把他的叙述画成自己的版本。",
+    "recommendation_zh": "用真实的骨折与虚构的史诗互为镜像，画面美得几乎不像是真人拍出来的。",
+    "audience_fit": "喜欢视觉奇观、口述故事与电影中的电影的观众。",
+    "audience_mismatch": "现实与幻想切换频繁，不习惯非线性的观众会觉得跳。"
+  },
+  {
+    "catalog_key": "oz-the-great-and-powerful-2013",
+    "chinese_title": "魔境仙踪",
+    "original_title": "Oz the Great and Powerful",
+    "release_year": 2013,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Sam Raimi"
+    ],
+    "cast": [
+      "James Franco",
+      "Mila Kunis",
+      "Rachel Weisz",
+      "Michelle Williams",
+      "Zach Braff",
+      "Joey King"
+    ],
+    "runtime_minutes": 130,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "wikipedia_page_en": "Oz the Great and Powerful",
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "童话王国",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "怪诞美学"
+      ],
+      "element": [
+        "女巫",
+        "魔法师",
+        "魔法生物"
+      ],
+      "mood": [
+        "神秘",
+        "荒诞"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "马戏团里一个只会耍嘴皮子的魔术师，乘着热气球被龙卷风卷走，落进一片色彩过饱和的国度。当地人把他当成预言中的救世主，因为他和某幅壁画上的人长得一样。他一边盘算怎么捞一笔就走，一边认识了三位女巫、一只会飞的猴子和一个瓷做的女孩；要让这片土地相信他，他得先演好一场连自己都不信的戏。",
+    "recommendation_zh": "把《绿野仙踪》前史拍成一座游乐园：魔术师靠骗术当上英雄，反而更有说服力。",
+    "audience_fit": "喜欢奥兹国设定、华丽美术与轻喜剧的成年观众。",
+    "audience_mismatch": "剧情偏套路，成年观众可能觉得只值得看一遍而已。"
+  }
+]

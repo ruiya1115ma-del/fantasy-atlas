@@ -1,0 +1,47 @@
+{
+  "name": "fantasy-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fantasy Atlas · 一个人的奇幻电影探索指南（视觉美学优先 + 可解释推荐）",
+  "scripts": {
+    "dev": "next dev -p 4317",
+    "dev:sandbox": "node scripts/dev.mjs",
+    "build": "next build",
+    "start": "next start -p 4317",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "merge": "node scripts/merge-catalog.mjs",
+    "enrich": "node scripts/enrich.mjs",
+    "douban": "node scripts/fetch-douban.mjs",
+    "douban:fix": "node scripts/fix-douban-records.mjs",
+    "posters": "node scripts/fetch-posters.mjs",
+    "tmdb": "node scripts/fetch-tmdb.mjs",
+    "verify-pages": "node scripts/verify-pages.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "test:build": "tsc -p tsconfig.test.json",
+    "test:unit": "node --test --test-isolation=none tests/data.test.mjs tests/logic.test.mjs tests/motifs.test.mjs",
+    "test:e2e": "node --test --test-isolation=none tests/http.test.mjs",
+    "test": "npm run test:build && npm run test:unit",
+    "poster:hunt": "node scripts/poster-hunt.mjs",
+    "poster:audit": "node scripts/audit-posters.mjs",
+    "poster:shrink": "node scripts/shrink-posters.mjs",
+    "poster:fill": "node scripts/fill-posters.mjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "isomorphic-git": "^1.44.9",
+    "next": "16.0.7",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.7.2"
+  }
+}

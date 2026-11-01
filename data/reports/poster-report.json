@@ -1,0 +1,159 @@
+{
+  "startedAt": "2026-11-01T15:35:57.423Z",
+  "targets": 26,
+  "filled": [
+    {
+      "id": "the-mummy-1999",
+      "kb": 37,
+      "status": "verified",
+      "host": "zh.wikipedia.org"
+    },
+    {
+      "id": "pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+      "kb": 32,
+      "status": "verified",
+      "host": "zh.wikipedia.org"
+    },
+    {
+      "id": "barbie-fairytopia-mermaidia",
+      "kb": 218,
+      "status": "verified",
+      "host": "en.wikipedia.org"
+    },
+    {
+      "id": "harry-potter-and-the-deathly-hallows-part-2",
+      "kb": 138,
+      "status": "verified",
+      "host": "zh.wikipedia.org"
+    },
+    {
+      "id": "once-upon-a-time-2011",
+      "kb": 45,
+      "status": "verified",
+      "host": "zh.wikipedia.org"
+    },
+    {
+      "id": "barbie-the-pearl-princess-2014",
+      "kb": 88,
+      "status": "verified",
+      "host": "zh.wikipedia.org"
+    },
+    {
+      "id": "alice-through-the-looking-glass",
+      "kb": 2622,
+      "status": "verified",
+      "host": "en.wikipedia.org"
+    },
+    {
+      "id": "miss-peregrines-home-for-peculiar-children",
+      "kb": 57,
+      "status": "verified",
+      "host": "en.wikipedia.org"
+    },
+    {
+      "id": "pirates-of-the-caribbean-dead-men-tell-no-tales",
+      "kb": 23,
+      "status": "verified",
+      "host": "zh.wikipedia.org"
+    },
+    {
+      "id": "the-lion-king-2019",
+      "kb": 127,
+      "status": "verified",
+      "host": "zh.wikipedia.org"
+    },
+    {
+      "id": "good-omens-2019",
+      "kb": 48,
+      "status": "verified",
+      "host": "en.wikipedia.org"
+    },
+    {
+      "id": "the-boy-and-the-heron-2023",
+      "kb": 22,
+      "status": "verified",
+      "host": "en.wikipedia.org"
+    }
+  ],
+  "failed": [
+    {
+      "id": "the-haunted-mansion-2003",
+      "reason": "非竖版海报 2849×2639"
+    },
+    {
+      "id": "barbie-in-the-pink-shoes-2013",
+      "reason": "三个来源都没有找到可用主图"
+    },
+    {
+      "id": "barbie-and-her-sisters-in-a-pony-tale-2013",
+      "reason": "三个来源都没有找到可用主图"
+    },
+    {
+      "id": "barbie-and-the-secret-door-2014",
+      "reason": "三个来源都没有找到可用主图"
+    },
+    {
+      "id": "barbie-in-princess-power-2015",
+      "reason": "三个来源都没有找到可用主图"
+    },
+    {
+      "id": "barbie-in-rock-n-royals-2015",
+      "reason": "三个来源都没有找到可用主图"
+    },
+    {
+      "id": "barbie-and-her-sisters-in-the-great-puppy-adventure-2015",
+      "reason": "三个来源都没有找到可用主图"
+    },
+    {
+      "id": "fantastic-beasts-and-where-to-find-them",
+      "reason": "非竖版海报 5258×1771"
+    },
+    {
+      "id": "stranger-things-2016",
+      "reason": "非竖版海报 728×400"
+    },
+    {
+      "id": "barbie-spy-squad-2016",
+      "reason": "三个来源都没有找到可用主图"
+    },
+    {
+      "id": "dark-2017",
+      "reason": "非竖版海报 367×271"
+    },
+    {
+      "id": "the-gifted-2017",
+      "reason": "三个来源都没有找到可用主图"
+    },
+    {
+      "id": "barbie-video-game-hero-2017",
+      "reason": "三个来源都没有找到可用主图"
+    },
+    {
+      "id": "barbie-mermaid-power-2022",
+      "reason": "非竖版海报 316×316"
+    }
+  ],
+  "skipped": [],
+  "verified": {
+    "verified": 27,
+    "partial": 49,
+    "unverified": 0
+  },
+  "missingAfter": [
+    "the-haunted-mansion-2003",
+    "barbie-in-the-pink-shoes-2013",
+    "barbie-and-her-sisters-in-a-pony-tale-2013",
+    "barbie-and-the-secret-door-2014",
+    "barbie-in-princess-power-2015",
+    "barbie-in-rock-n-royals-2015",
+    "barbie-and-her-sisters-in-the-great-puppy-adventure-2015",
+    "fantastic-beasts-and-where-to-find-them",
+    "stranger-things-2016",
+    "barbie-spy-squad-2016",
+    "dark-2017",
+    "the-gifted-2017",
+    "barbie-video-game-hero-2017",
+    "barbie-mermaid-power-2022"
+  ],
+  "finishedAt": "2026-11-01T15:45:20.572Z"
+}

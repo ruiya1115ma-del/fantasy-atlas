@@ -1,0 +1,935 @@
+[
+  {
+    "catalog_key": "the-cat-returns",
+    "chinese_title": "猫的报恩",
+    "original_title": "猫の恩返し",
+    "release_year": 2002,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hiroyuki Morita"
+    ],
+    "cast": [
+      "Chizuru Ikewaki",
+      "Yoshihiko Hakamada",
+      "Aki Maeda"
+    ],
+    "runtime_minutes": 75,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "The Cat Returns",
+      "Neko no Ongaeshi"
+    ],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Adventure",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "童话王国",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "东方幻想"
+      ],
+      "element": [
+        "魔法生物",
+        "超自然力量"
+      ],
+      "mood": [
+        "温暖",
+        "荒诞"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "高中生小春在放学路上救下一只差点被卡车撞到的猫，没想到那只猫竟是猫王国的王子。夜里，猫王的使者登门道谢，硬塞给她一份古怪的谢礼，还把她列进了王子的未婚妻名单。为了摆脱这场荒唐的婚约，小春去找一只会说话的白猫，被领进猫事务所，又跟着男爵闯进猫王国，学着把「谢谢」和「不要」都说出口。",
+    "recommendation_zh": "七十五分钟的轻快小冒险，猫男爵撑起整部片的体面，适合疲惫的晚上随手打开。",
+    "audience_fit": "喜欢吉卜力、猫与轻喜剧的观众，尤其适合作为孩子的第一部奇幻动画。",
+    "audience_mismatch": "期待宏大世界观与强烈冲突的人，会觉得它格局偏小、情节过于简单。",
+    "wikipedia_page_en": "The Cat Returns",
+    "wikipedia_page_zh": "猫的报恩"
+  },
+  {
+    "catalog_key": "the-secret-of-kells",
+    "chinese_title": "凯尔经的秘密",
+    "original_title": "The Secret of Kells",
+    "release_year": 2009,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "IE",
+      "FR",
+      "BE"
+    ],
+    "director": [
+      "Tomm Moore",
+      "Nora Twomey"
+    ],
+    "cast": [
+      "Evan McGuire",
+      "Christen Mooney",
+      "Brendan Gleeson"
+    ],
+    "runtime_minutes": 75,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Brendan and the Secret of Kells"
+    ],
+    "tags": {
+      "type": [
+        "Mythological Fantasy",
+        "Fairy Tale",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "古代王国",
+        "神话世界"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "自然幻想"
+      ],
+      "element": [
+        "精灵",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "神秘",
+        "怀旧",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "中世纪的伊尔兰，维京人的船队正沿着海岸逼近。少年布兰登住在高墙围起的修道院里，跟着叔叔日复一日地加固城墙，却被一位老画师带进了缮写室。老画师带来一本尚未完成的书，说它能照亮最深的黑暗。为了画完书页，布兰登必须走出高墙，进入被列为禁忌的森林，那里住着最后的精灵，也住着吞噬一切的古老存在。",
+    "recommendation_zh": "彩窗般的画面把一段抄经史画成冒险，每一帧都像从泥金手抄本上剥下来的。",
+    "audience_fit": "喜欢手绘动画、中世纪纹样与凯尔特传说的观众，美术爱好者尤其不该错过。",
+    "audience_mismatch": "习惯快节奏叙事的观众可能觉得前半段安静，部分森林段落对幼童略吓人。"
+  },
+  {
+    "catalog_key": "the-sorcerer-s-apprentice",
+    "chinese_title": "魔法师的学徒",
+    "original_title": "The Sorcerer's Apprentice",
+    "release_year": 2010,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Jon Turteltaub"
+    ],
+    "cast": [
+      "Nicolas Cage",
+      "Jay Baruchel",
+      "Alfred Molina",
+      "Teresa Palmer"
+    ],
+    "runtime_minutes": 109,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Urban Fantasy",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "超自然现代社会",
+        "魔法社会"
+      ],
+      "aesthetic": [
+        "蒸汽朋克",
+        "超现实主义"
+      ],
+      "element": [
+        "魔法师",
+        "女巫",
+        "神秘物品"
+      ],
+      "mood": [
+        "神秘",
+        "荒诞"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "纽约的物理系学生戴维，小时候误闯一间堆满旧书的魔法店，被店主巴尔萨泽收为徒弟，还拿到一枚认主的龙形戒指。十年后，被封印的宿敌重现，巴尔萨泽找到已经长大、只想安静做实验的戴维，要他补上当年没学完的课。电磁、咒语与实验室里接连失败的装置，一并压在这个不太情愿的继承人身上。",
+    "recommendation_zh": "把魔法搬进纽约的实验室与地铁，凯奇演得很放飞，适合想看轻松都市奇幻的人。",
+    "audience_fit": "喜欢现代都市背景、特效场面与师徒喜剧的观众，青少年接受度很高。",
+    "audience_mismatch": "追求严肃魔法体系与古典氛围的人，会觉得它太闹、太像暑期爆米花。"
+  },
+  {
+    "catalog_key": "children-who-chase-lost-voices",
+    "chinese_title": "追逐繁星的孩子",
+    "original_title": "Children Who Chase Lost Voices",
+    "release_year": 2011,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Makoto Shinkai"
+    ],
+    "cast": [
+      "Hisako Kanemoto",
+      "Miyu Irino",
+      "Kazuhiko Inoue"
+    ],
+    "runtime_minutes": 116,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Hoshi wo Ou Kodomo"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Mythological Fantasy",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "异世界冒险",
+        "神话世界"
+      ],
+      "aesthetic": [
+        "东方幻想",
+        "梦幻唯美"
+      ],
+      "element": [
+        "神祇",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "神秘",
+        "迷离",
+        "怀旧"
+      ],
+      "exclude": [
+        "节奏缓慢"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "少女明日菜住在山间小镇，父亲早逝，她习惯一个人爬上山顶，用矿石收音机听一首来路不明的歌。某天，她遇见一个从地底来的少年，又在随后的事故里失去了他。为了把人找回来，她跟着一位老师走进传说中的地下国度阿加尔塔，那里有守门的巨兽、死者居住的国度，也有必须付出代价才能越过的界线。",
+    "recommendation_zh": "新海诚把失落的地底文明拍成一场告别练习，画面美得让人愿意陪角色一起犯错。",
+    "audience_fit": "喜欢新海诚式画面、公路冒险与生死主题的观众，适合安静地独自观看。",
+    "audience_mismatch": "想看紧凑冒险的人会觉得中段冗长，世界观解释密集，孩子容易看不懂。"
+  },
+  {
+    "catalog_key": "the-tale-of-the-princess-kaguya",
+    "chinese_title": "辉夜姬物语",
+    "original_title": "The Tale of the Princess Kaguya",
+    "release_year": 2013,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Isao Takahata"
+    ],
+    "cast": [
+      "Aki Asakura",
+      "Kengo Kora",
+      "Takeo Chii",
+      "Nobuko Miyamoto"
+    ],
+    "runtime_minutes": 137,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Kaguya-hime no Monogatari"
+    ],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Mythological Fantasy",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "神话世界",
+        "古代王国"
+      ],
+      "aesthetic": [
+        "东方幻想",
+        "古典神话"
+      ],
+      "element": [
+        "神祇",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "怀旧"
+      ],
+      "exclude": [
+        "节奏缓慢"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "竹林里，砍竹的老人从发光的竹节中抱出一个掌心大小的女孩，他和老伴把她带回破屋，她长得飞快。老人相信她该过贵族的日子，于是举家搬进京城，请来名师教她琴与礼，替她争一个「公主」的名分。可女孩始终记得山里的风与蝉鸣，记得那个可以赤脚奔跑的自己，宴席与华服只是把她围得更紧。",
+    "recommendation_zh": "水墨与淡彩把一段古老传说画成会呼吸的画卷，她的倔强比任何魔法都动人。",
+    "audience_fit": "喜欢手绘美术、日本古典文学与慢节奏抒情作品的成年观众。",
+    "audience_mismatch": "带孩子看热闹的家长要留意：片长两个多小时，后半段情绪沉重。"
+  },
+  {
+    "catalog_key": "song-of-the-sea",
+    "chinese_title": "海洋之歌",
+    "original_title": "Song of the Sea",
+    "release_year": 2014,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "IE",
+      "LU",
+      "DK",
+      "FR"
+    ],
+    "director": [
+      "Tomm Moore"
+    ],
+    "cast": [
+      "David Rawle",
+      "Brendan Gleeson",
+      "Lisa Hannigan",
+      "Fionnula Flanagan"
+    ],
+    "runtime_minutes": 93,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Mythological Fantasy",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "神话世界",
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "自然幻想"
+      ],
+      "element": [
+        "魔法生物",
+        "精灵",
+        "神祇"
+      ],
+      "mood": [
+        "温暖",
+        "治愈",
+        "神秘"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "海边灯塔里，十岁的男孩本和不会说话的小妹妹雪儿，跟着父亲过着沉默的日子。母亲在雪儿出生那夜消失于海中，本把怨气都记在妹妹身上。某夜，雪儿披上母亲留下的白色外套，被一群海豹引向大海，本才发现她身上流着海豹精灵的血。为了救回被石化的精灵，他带着妹妹穿过隧道与旧传说，去找那首能唤醒海洋的歌。",
+    "recommendation_zh": "把海豹女的传说放进手绘动画，海浪、石楠和一首歌，足够让人重新相信海里有另一个世界。",
+    "audience_fit": "喜欢手绘风格、凯尔特神话与家庭题材的观众，亲子共看也合适。",
+    "audience_mismatch": "期待强情节与反派对抗的人，会觉得它更像一首缓慢的摇篮曲。"
+  },
+  {
+    "catalog_key": "seventh-son",
+    "chinese_title": "第七子：降魔之战",
+    "original_title": "Seventh Son",
+    "release_year": 2014,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US",
+      "GB",
+      "CA"
+    ],
+    "director": [
+      "Sergey Bodrov"
+    ],
+    "cast": [
+      "Jeff Bridges",
+      "Ben Barnes",
+      "Julianne Moore",
+      "Alicia Vikander"
+    ],
+    "runtime_minutes": 102,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "The Spook's Apprentice"
+    ],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "古代王国",
+        "神话世界"
+      ],
+      "aesthetic": [
+        "暗黑童话",
+        "哥特建筑"
+      ],
+      "element": [
+        "女巫",
+        "巨龙",
+        "魔法师"
+      ],
+      "mood": [
+        "黑暗",
+        "阴森"
+      ],
+      "exclude": [
+        "恐怖惊吓"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "在一个女巫与怪物仍被视为真实威胁的年代，老猎魔人汤姆已经找不到合适的接班人。他带着第七个儿子托马斯上路，这个年轻人天生能看见常人看不见的东西，却还没学会害怕。师徒二人要去对付一位正在聚集力量的女巫，她豢养的怪物正一个接一个地吞掉村庄，而托马斯必须在真正动手之前弄明白自己是谁。",
+    "recommendation_zh": "猎魔人师徒的公路片骨架，怪物造型与暗黑美学够用，适合想看硬派奇幻的人。",
+    "audience_fit": "喜欢中世纪猎魔、女巫与巨龙设定的奇幻片观众，动作场面够直接。",
+    "audience_mismatch": "对特效质感与剧本逻辑要求高的观众，会觉得它像一部被剪短的游戏宣传片。"
+  },
+  {
+    "catalog_key": "the-book-of-life",
+    "chinese_title": "生命之书",
+    "original_title": "The Book of Life",
+    "release_year": 2014,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Jorge R. Gutierrez"
+    ],
+    "cast": [
+      "Diego Luna",
+      "Zoe Saldana",
+      "Channing Tatum",
+      "Ron Perlman"
+    ],
+    "runtime_minutes": 95,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Mythological Fantasy",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "神话世界",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "古典神话",
+        "怪诞美学"
+      ],
+      "element": [
+        "神祇",
+        "鬼魂",
+        "魔法生物"
+      ],
+      "mood": [
+        "温暖",
+        "浪漫"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "墨西哥小镇上，三个一起长大的孩子——斗牛士马诺洛、军人华金和女孩玛丽亚——被两位冥界之神当成了赌局里的筹码。神祇为「谁会赢得她的心」立下赌约，把三人卷进生死两界的旅途。马诺洛必须穿过记忆之地，面对公牛、祖先与自己的怯懦，才能回到人间说出那句一直没说的话。",
+    "recommendation_zh": "墨西哥亡灵节的万花筒，木偶质感与手绘色彩把生死讲成一场热闹的家族故事。",
+    "audience_fit": "喜欢浓郁色彩、拉美民俗与音乐喜剧的家庭观众，视觉上非常讨喜。",
+    "audience_mismatch": "对亡灵、骷髅造型敏感的小朋友可能需要大人先陪着看一遍。"
+  },
+  {
+    "catalog_key": "the-boy-and-the-beast",
+    "chinese_title": "怪物之子",
+    "original_title": "The Boy and the Beast",
+    "release_year": 2015,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Mamoru Hosoda"
+    ],
+    "cast": [
+      "Koji Yakusho",
+      "Shota Sometani",
+      "Aoi Miyazaki",
+      "Suzu Hirose"
+    ],
+    "runtime_minutes": 119,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Bakemono no Ko"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "异世界冒险",
+        "神话世界"
+      ],
+      "aesthetic": [
+        "东方幻想",
+        "怪诞美学"
+      ],
+      "element": [
+        "妖怪",
+        "魔法生物"
+      ],
+      "mood": [
+        "温暖",
+        "宏大",
+        "治愈"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "九岁的莲在母亲去世后离家出走，钻进东京闹市背后的一条巷子，那里是兽人居住的渋天街。他被一头脾气粗暴、梦想成为宗师的熊兽收作徒弟，白天在道场挨训，夜里偷偷练刀。两个都不肯认输的家伙，在一次次摔打与争吵里慢慢长成了彼此的家。而莲还必须回到人类世界，面对那个他逃开的自己。",
+    "recommendation_zh": "怪兽道场与东京街巷各占一半，打斗很热闹，真正动人的是两个孤儿如何学会当家人。",
+    "audience_fit": "喜欢细田守、师徒成长故事与妖怪世界的观众，青春期的孩子会很有共鸣。",
+    "audience_mismatch": "想看纯热血打斗的人会觉得中段文戏多，结局的并行剪辑也稍显仓促。"
+  },
+  {
+    "catalog_key": "strange-magic",
+    "chinese_title": "奇异魔法",
+    "original_title": "Strange Magic",
+    "release_year": 2015,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Gary Rydstrom"
+    ],
+    "cast": [
+      "Alan Cumming",
+      "Evan Rachel Wood",
+      "Kristin Chenoweth",
+      "Maya Rudolph"
+    ],
+    "runtime_minutes": 99,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "怪诞美学"
+      ],
+      "element": [
+        "精灵",
+        "魔法生物"
+      ],
+      "mood": [
+        "浪漫",
+        "荒诞"
+      ],
+      "exclude": [
+        "含大量歌舞",
+        "目标受众偏低龄"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "精灵王国的公主玛丽安在被爱人背叛后，把自己关进城堡，发誓再也不碰爱情。她的妹妹达恩却在一次意外中被森林里的黑暗势力掳走。为了救回妹妹，玛丽安不得不离开城堡，和一群古怪的旅伴穿过被划成两半的森林，那里有会唱歌的妖怪、被偷走的爱情药水，还有两个都不肯低头的王国。",
+    "recommendation_zh": "点唱机式的精灵歌舞奇幻，色彩甜得发腻，歌单却意外好听，适合想放空两小时的人。",
+    "audience_fit": "喜欢流行金曲、精灵造型与低龄向歌舞动画的观众，孩子会看得很开心。",
+    "audience_mismatch": "不喜欢角色开口就唱歌、也不吃甜腻画风的人，很难撑过前二十分钟。"
+  },
+  {
+    "catalog_key": "kubo-and-the-two-strings",
+    "chinese_title": "魔弦传说",
+    "original_title": "Kubo and the Two Strings",
+    "release_year": 2016,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Travis Knight"
+    ],
+    "cast": [
+      "Art Parkinson",
+      "Charlize Theron",
+      "Matthew McConaughey",
+      "Rooney Mara"
+    ],
+    "runtime_minutes": 101,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Mythological Fantasy",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "神话世界",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "东方幻想",
+        "怪诞美学"
+      ],
+      "element": [
+        "妖怪",
+        "魔法生物",
+        "神祇"
+      ],
+      "mood": [
+        "神秘",
+        "宏大"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "独眼少年久保住在海边的山洞里，靠弹三味线让纸片起舞，给渔村的人讲武士的故事。母亲临终前告诉他，外公是掌管月亮的王，一直想夺走他剩下的那只眼睛。为了躲避追来的两个面具姐妹，久保带着母亲留下的木偶和一把会说话的弓，踏上寻找父亲遗物的路，一路收拢起关于记忆与名字的线索。",
+    "recommendation_zh": "折纸、三味线与巨大的骷髅怪物同框，是莱卡最华丽的一次东方神话拼贴。",
+    "audience_fit": "喜欢定格动画质感、日本民俗与冒险故事的观众，美术细节值得反复看。",
+    "audience_mismatch": "部分妖怪与骷髅造型对幼童偏吓人，剧情里的死亡主题也需要家长解释。"
+  },
+  {
+    "catalog_key": "mary-and-the-witch-s-flower",
+    "chinese_title": "玛丽与魔女之花",
+    "original_title": "Mary and the Witch's Flower",
+    "release_year": 2017,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hiromasa Yonebayashi"
+    ],
+    "cast": [
+      "Hana Sugisaki",
+      "Ryunosuke Kamiki",
+      "Yuki Amami"
+    ],
+    "runtime_minutes": 102,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Meari to Majo no Hana"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fairy Tale",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "魔法学院",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "魔法学院美学",
+        "复古英伦"
+      ],
+      "element": [
+        "女巫",
+        "魔法师",
+        "魔法生物"
+      ],
+      "mood": [
+        "神秘",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "搬去乡下姑妈家的女孩玛丽，在森林里一只猫的带领下，找到一株只在特定年份开花的魔女之花。花把她送进云上的魔法学校，那里有会飞的扫帚、堆满咒语书的图书馆，还有把她当成天才新生的校长。玛丽被当作另一个人欢迎，只好硬着头皮撑下去，直到发现学校正在做一件不该做的事。",
+    "recommendation_zh": "吉卜力式的英国魔法学校，扫帚、猫与图书馆都在，适合想再上一次魔法课的人。",
+    "audience_fit": "喜欢魔法学校、英伦乡村与明亮手绘风格的观众，亲子观影很稳妥。",
+    "audience_mismatch": "熟悉吉卜力旧作的人会觉得桥段似曾相识，反派的动机也偏单薄。"
+  },
+  {
+    "catalog_key": "a-wrinkle-in-time",
+    "chinese_title": "时间的皱折",
+    "original_title": "A Wrinkle in Time",
+    "release_year": 2018,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Ava DuVernay"
+    ],
+    "cast": [
+      "Storm Reid",
+      "Oprah Winfrey",
+      "Reese Witherspoon",
+      "Mindy Kaling",
+      "Chris Pine"
+    ],
+    "runtime_minutes": 109,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Surreal Fantasy"
+      ],
+      "world": [
+        "平行世界",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "超现实主义",
+        "梦幻唯美"
+      ],
+      "element": [
+        "超自然力量",
+        "神秘物品"
+      ],
+      "mood": [
+        "宏大",
+        "迷离",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "少女梅格的父亲是一位研究时空的科学家，四年前忽然失踪。一天夜里，她和弟弟查尔斯以及同学加尔文，被三位古怪的女士带离地球，穿过一道把空间折叠起来的裂缝。他们要去一颗被黑暗吞掉的星球，把父亲带回来，可那里的规则是：越靠近黑暗，人越容易怀疑自己。",
+    "recommendation_zh": "把一个关于时空折叠的经典童话拍成视觉实验，色彩与几何感值得在大屏幕上看。",
+    "audience_fit": "喜欢青少年成长故事、奇异星球景观与家庭主题的观众，适合初中生。",
+    "audience_mismatch": "原著读者可能失望于情节压缩，成人观众会觉得说教和特效都略显用力。"
+  },
+  {
+    "catalog_key": "the-wonderland",
+    "chinese_title": "生日幻境",
+    "original_title": "The Wonderland",
+    "release_year": 2019,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Keiichi Hara"
+    ],
+    "cast": [
+      "Mayu Matsuoka",
+      "Anne Watanabe",
+      "Kumiko Aso"
+    ],
+    "runtime_minutes": 115,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Birthday Wonderland",
+      "Baasudei Wandaarando"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fairy Tale",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "异世界冒险",
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "超现实主义"
+      ],
+      "element": [
+        "女巫",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "荒诞",
+        "迷离"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "不擅长表达自己的少女茜，在生日前一天被派去文具店，遇见一位自称炼金术师的大叔。他带她钻进地下室，说那里有一扇通往异世界的门，而他的徒弟正被困在那边。茜跟着他走进一个正在缺水、色彩正在褪去的国度，那里的人要靠一种特殊的水活下去，她必须替他们做出选择。",
+    "recommendation_zh": "色彩浓到化不开的异世界，补水之旅其实是少女学会说出自己想要什么。",
+    "audience_fit": "喜欢高饱和度奇幻美术与成长故事的观众，画面在大银幕上很有冲击力。",
+    "audience_mismatch": "剧情逻辑偏松散，追求严密世界观与清晰反派的观众容易出戏。"
+  },
+  {
+    "catalog_key": "the-amazing-maurice",
+    "chinese_title": "神奇的莫里斯",
+    "original_title": "The Amazing Maurice",
+    "release_year": 2022,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "GB",
+      "DE"
+    ],
+    "director": [
+      "Toby Genkel",
+      "Florian Westermann"
+    ],
+    "cast": [
+      "Hugh Laurie",
+      "Emilia Clarke",
+      "David Thewlis",
+      "Himesh Patel"
+    ],
+    "runtime_minutes": 93,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "The Amazing Maurice and His Educated Rodents"
+    ],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Adventure",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "童话王国",
+        "古代王国"
+      ],
+      "aesthetic": [
+        "复古英伦",
+        "怪诞美学"
+      ],
+      "element": [
+        "魔法生物",
+        "妖怪"
+      ],
+      "mood": [
+        "荒诞",
+        "神秘",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "在一座常年缺粮的小镇，一只会说话的猫莫里斯、一群同样会说话的老鼠，以及一个吹笛子的少年组成了一个骗局小队：老鼠先闹，少年再收钱驱鼠。他们本打算干完这一票就收手，却在镇上遇见一个同样在讲故事的女孩，以及一群饿得发疯、真的会吃人的老鼠。骗局开始不受控制地往深处滑。",
+    "recommendation_zh": "普拉切特式的英式幽默，会说话的猫和老鼠把童话骗局演成一场关于故事的喜剧。",
+    "audience_fit": "喜欢英式冷幽默、会说话动物与反套路童话的观众，原著读者也能会心一笑。",
+    "audience_mismatch": "低龄孩子可能跟不上密集的台词梗，几处老鼠受困的段落也偏阴暗。"
+  }
+]

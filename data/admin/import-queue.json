@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": "imp-mvxymc11-oaky",
+      "query": "魔发奇缘 2010",
+      "status": "needs_review",
+      "match": null,
+      "themeSlug": null,
+      "tags": {
+        "type": [],
+        "world": [],
+        "aesthetic": [],
+        "element": [],
+        "mood": [],
+        "exclude": []
+      },
+      "note": "搜索失败：HTTP 403",
+      "createdAt": "2026-11-01T15:03:15.301Z",
+      "updatedAt": "2026-11-01T15:03:16.004Z"
+    }
+  ],
+  "updatedAt": "2026-11-01T15:03:16.005Z"
+}

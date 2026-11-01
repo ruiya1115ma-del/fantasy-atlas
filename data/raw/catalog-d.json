@@ -1,0 +1,746 @@
+[
+  {
+    "catalog_key": "castle-in-the-sky",
+    "chinese_title": "天空之城",
+    "original_title": "天空の城ラピュタ",
+    "release_year": 1986,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [
+      "Mayumi Tanaka",
+      "Keiko Yokozawa",
+      "Minori Terada"
+    ],
+    "runtime_minutes": 124,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Laputa: Castle in the Sky"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "异世界冒险",
+        "古代王国"
+      ],
+      "aesthetic": [
+        "东方幻想",
+        "蒸汽朋克"
+      ],
+      "element": [
+        "神秘物品",
+        "超自然力量",
+        "魔法生物"
+      ],
+      "mood": [
+        "宏大",
+        "神秘",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "矿工学徒巴鲁救下从天空坠落的少女希达，她胸前那块会发光的飞行石，引来海盗与军队的同时追捕。两人循着祖辈留下的线索，寻找传说中漂浮的拉普达——那座城曾以惊人的机械与咒语统治天空，如今只剩废墟与孤独守园的机器人。追兵、风暴与层层谜团一路相随。",
+    "recommendation_zh": "飞行石、云中之城、生锈的机器人，八十年代的冒险动画至今仍有一种开阔向上的浪漫，机械与咒语被安放在同一片云海里。",
+    "audience_fit": "喜欢冒险故事、蒸汽朋克机械设定与云海奇观的观众。",
+    "audience_mismatch": "习惯现代动画快节奏的孩子，可能觉得前段铺陈偏慢。"
+  },
+  {
+    "catalog_key": "edward-scissorhands",
+    "chinese_title": "剪刀手爱德华",
+    "original_title": "Edward Scissorhands",
+    "release_year": 1990,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Tim Burton"
+    ],
+    "cast": [
+      "Johnny Depp",
+      "Winona Ryder",
+      "Dianne Wiest"
+    ],
+    "runtime_minutes": 105,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Fairy Tale"
+      ],
+      "world": [
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "哥特建筑",
+        "怪诞美学"
+      ],
+      "element": [
+        "超自然力量",
+        "神秘物品",
+        "魔法生物"
+      ],
+      "mood": [
+        "浪漫",
+        "温暖",
+        "诡异"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "化妆品推销员碧姬闯进山顶那座荒废的哥特宅邸，遇见一个面色苍白、双手是剪刀的青年。她把他带回山下色彩鲜艳的社区，邻居们先是好奇追捧，随后疑惧疏远。爱德华学会了修剪树篱、给狗剪毛、替人做发型，也第一次尝到爱慕与排斥的滋味，他笨拙地想要拥抱这个世界。",
+    "recommendation_zh": "山下的糖果色社区与山上的黑色宅邸并置，剪刀的锋利对照人的温柔，是伯顿最像童话的一次抒情。",
+    "audience_fit": "喜欢哥特浪漫、温柔寓言与童话式寓意的观众，尤其是伯顿爱好者。",
+    "audience_mismatch": "追求强情节与快节奏的人，可能觉得它过于舒缓。"
+  },
+  {
+    "catalog_key": "spirited-away",
+    "chinese_title": "千与千寻",
+    "original_title": "千と千尋の神隠し",
+    "release_year": 2001,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [
+      "Rumi Hiiragi",
+      "Miyu Irino",
+      "Mari Natsuki"
+    ],
+    "runtime_minutes": 125,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Sen to Chihiro no Kamikakushi",
+      "神隱少女"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Animation",
+        "Mythological Fantasy",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "异世界冒险",
+        "神话世界"
+      ],
+      "aesthetic": [
+        "东方幻想",
+        "梦幻唯美"
+      ],
+      "element": [
+        "妖怪",
+        "神祇",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "迷离",
+        "神秘",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "十岁的千寻随父母搬往新家，途中误入一条被荒草掩埋的隧道。父母因贪食变成了猪，她被困在一个专供神灵沐浴的国度。为了活下去，她在汤屋里做工，被夺去名字，只余下一个「千」字。灯火通明的浴场、沉默的无脸男、驶向海心的列车，都在提醒她必须记住自己是谁。",
+    "recommendation_zh": "汤屋的灯笼、无脸男递出的金子、海上列车那一段静默，共同构成动画史上最迷人的异界之一，值得在大银幕重看。",
+    "audience_fit": "几乎适合所有年龄，尤其是初次接触吉卜力的观众。",
+    "audience_mismatch": "怕妖怪造型的小朋友可能需要大人陪着看，个别段落略阴森。"
+  },
+  {
+    "catalog_key": "howls-moving-castle",
+    "chinese_title": "哈尔的移动城堡",
+    "original_title": "ハウルの動く城",
+    "release_year": 2004,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [
+      "Chieko Baisho",
+      "Takuya Kimura",
+      "Akihiro Miwa"
+    ],
+    "runtime_minutes": 119,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Howl's Moving Castle",
+      "霍爾的移動城堡"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "异世界冒险",
+        "魔法社会"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "蒸汽朋克"
+      ],
+      "element": [
+        "魔法师",
+        "女巫",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "浪漫",
+        "神秘"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "被荒野女巫诅咒成老妇人的苏菲离开了制帽店，独自走进起风的荒原，遇见一座靠魔力行走的移动城堡。城堡里住着名声不佳的魔法师哈尔、掌管炉火的火魔卡西法与一个小男孩。苏菲以清洁妇的身份留下来，在战争的阴影和他不断变换的容貌之间，慢慢找回被咒语封住的那颗心。",
+    "recommendation_zh": "会走路的房子冒着蒸汽，魔法与机械挤在同一间厨房里，宫崎骏把浪漫和反战放进一口锅慢慢熬。",
+    "audience_fit": "喜欢梦幻画面、浪漫成长故事与宫崎骏式奇幻的观众。",
+    "audience_mismatch": "偏好严密设定与线性剧情的人，会觉得叙事跳跃、留白太多。"
+  },
+  {
+    "catalog_key": "pans-labyrinth",
+    "chinese_title": "潘神的迷宫",
+    "original_title": "El laberinto del fauno",
+    "release_year": 2006,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "ES",
+      "MX"
+    ],
+    "director": [
+      "Guillermo del Toro"
+    ],
+    "cast": [
+      "Ivana Baquero",
+      "Sergi López",
+      "Maribel Verdú"
+    ],
+    "runtime_minutes": 118,
+    "seasons": null,
+    "original_language": "es",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Pan's Labyrinth",
+      "羊男的迷宮"
+    ],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Mythological Fantasy"
+      ],
+      "world": [
+        "神话世界",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "暗黑童话",
+        "古典神话"
+      ],
+      "element": [
+        "魔法生物",
+        "妖怪",
+        "神秘物品"
+      ],
+      "mood": [
+        "阴森",
+        "黑暗",
+        "神秘"
+      ],
+      "exclude": [
+        "血腥",
+        "恐怖惊吓"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "一九四四年的西班牙，内战的余烬尚未熄灭。小女孩奥菲莉亚随怀孕的母亲住进继父的营地，那位军官以清剿游击队的冷酷维持着秩序。她在林中遇见一只古老的羊角生物，被告知自己是地下王国的公主，只要完成三项考验便能回去。现实的血污与童话的甬道同时向她敞开。",
+    "recommendation_zh": "德尔·托罗把童话的甬道挖进战争的泥里，两个世界互为镜像，残酷与温柔都拍得锋利而克制，像一则不肯合上的寓言。",
+    "audience_fit": "能承受暴力场面、喜欢寓言式叙事的成年观众，适合深夜独看。",
+    "audience_mismatch": "想带孩子找奇幻冒险的家庭，会被血腥镜头击退。"
+  },
+  {
+    "catalog_key": "enchanted",
+    "chinese_title": "魔法奇缘",
+    "original_title": "Enchanted",
+    "release_year": 2007,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": "enchanted",
+    "franchise_name": "魔法奇缘系列",
+    "series_order": 1,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Kevin Lima"
+    ],
+    "cast": [
+      "Amy Adams",
+      "Patrick Dempsey",
+      "James Marsden"
+    ],
+    "runtime_minutes": 107,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "曼哈頓奇緣"
+    ],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Urban Fantasy"
+      ],
+      "world": [
+        "童话王国",
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "梦幻唯美"
+      ],
+      "element": [
+        "女巫",
+        "魔法生物",
+        "超自然力量"
+      ],
+      "mood": [
+        "温暖",
+        "荒诞",
+        "浪漫"
+      ],
+      "exclude": [
+        "含大量歌舞"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "安达拉西亚的少女吉赛尔在婚礼前被恶毒的王后推进一口许愿井，醒来时已置身纽约的车流与霓虹之间。她穿着蓬松的长裙，唱歌招来鸽子与老鼠，把童话的规则整个搬进一座现实的城市。一位离婚律师收留了她，两个世界的逻辑开始互相摩擦，连他身边的小女儿都比大人更快接受这一切。",
+    "recommendation_zh": "把童话公主扔进曼哈顿，让歌舞与现实主义撞个满怀，艾米·亚当斯的甜是整个故事真正的引擎，笑点也密。",
+    "audience_fit": "喜欢歌舞片、童话反讽与轻松爱情喜剧的观众，适合全家一起看。",
+    "audience_mismatch": "受不了人物突然开口唱歌、或对甜腻童话过敏的人，会频频出戏。"
+  },
+  {
+    "catalog_key": "coraline",
+    "chinese_title": "鬼妈妈",
+    "original_title": "Coraline",
+    "release_year": 2009,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Henry Selick"
+    ],
+    "cast": [
+      "Dakota Fanning",
+      "Teri Hatcher",
+      "John Hodgman"
+    ],
+    "runtime_minutes": 100,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "第十四道門"
+    ],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "平行世界",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "暗黑童话",
+        "怪诞美学"
+      ],
+      "element": [
+        "魔法生物",
+        "超自然力量",
+        "神秘物品"
+      ],
+      "mood": [
+        "诡异",
+        "神秘",
+        "阴森"
+      ],
+      "exclude": [
+        "恐怖惊吓"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "随父母搬进老宅的卡萝兰在客厅墙里发现一扇被砖封住的小门，门后是一个几乎一模一样的家：饭菜更香，玩具更多，另一个母亲总是笑着等她。那里的人眼睛都是纽扣做的，而他们希望卡萝兰也换上同样的眼睛，永远留下来。当真正的父母消失，她只能独自走进那条糖果色的走廊。",
+    "recommendation_zh": "定格动画把「另一个家」做得既诱人又不对劲，越甜美越让人发凉，纽扣与蛛网都是精心布置的陷阱。",
+    "audience_fit": "喜欢怪诞定格动画、能接受儿童向惊悚的观众，尤其是莱卡影迷。",
+    "audience_mismatch": "低龄孩子可能被纽扣眼睛和蜘蛛网吓到，建议家长先看一遍。"
+  },
+  {
+    "catalog_key": "alice-in-wonderland-2010",
+    "chinese_title": "爱丽丝梦游仙境",
+    "original_title": "Alice in Wonderland",
+    "release_year": 2010,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": "alice-in-wonderland",
+    "franchise_name": "爱丽丝梦游仙境（真人版）",
+    "series_order": 1,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Tim Burton"
+    ],
+    "cast": [
+      "Mia Wasikowska",
+      "Johnny Depp",
+      "Helena Bonham Carter"
+    ],
+    "runtime_minutes": 108,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "魔境夢遊"
+    ],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "异世界冒险",
+        "童话王国"
+      ],
+      "aesthetic": [
+        "暗黑童话",
+        "怪诞美学"
+      ],
+      "element": [
+        "魔法生物",
+        "神秘物品",
+        "超自然力量"
+      ],
+      "mood": [
+        "荒诞",
+        "神秘",
+        "黑暗"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "十九岁的爱丽丝在自家的订婚宴上被众人围观，她循着一只揣着怀表的白兔跌进树洞，落回那个色彩浓艳、处处荒唐的地下世界。这里的人坚称她是预言中的救世者，红皇后的暴政让生灵噤声，疯帽子则守着一座被焚毁的村庄和一段不肯放下的记忆。爱丽丝得先想清楚自己是谁。",
+    "recommendation_zh": "伯顿把卡罗尔的荒诞做成一整场浓艳的梦，红白两座宫廷的对比极尽华丽，帽匠与柴郡猫的怪趣几乎盖过剧情。",
+    "audience_fit": "喜欢哥特童话视觉、能接受夸张造型与浓艳色彩的观众。",
+    "audience_mismatch": "偏爱原著文本的读者，可能觉得这次改编过于自由、太华丽。"
+  },
+  {
+    "catalog_key": "crimson-peak",
+    "chinese_title": "猩红山峰",
+    "original_title": "Crimson Peak",
+    "release_year": 2015,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Guillermo del Toro"
+    ],
+    "cast": [
+      "Mia Wasikowska",
+      "Tom Hiddleston",
+      "Jessica Chastain"
+    ],
+    "runtime_minutes": 119,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "腥紅山莊"
+    ],
+    "tags": {
+      "type": [
+        "Gothic Fantasy",
+        "Dark Fantasy"
+      ],
+      "world": [
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "哥特建筑",
+        "黑暗浪漫"
+      ],
+      "element": [
+        "鬼魂",
+        "超自然力量",
+        "神秘物品"
+      ],
+      "mood": [
+        "阴森",
+        "黑暗",
+        "浪漫"
+      ],
+      "exclude": [
+        "血腥",
+        "恐怖惊吓"
+      ]
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "年轻的女作家伊迪丝相信鬼魂，也相信自己写下的故事。她嫁给来自英国的托马斯，随他搬进那座会从墙缝里渗出红色黏土的宅邸。房子空荡，屋顶破开一个大洞，夜里总有脚步声与低泣沿着走廊游荡。伊迪丝渐渐意识到，这座建筑记住的事情，远比住在里面的人愿意说出口的多。",
+    "recommendation_zh": "宅邸本身就是主角：渗血的墙、锈蚀的电梯井、通向天空的破洞，把一段哥特爱情熬成粘稠的噩梦，美术近乎偏执。",
+    "audience_fit": "迷恋哥特建筑与古典恐怖美学、能忍受缓慢气氛的观众。",
+    "audience_mismatch": "期待纯粹鬼故事或密集惊吓的人，会觉得它更像爱情悲剧。"
+  },
+  {
+    "catalog_key": "alice-through-the-looking-glass",
+    "chinese_title": "爱丽丝梦游仙境2：镜中奇遇记",
+    "original_title": "Alice Through the Looking Glass",
+    "release_year": 2016,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": "alice-in-wonderland",
+    "franchise_name": "爱丽丝梦游仙境（真人版）",
+    "series_order": 2,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "James Bobin"
+    ],
+    "cast": [
+      "Mia Wasikowska",
+      "Johnny Depp",
+      "Sacha Baron Cohen"
+    ],
+    "runtime_minutes": 113,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "魔境夢遊：時光怪客"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "异世界冒险",
+        "童话王国"
+      ],
+      "aesthetic": [
+        "暗黑童话",
+        "怪诞美学"
+      ],
+      "element": [
+        "魔法生物",
+        "神秘物品",
+        "超自然力量"
+      ],
+      "mood": [
+        "荒诞",
+        "神秘",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "爱丽丝已经是一名船长，在海上闯出了自己的名声。回到伦敦后，她发现蝴蝶的异动牵动着地下世界：疯帽子的生命正在一点点消散。为了救他，她必须触碰时间本身，走进那座收藏所有时钟的机械城堡，面对掌管时间的存在，也要重新理解自己的过去与母亲留下的那间船务公司。",
+    "recommendation_zh": "时间被做成一座巨大的机械城堡，齿轮与钟摆撑起整部续作的奇观，情感落点在亲情与悔意上，比前作柔软。",
+    "audience_fit": "看过第一部、想补完地下世界设定与时间线的观众。",
+    "audience_mismatch": "没看过前作的人，容易在人物关系和时间规则里迷路。"
+  },
+  {
+    "catalog_key": "miss-peregrines-home-for-peculiar-children",
+    "chinese_title": "佩小姐的奇幻城堡",
+    "original_title": "Miss Peregrine's Home for Peculiar Children",
+    "release_year": 2016,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Tim Burton"
+    ],
+    "cast": [
+      "Eva Green",
+      "Asa Butterfield",
+      "Samuel L. Jackson"
+    ],
+    "runtime_minutes": 127,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "怪奇孤兒院"
+    ],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "异世界冒险",
+        "平行世界"
+      ],
+      "aesthetic": [
+        "暗黑童话",
+        "怪诞美学",
+        "复古英伦"
+      ],
+      "element": [
+        "超自然力量",
+        "妖怪",
+        "魔法生物"
+      ],
+      "mood": [
+        "诡异",
+        "神秘",
+        "荒诞"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "high",
+    "synopsis_zh": "雅各布从小听爷爷讲一座孤岛上的孤儿院，那里的孩子各有古怪的本领：一个女孩轻得需要系上绳子，另一个后脑勺下面还有一张嘴。爷爷离世后，他循着旧照片找到威尔士海岸，走进一个永远停在同一天的时间圈，孩子们一遍遍重演空袭前的那个下午，守护他们的是一位能变成鸟的女士。",
+    "recommendation_zh": "时间圈、旧照片、会变成鸟的女士，伯顿把一本怪奇小说拍成带暗色的少年冒险，造型与美术都很讲究。",
+    "audience_fit": "喜欢怪奇设定、复古英伦氛围与少年冒险的观众。",
+    "audience_mismatch": "原著读者可能对删改的人物线与简化设定不太满意。"
+  },
+  {
+    "catalog_key": "wednesday",
+    "chinese_title": "星期三",
+    "original_title": "Wednesday",
+    "release_year": 2022,
+    "media_type": "series",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Alfred Gough",
+      "Miles Millar",
+      "Tim Burton"
+    ],
+    "cast": [
+      "Jenna Ortega",
+      "Emma Myers",
+      "Catherine Zeta-Jones"
+    ],
+    "runtime_minutes": null,
+    "seasons": 1,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Supernatural Fantasy",
+        "Gothic Fantasy"
+      ],
+      "world": [
+        "魔法学院",
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "哥特建筑",
+        "怪诞美学"
+      ],
+      "element": [
+        "超自然力量",
+        "妖怪",
+        "鬼魂"
+      ],
+      "mood": [
+        "诡异",
+        "神秘",
+        "黑暗"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "星期三·亚当斯因为在校园里放出食人鱼而被转学，来到专收异类的奈弗莫尔学院。她带着面无表情的冷静和一套随身携带的拷问工具，很快被卷进小镇接连发生的怪事：怪物在林中出没，学生接连失踪，而学院本身似乎藏着更深的秘密。她决定用自己的方式把真相挖出来。",
+    "recommendation_zh": "哥特少女走进彩色校园，冷面毒舌与怪物谜案并行，伯顿的视觉加上奥尔特加的表演撑起整部剧。",
+    "audience_fit": "喜欢哥特怪诞、冷幽默与青春悬疑的观众，适合一季连刷。",
+    "audience_mismatch": "期待传统合家欢奇幻的人，会觉得整部剧偏阴冷、节奏黏。"
+  }
+]

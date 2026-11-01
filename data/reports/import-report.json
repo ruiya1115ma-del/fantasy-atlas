@@ -1,0 +1,1261 @@
+{
+  "generatedAt": "2026-11-01T17:28:25.759Z",
+  "files": [
+    {
+      "file": "catalog-a.json",
+      "count": 11
+    },
+    {
+      "file": "catalog-b.json",
+      "count": 9
+    },
+    {
+      "file": "catalog-c.json",
+      "count": 10
+    },
+    {
+      "file": "catalog-d.json",
+      "count": 12
+    },
+    {
+      "file": "catalog-e.json",
+      "count": 16
+    },
+    {
+      "file": "catalog-f.json",
+      "count": 20
+    },
+    {
+      "file": "catalog-g.json",
+      "count": 14
+    },
+    {
+      "file": "catalog-h.json",
+      "count": 40
+    },
+    {
+      "file": "catalog-i.json",
+      "count": 34
+    },
+    {
+      "file": "catalog-j.json",
+      "count": 28
+    },
+    {
+      "file": "catalog-new-a.json",
+      "count": 15
+    },
+    {
+      "file": "catalog-new-b.json",
+      "count": 13
+    },
+    {
+      "file": "catalog-new-c.json",
+      "count": 15
+    },
+    {
+      "file": "catalog-new-d.json",
+      "count": 16
+    },
+    {
+      "file": "catalog-new-e.json",
+      "count": 18
+    },
+    {
+      "file": "catalog-new-f.json",
+      "count": 4
+    }
+  ],
+  "totalRawRecords": 275,
+  "accepted": 274,
+  "duplicates": [
+    {
+      "id": "disenchanted-2022",
+      "keptFrom": "catalog-f.json",
+      "droppedFrom": "catalog-new-e.json",
+      "titles": [
+        null,
+        "曼哈顿奇缘"
+      ]
+    }
+  ],
+  "rejected": [],
+  "missingFields": [
+    {
+      "id": "barbie-in-the-nutcracker",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-as-rapunzel",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-of-swan-lake",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-as-the-princess-and-the-pauper",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-fairytopia",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-and-the-magic-of-pegasus",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-fairytopia-mermaidia",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-in-the-12-dancing-princesses",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-fairytopia-magic-of-the-rainbow",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-as-the-island-princess",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-and-the-diamond-castle",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-in-a-christmas-carol",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-presents-thumbelina",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-and-the-three-musketeers",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-in-a-mermaid-tale",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-a-fashion-fairytale",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "my-neighbor-totoro-1988",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "princess-mononoke-1997",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "the-gifted-2017",
+      "field": "director",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "his-dark-materials-2019",
+      "field": "director",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "kikis-delivery-service-1989",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "ponyo-2008",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "the-secret-world-of-arrietty-2010",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "the-boy-and-the-heron-2023",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "percy-jackson-and-the-olympians-2023",
+      "field": "director",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-a-fairy-secret-2011",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-princess-charm-school-2011",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-a-perfect-christmas-2011",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-in-a-mermaid-tale-2-2012",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-the-princess-and-the-popstar-2012",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-in-the-pink-shoes-2013",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-mariposa-and-the-fairy-princess-2013",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-and-her-sisters-in-a-pony-tale-2013",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-the-pearl-princess-2014",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-and-the-secret-door-2014",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-in-princess-power-2015",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-in-rock-n-royals-2015",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-and-her-sisters-in-the-great-puppy-adventure-2015",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-spy-squad-2016",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-star-light-adventure-2016",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-and-her-sisters-in-a-puppy-chase-2016",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-video-game-hero-2017",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-dolphin-magic-2017",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-dreamhouse-adventures-2016",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-princess-adventure-2020",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-and-chelsea-the-lost-birthday-2021",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-big-city-big-dreams-2021",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-mermaid-power-2022",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-road-trip-adventure-2022",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-skipper-and-the-big-babysitting-adventure-2023",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-a-touch-of-magic-2023",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-mysteries-the-great-horse-chase-2024",
+      "field": "director, cast",
+      "action": "留空，等待外部资料补全"
+    },
+    {
+      "id": "barbie-and-stacie-to-the-rescue-2024",
+      "field": "cast",
+      "action": "留空，等待外部资料补全"
+    }
+  ],
+  "unknownTags": [
+    {
+      "id": "tangled-ever-after-2012",
+      "bucket": "mood",
+      "tag": "幽默"
+    }
+  ],
+  "needsReview": [
+    {
+      "id": "castle-in-the-sky",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "spirited-away",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "howls-moving-castle",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "coraline",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "wednesday",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; series runtime 360min from P2047 (may be season total); low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "barbie-in-the-nutcracker",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-as-rapunzel",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-of-swan-lake",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-as-the-princess-and-the-pauper",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-fairytopia",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-and-the-magic-of-pegasus",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-fairytopia-mermaidia",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-in-the-12-dancing-princesses",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-fairytopia-magic-of-the-rainbow",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-as-the-island-princess",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-and-the-diamond-castle",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-in-a-christmas-carol",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-presents-thumbelina",
+      "reasons": [
+        "title mismatch; no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-and-the-three-musketeers",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-in-a-mermaid-tale",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-a-fashion-fairytale",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "once-upon-a-time-2011",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; no director in wikidata; series runtime 42min from P2047 (may be season total); low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "stranger-things-2016",
+      "reasons": [
+        "wikidata release date is year-only; series runtime 96min from P2047 (may be season total)"
+      ]
+    },
+    {
+      "id": "chilling-adventures-of-sabrina-2018",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; no director in wikidata; series runtime 60min from P2047 (may be season total); low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "hotel-transylvania-2012",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "hotel-transylvania-2-2015",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "hotel-transylvania-3-2018",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "hotel-transylvania-transformania-2022",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-lion-king-2019",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "ella-enchanted-2004",
+      "reasons": [
+        "wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "beauty-and-the-beast-2017",
+      "reasons": [
+        "外部匹配状态: unmatched",
+        "缺少可核实的评分来源",
+        "p31 not film-like (video game)"
+      ]
+    },
+    {
+      "id": "stardust-2007",
+      "reasons": [
+        "外部匹配状态: unmatched",
+        "缺少可核实的评分来源",
+        "p31 not film-like (album); year mismatch (wikidata 2025 vs catalog 2007)"
+      ]
+    },
+    {
+      "id": "barbie-2023",
+      "reasons": [
+        "外部匹配状态: unmatched",
+        "缺少可核实的评分来源",
+        "p31 not film-like (family name); no release date"
+      ]
+    },
+    {
+      "id": "slumberland-2022",
+      "reasons": [
+        "wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "my-neighbor-totoro-1988",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "dark-2017",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; series runtime 59min from P2047 (may be season total); low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "monster-house-2006",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "he-is-a-dragon-2015",
+      "reasons": [
+        "title mismatch"
+      ]
+    },
+    {
+      "id": "good-omens-2019",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; series runtime 60min from P2047 (may be season total); low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "corpse-bride-2005",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "frankenweenie-2012",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "constantine-2005",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "p31 not film-like (video game); no director in wikidata; no cast in wikidata; low confidence (0.55)"
+      ]
+    },
+    {
+      "id": "labyrinth-1986",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "缺少可核实的评分来源",
+        "p31 not film-like (album); no director in wikidata; no cast in wikidata; low confidence (0.55)"
+      ]
+    },
+    {
+      "id": "princess-mononoke-1997",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-gifted-2017",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "his-dark-materials-2019",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "casper-1995",
+      "reasons": [
+        "外部匹配状态: unmatched",
+        "缺少可核实的评分来源",
+        "p31 not film-like (male given name); no release date"
+      ]
+    },
+    {
+      "id": "coco-2017",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "up-2009",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "inside-out-2015",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-addams-family-1991",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "缺少可核实的评分来源",
+        "p31 not film-like (video game); no director in wikidata; no cast in wikidata; wikidata release date is year-only; low confidence (0.55)"
+      ]
+    },
+    {
+      "id": "kikis-delivery-service-1989",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "ponyo-2008",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-secret-world-of-arrietty-2010",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "paranorman-2012",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "arthur-and-the-invisibles-2006",
+      "reasons": [
+        "title mismatch"
+      ]
+    },
+    {
+      "id": "the-boy-and-the-heron-2023",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "percy-jackson-and-the-olympians-2023",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; no director in wikidata; low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "encanto-2021",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "hugo-2011",
+      "reasons": [
+        "外部匹配状态: unmatched",
+        "缺少可核实的评分来源",
+        "p31 not film-like (male given name); no release date"
+      ]
+    },
+    {
+      "id": "peter-pan-2003",
+      "reasons": [
+        "外部匹配状态: unmatched",
+        "缺少可核实的评分来源",
+        "year mismatch (wikidata 1953/1953/1953/1953 vs catalog 2003)"
+      ]
+    },
+    {
+      "id": "the-fall-2006",
+      "reasons": [
+        "外部匹配状态: unmatched",
+        "缺少可核实的评分来源",
+        "p31 not film-like (version, edition or translation)"
+      ]
+    },
+    {
+      "id": "barbie-a-fairy-secret-2011",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-princess-charm-school-2011",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-a-perfect-christmas-2011",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-in-a-mermaid-tale-2-2012",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-the-princess-and-the-popstar-2012",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-in-the-pink-shoes-2013",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-mariposa-and-the-fairy-princess-2013",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-and-her-sisters-in-a-pony-tale-2013",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-the-pearl-princess-2014",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-and-the-secret-door-2014",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-in-princess-power-2015",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-in-rock-n-royals-2015",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-and-her-sisters-in-the-great-puppy-adventure-2015",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-spy-squad-2016",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-star-light-adventure-2016",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-and-her-sisters-in-a-puppy-chase-2016",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-video-game-hero-2017",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-dolphin-magic-2017",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-dreamhouse-adventures-2016",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; no director in wikidata; no cast in wikidata; series runtime 22min from P2047 (may be season total); low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "barbie-princess-adventure-2020",
+      "reasons": [
+        "no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-and-chelsea-the-lost-birthday-2021",
+      "reasons": [
+        "no director in wikidata; no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-big-city-big-dreams-2021",
+      "reasons": [
+        "no director in wikidata; no cast in wikidata"
+      ]
+    },
+    {
+      "id": "barbie-mermaid-power-2022",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; no director in wikidata; no cast in wikidata; low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "barbie-road-trip-adventure-2022",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; no director in wikidata; no cast in wikidata; low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "barbie-skipper-and-the-big-babysitting-adventure-2023",
+      "reasons": [
+        "no director in wikidata; no cast in wikidata; wikidata release date is year-only"
+      ]
+    },
+    {
+      "id": "barbie-a-touch-of-magic-2023",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; no director in wikidata; series runtime 23min from P2047 (may be season total); low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "barbie-mysteries-the-great-horse-chase-2024",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; no director in wikidata; no cast in wikidata; series runtime 21min from P2047 (may be season total); low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "barbie-and-stacie-to-the-rescue-2024",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "no release date; no director in wikidata; no cast in wikidata; low confidence (0.65)"
+      ]
+    },
+    {
+      "id": "legend",
+      "reasons": [
+        "外部匹配状态: unmatched",
+        "缺少可核实的评分来源",
+        "p31 not film-like (album)"
+      ]
+    },
+    {
+      "id": "the-last-unicorn",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "excalibur",
+      "reasons": [
+        "外部匹配状态: unmatched",
+        "缺少可核实的评分来源",
+        "p31 not film-like (human|pseudonym); no release date"
+      ]
+    },
+    {
+      "id": "wolfwalkers",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-cat-returns",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-secret-of-kells",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "children-who-chase-lost-voices",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-tale-of-the-princess-kaguya",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "song-of-the-sea",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-book-of-life",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-boy-and-the-beast",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "strange-magic",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "kubo-and-the-two-strings",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "mary-and-the-witch-s-flower",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-wonderland",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-amazing-maurice",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "snow-white-and-the-seven-dwarfs",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "cinderella",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "sleeping-beauty",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-little-mermaid",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "beauty-and-the-beast",
+      "reasons": [
+        "外部匹配状态: unmatched",
+        "缺少可核实的评分来源",
+        "p31 not film-like (music track with vocals); no release date"
+      ]
+    },
+    {
+      "id": "aladdin",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "pocahontas",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "mulan",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-little-mermaid-ii-return-to-the-sea",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "cinderella-ii-dreams-come-true",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "cinderella-iii-a-twist-in-time",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-princess-and-the-frog",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "tangled",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "brave",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "moana",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "raya-and-the-last-dragon",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-return-of-jafar",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "aladdin-and-the-king-of-thieves",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "beauty-and-the-beast-the-enchanted-christmas",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "cinderella-1997",
+      "reasons": [
+        "外部匹配状态: needs_review",
+        "缺少可核实的评分来源",
+        "year mismatch (wikidata 2015/2015/2015/2015 vs catalog 1997); wikidata id conflict (Q15046091 already used by cinderella-2015)"
+      ]
+    },
+    {
+      "id": "beauty-and-the-beast-belle-s-magical-world",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "pocahontas-ii-journey-to-a-new-world",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "mulan-ii",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-little-mermaid-ariel-s-beginning",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "tangled-before-ever-after",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "pinocchio",
+      "reasons": [
+        "外部匹配状态: unmatched",
+        "缺少可核实的评分来源",
+        "year mismatch (wikidata 1911 vs catalog 2022)"
+      ]
+    },
+    {
+      "id": "moana-2",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "mufasa-the-lion-king",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "tangled-ever-after-2012",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-castle-of-cagliostro",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "nausicaa-of-the-valley-of-the-wind",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "porco-rosso",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    },
+    {
+      "id": "the-wind-rises",
+      "reasons": [
+        "no cast in wikidata"
+      ]
+    }
+  ],
+  "ratingCoverage": {
+    "withRating": 260,
+    "withoutRating": 14,
+    "sources": {
+      "IMDb": 260
+    }
+  },
+  "posterCoverage": {
+    "withPoster": 170,
+    "withoutPoster": 104
+  },
+  "enrich": {
+    "matched": 245,
+    "needsReview": 18,
+    "unmatched": 11,
+    "available": true
+  },
+  "douban": {
+    "available": true,
+    "covered": 108,
+    "rating": 108,
+    "poster": 108,
+    "stills": 108,
+    "intro": 108
+  }
+}

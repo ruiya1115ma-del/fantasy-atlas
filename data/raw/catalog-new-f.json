@@ -1,0 +1,252 @@
+[
+  {
+    "catalog_key": "the-castle-of-cagliostro",
+    "chinese_title": "鲁邦三世：卡里奥斯特罗之城",
+    "original_title": "ルパン三世 カリオストロの城",
+    "release_year": 1979,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [
+      "Yasuo Yamada",
+      "Eiko Masuyama",
+      "Kiyoshi Kobayashi",
+      "Sumi Shimamoto",
+      "Goro Naya"
+    ],
+    "runtime_minutes": 102,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Lupin III: The Castle of Cagliostro",
+      "Rupan Sansei: Kariosutoro no Shiro"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "古代王国",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "蒸汽朋克",
+        "梦幻唯美"
+      ],
+      "element": [
+        "神秘物品"
+      ],
+      "mood": [
+        "浪漫",
+        "怀旧",
+        "神秘"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "刚从赌场卷走一笔伪钞的怪盗鲁邦，与搭档次元大介在逃亡途中救下一位被追杀的少女。她来自群山之间的卡里奥斯特罗公国，指上那枚古老戒指牵出公爵家族伪造货币、觊觎王位的旧案。鲁邦带着次元与不请自来的峰不二子潜入城堡，穿过机关、水道与钟楼，一边躲开国际刑警钱形幸一的追捕，一边为少女夺回她本该拥有的自由。",
+    "recommendation_zh": "想看宫崎骏冒险原点的人别错过：机关密布的古堡、体面的怪盗与一场不流血的救援，轻快又旧式浪漫。",
+    "audience_fit": "喜欢怪盗冒险、古堡机关与轻喜剧节奏的成年观众。",
+    "audience_mismatch": "期待强烈奇幻设定的观众，可能会觉得它更像一部动作冒险片。"
+  },
+  {
+    "catalog_key": "nausicaa-of-the-valley-of-the-wind",
+    "chinese_title": "风之谷",
+    "original_title": "風の谷のナウシカ",
+    "release_year": 1984,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [
+      "Sumi Shimamoto",
+      "Goro Naya",
+      "Yoji Matsuda",
+      "Yoshiko Sakakibara",
+      "Mahito Tsujimura"
+    ],
+    "runtime_minutes": 117,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Nausicaa of the Valley of the Wind",
+      "Kaze no Tani no Naushika"
+    ],
+    "tags": {
+      "type": [
+        "Epic Fantasy",
+        "Mythological Fantasy",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "末世幻想",
+        "神话世界"
+      ],
+      "aesthetic": [
+        "自然幻想",
+        "东方幻想"
+      ],
+      "element": [
+        "魔法生物",
+        "超自然力量"
+      ],
+      "mood": [
+        "宏大",
+        "史诗感",
+        "神秘"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "工业文明在一场大火中崩塌之后，人类在瘴气弥漫的腐海边缘艰难求生。风之谷的少女娜乌西卡能听见王虫的低语，也愿意俯身理解那些被视为敌害的巨虫。当邻国多鲁美奇亚的军队押着古代兵器闯入山谷，她不得不在两个同样饥饿的国度之间奔走，试图阻止一场会把腐海与人类一同吞掉的战争。",
+    "recommendation_zh": "腐海、王虫与滑翔翼组成的末世图景，把生态寓言拍成史诗，适合想被宏大与温柔同时击中的人。",
+    "audience_fit": "喜欢生态寓言、宏大世界观与女性主角的成年观众。",
+    "audience_mismatch": "对巨虫造型和战争场面比较敏感的观众，需要一点心理准备。"
+  },
+  {
+    "catalog_key": "porco-rosso",
+    "chinese_title": "红猪",
+    "original_title": "紅の豚",
+    "release_year": 1992,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [
+      "Shuichiro Moriyama",
+      "Tokiko Kato",
+      "Akemi Okamura",
+      "Akio Otsuka"
+    ],
+    "runtime_minutes": 94,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "Porco Rosso",
+      "Kurenai no Buta"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "蒸汽朋克",
+        "梦幻唯美"
+      ],
+      "element": [
+        "超自然力量",
+        "神秘物品"
+      ],
+      "mood": [
+        "浪漫",
+        "怀旧",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "亚得里亚海上空，一群靠击落海盗飞机换取赏金的飞行员里，有个长着猪脸的怪人，人们叫他「红猪」。白天他替商船护航，夜里独自回到小岛，听旧友吉娜在花园酒店唱歌。直到年轻的机械师菲奥带着一腔固执闯进他的生活，又有一个美国飞行员跑来挑战，他才不得不重新面对自己变成这副模样的那个夏天。",
+    "recommendation_zh": "红色飞行艇、亚得里亚海和一个不肯解释自己的男人，中年人的浪漫与退让都藏在这片晚霞里。",
+    "audience_fit": "喜欢飞行、海洋与成年人爱情的观众，以及愿意慢慢看的中年人。",
+    "audience_mismatch": "想看密集奇幻元素的孩子，可能会觉得它安静得有些意外。"
+  },
+  {
+    "catalog_key": "the-wind-rises",
+    "chinese_title": "起风了",
+    "original_title": "風立ちぬ",
+    "release_year": 2013,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "JP"
+    ],
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [
+      "Hideaki Anno",
+      "Miori Takimoto",
+      "Hidetoshi Nishijima",
+      "Masahiko Nishimura",
+      "Mansai Nomura"
+    ],
+    "runtime_minutes": 126,
+    "seasons": null,
+    "original_language": "ja",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [
+      "The Wind Rises",
+      "Kaze Tachinu"
+    ],
+    "tags": {
+      "type": [
+        "Fantasy Animation",
+        "Surreal Fantasy"
+      ],
+      "world": [
+        "梦境世界"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "蒸汽朋克"
+      ],
+      "element": [
+        "神秘物品"
+      ],
+      "mood": [
+        "怀旧",
+        "浪漫",
+        "迷离"
+      ],
+      "exclude": [
+        "节奏缓慢"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "昭和初年，少年堀越二郎自幼迷恋飞机的曲线，梦想造出能优雅飞越天空的机器。他进入航空研究所，在预算、军需与技术的夹缝里设计战斗机，也在轻井泽的旅馆遇见患病的少女菜穗子。梦境中，意大利设计师卡普罗尼一次次与他并肩而立，同他谈论风、飞行与必须付出的代价。",
+    "recommendation_zh": "把梦想与时代的代价放进同一阵风里，安静克制，却比许多奇幻作品更接近「飞翔」本身。",
+    "audience_fit": "对航空史、昭和风物与克制爱情故事感兴趣的观众。",
+    "audience_mismatch": "想找奇幻冒险场面的孩子，可能会觉得它缓慢而沉重。"
+  }
+]

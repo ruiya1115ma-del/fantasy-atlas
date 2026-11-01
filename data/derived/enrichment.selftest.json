@@ -1,0 +1,210 @@
+{
+  "generated_at": "2026-11-01T13:46:18.930Z",
+  "sources": {
+    "wikidata": {
+      "name": "Wikidata",
+      "license": "CC0 1.0",
+      "url": "https://www.wikidata.org/",
+      "usage_status": "free"
+    },
+    "imdb": {
+      "name": "IMDb public datasets",
+      "license": "IMDb datasets — personal & non-commercial use only",
+      "url": "https://datasets.imdbws.com/",
+      "usage_status": "personal-noncommercial-attribution-required",
+      "attribution": "Ratings data courtesy of IMDb (https://www.imdb.com/). Non-commercial use."
+    }
+  },
+  "records": {
+    "selftest-harry-potter-1": {
+      "wikidata_id": "Q102438",
+      "imdb_id": "tt0241527",
+      "match": {
+        "method": "wikidata-label+year",
+        "confidence": 1,
+        "review_status": "matched",
+        "candidates": [
+          {
+            "id": "Q102438",
+            "label": "Harry Potter and the Philosopher's Stone",
+            "score": 1
+          },
+          {
+            "id": "Q117706379",
+            "label": "Harry Potter and the Philosopher's Stone",
+            "score": 0.55
+          },
+          {
+            "id": "Q118213987",
+            "label": "Harry Potter and the Philosopher's Stone",
+            "score": 0.55
+          }
+        ]
+      },
+      "facts": {
+        "director": [
+          "Chris Columbus"
+        ],
+        "cast": [
+          "Daniel Radcliffe",
+          "Rupert Grint",
+          "Emma Watson",
+          "John Cleese",
+          "Robbie Coltrane",
+          "Warwick Davis",
+          "Richard Griffiths",
+          "Richard Harris",
+          "John Hurt",
+          "Alan Rickman"
+        ],
+        "country": [
+          "GB",
+          "US"
+        ],
+        "runtime_minutes": 152,
+        "release_date": "2001-11-16"
+      },
+      "ratings": [
+        {
+          "source": "IMDb",
+          "rating_value": 7.7,
+          "rating_scale": 10,
+          "rating_count": 972460,
+          "source_url": "https://www.imdb.com/title/tt0241527/",
+          "last_checked_at": "2026-11-01T13:46:18.930Z",
+          "usage_status": "personal-noncommercial-attribution-required"
+        }
+      ],
+      "links": {
+        "wikidata": "https://www.wikidata.org/wiki/Q102438",
+        "imdb": "https://www.imdb.com/title/tt0241527/",
+        "wikipedia_en": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher's_Stone_(film)",
+        "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9%EF%BC%9A%E7%A5%9E%E7%A7%98%E7%9A%84%E9%AD%94%E6%B3%95%E7%9F%B3_(%E9%9B%BB%E5%BD%B1)"
+      },
+      "notes": ""
+    },
+    "selftest-lotr-fellowship": {
+      "wikidata_id": "Q127367",
+      "imdb_id": "tt0120737",
+      "match": {
+        "method": "wikidata-label+year",
+        "confidence": 1,
+        "review_status": "matched",
+        "candidates": [
+          {
+            "id": "Q127367",
+            "label": "The Lord of the Rings: The Fellowship of the Ring",
+            "score": 1
+          },
+          {
+            "id": "Q16252672",
+            "label": "The Lord of the Rings: The Fellowship of the Ring - Original Motion Picture Soundtrack",
+            "score": 0.55
+          },
+          {
+            "id": "Q2353007",
+            "label": "The Lord of the Rings: The Fellowship of the Ring",
+            "score": 0.4
+          }
+        ]
+      },
+      "facts": {
+        "director": [
+          "Peter Jackson"
+        ],
+        "cast": [
+          "Elijah Wood",
+          "Ian McKellen",
+          "Liv Tyler",
+          "Viggo Mortensen",
+          "Sean Astin",
+          "Cate Blanchett",
+          "John Rhys-Davies",
+          "Billy Boyd",
+          "Dominic Monaghan",
+          "Orlando Bloom"
+        ],
+        "country": [
+          "NZ",
+          "US"
+        ],
+        "runtime_minutes": 178,
+        "release_date": "2001-12-19"
+      },
+      "ratings": [
+        {
+          "source": "IMDb",
+          "rating_value": 8.9,
+          "rating_scale": 10,
+          "rating_count": 2249288,
+          "source_url": "https://www.imdb.com/title/tt0120737/",
+          "last_checked_at": "2026-11-01T13:46:18.930Z",
+          "usage_status": "personal-noncommercial-attribution-required"
+        }
+      ],
+      "links": {
+        "wikidata": "https://www.wikidata.org/wiki/Q127367",
+        "imdb": "https://www.imdb.com/title/tt0120737/",
+        "wikipedia_en": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring",
+        "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E6%8C%87%E7%8E%AF%E7%8E%8B%EF%BC%9A%E6%8A%A4%E6%88%92%E4%BD%BF%E8%80%85"
+      },
+      "notes": ""
+    },
+    "selftest-spirited-away": {
+      "wikidata_id": "Q155653",
+      "imdb_id": "tt0245429",
+      "match": {
+        "method": "wikidata-label+year",
+        "confidence": 1,
+        "review_status": "matched",
+        "candidates": [
+          {
+            "id": "Q155653",
+            "label": "Spirited Away",
+            "score": 1
+          },
+          {
+            "id": "Q114551187",
+            "label": "Spirited Away",
+            "score": 0.4
+          },
+          {
+            "id": "Q124830294",
+            "label": "Spirited Away",
+            "score": 0.2
+          }
+        ]
+      },
+      "facts": {
+        "director": [
+          "Hayao Miyazaki"
+        ],
+        "cast": [],
+        "country": [
+          "JP"
+        ],
+        "runtime_minutes": 125,
+        "release_date": "2001-07-20"
+      },
+      "ratings": [
+        {
+          "source": "IMDb",
+          "rating_value": 8.6,
+          "rating_scale": 10,
+          "rating_count": 991937,
+          "source_url": "https://www.imdb.com/title/tt0245429/",
+          "last_checked_at": "2026-11-01T13:46:18.930Z",
+          "usage_status": "personal-noncommercial-attribution-required"
+        }
+      ],
+      "links": {
+        "wikidata": "https://www.wikidata.org/wiki/Q155653",
+        "imdb": "https://www.imdb.com/title/tt0245429/",
+        "wikipedia_en": "https://en.wikipedia.org/wiki/Spirited_Away",
+        "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB"
+      },
+      "notes": "no cast in wikidata"
+    }
+  },
+  "unmatched": []
+}

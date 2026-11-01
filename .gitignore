@@ -1,0 +1,32 @@
+# 依赖
+node_modules/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-error.log*
+
+# 构建产物
+.next/
+out/
+build/
+dist/
+.test-build/
+*.tsbuildinfo
+next-env.d.ts
+
+# 环境变量（密钥绝不提交）
+.env
+.env.local
+.env*.local
+
+# 抓取缓存与临时日志
+data/cache/
+dev.log
+build.log
+err.txt
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,1008 @@
+[
+  {
+    "catalog_key": "snow-white-and-the-seven-dwarfs",
+    "chinese_title": "白雪公主和七个小矮人",
+    "original_title": "Snow White and the Seven Dwarfs",
+    "release_year": 1937,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "snow-white",
+    "franchise_name": "白雪公主系列",
+    "series_order": 1,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "David Hand"
+    ],
+    "cast": [
+      "Adriana Caselotti",
+      "Lucille La Verne",
+      "Harry Stockwell",
+      "Pinto Colvig",
+      "Otis Harlan"
+    ],
+    "runtime_minutes": 83,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "童话王国"
+      ],
+      "aesthetic": [
+        "暗黑童话",
+        "梦幻唯美"
+      ],
+      "element": [
+        "女巫",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "怀旧",
+        "神秘",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "森林深处的城堡里，一位以美貌自傲的女王每天向魔镜询问谁最美；当答案变成年幼的公主，公主只好逃进黑森林，遇见七个在山中采矿的小矮人，在他们的木屋里学会安身。会说话的镜子、林间的低语与一只红得过分的苹果，把嫉妒一点点推向不可收拾的地步。",
+    "recommendation_zh": "作为影史第一部动画长片，它把手绘的黑森林与嫉妒拍成一场漂亮的噩梦，值得为一个坐标看一次。",
+    "audience_fit": "想补动画史、喜欢手绘童话与老式配乐的观众。",
+    "audience_mismatch": "对三十年代画风与缓慢节奏不太耐受的人。"
+  },
+  {
+    "catalog_key": "cinderella",
+    "chinese_title": "灰姑娘（1950）",
+    "original_title": "Cinderella",
+    "release_year": 1950,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "cinderella",
+    "franchise_name": "灰姑娘系列",
+    "series_order": 1,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Clyde Geronimi",
+      "Wilfred Jackson",
+      "Hamilton Luske"
+    ],
+    "cast": [
+      "Ilene Woods",
+      "Eleanor Audley",
+      "Verna Felton",
+      "Rhoda Williams",
+      "James MacDonald"
+    ],
+    "runtime_minutes": 74,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美"
+      ],
+      "element": [
+        "超自然力量",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "浪漫",
+        "温暖",
+        "怀旧"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "父母早逝的少女被继母和两个姐姐使唤，住在阁楼里，舞会与体面都与她无关。她仍把每件小事做得认真，直到一位心软的仙女教母用南瓜、老鼠和旧衣裳变出马车与礼服，让她在午夜之前拥有一晚。舞会上的相遇与那只遗落的玻璃鞋，改变了她被安排好的去处。",
+    "recommendation_zh": "南瓜马车与玻璃鞋的原型都在这里，五十年代的手绘光泽让这个老故事仍然体面而动人。",
+    "audience_fit": "喜欢经典童话改编与复古手绘质感的观众。",
+    "audience_mismatch": "反感传统「等待拯救」叙事的人会看得不耐烦。"
+  },
+  {
+    "catalog_key": "sleeping-beauty",
+    "chinese_title": "睡美人",
+    "original_title": "Sleeping Beauty",
+    "release_year": 1959,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "sleeping-beauty",
+    "franchise_name": "睡美人系列",
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Clyde Geronimi",
+      "Les Clark",
+      "Eric Larson",
+      "Wolfgang Reitherman"
+    ],
+    "cast": [
+      "Mary Costa",
+      "Bill Shirley",
+      "Eleanor Audley",
+      "Verna Felton",
+      "Barbara Luddy"
+    ],
+    "runtime_minutes": 75,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "童话王国",
+        "古代王国"
+      ],
+      "aesthetic": [
+        "暗黑童话",
+        "梦幻唯美"
+      ],
+      "element": [
+        "女巫",
+        "巨龙",
+        "神秘物品"
+      ],
+      "mood": [
+        "神秘",
+        "浪漫",
+        "宏大"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "国王与王后终于得了一个女儿，却在洗礼宴上得罪了未被邀请的女巫，诅咒落在摇篮里：公主终将在纺锤刺破手指之后沉睡。三位仙女把她藏进森林里的木屋抚养，教她做一个普通姑娘。纺车、玫瑰与一步步逼近的诅咒，让十六岁生日那天成了整个王国的关口。",
+    "recommendation_zh": "宽银幕与圆舞曲把童话推到装饰艺术的极致，女巫的绿火至今仍是动画史上最漂亮的恶意。",
+    "audience_fit": "迷恋装饰艺术画风、圆舞曲与女巫反派的观众。",
+    "audience_mismatch": "嫌故事单薄、只想要快节奏冲突的人。"
+  },
+  {
+    "catalog_key": "the-little-mermaid",
+    "chinese_title": "小美人鱼（1989）",
+    "original_title": "The Little Mermaid",
+    "release_year": 1989,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "the-little-mermaid",
+    "franchise_name": "小美人鱼系列",
+    "series_order": 1,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Ron Clements",
+      "John Musker"
+    ],
+    "cast": [
+      "Jodi Benson",
+      "Samuel E. Wright",
+      "Pat Carroll",
+      "Christopher Daniel Barnes",
+      "Kenneth Mars"
+    ],
+    "runtime_minutes": 83,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Animation",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "自然幻想"
+      ],
+      "element": [
+        "女巫",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "浪漫",
+        "温暖",
+        "神秘"
+      ],
+      "exclude": [
+        "含大量歌舞"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "海底王国最小的公主对人类世界充满好奇，一场风暴里她救起落水的王子，从此放不下岸上的灯火与舞蹈。为了换一双人类的腿，她与海巫婆做了一笔危险的交易，代价是自己的声音。哑口无言的她只剩很短的时限让王子认出她，而海底的父亲与姐妹正四处寻找她的下落。",
+    "recommendation_zh": "把声音换成双腿的童话，被写成一首关于好奇与代价的歌，海底的色彩至今没有过时。",
+    "audience_fit": "喜欢音乐剧式动画与海底奇观的观众。",
+    "audience_mismatch": "对歌舞段落不耐烦、期待复杂情节的观众。"
+  },
+  {
+    "catalog_key": "beauty-and-the-beast",
+    "chinese_title": "美女与野兽（1991）",
+    "original_title": "Beauty and the Beast",
+    "release_year": 1991,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "beauty-and-the-beast",
+    "franchise_name": "美女与野兽系列",
+    "series_order": 1,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Gary Trousdale",
+      "Kirk Wise"
+    ],
+    "cast": [
+      "Paige O'Hara",
+      "Robby Benson",
+      "Angela Lansbury",
+      "Jerry Orbach",
+      "David Ogden Stiers"
+    ],
+    "runtime_minutes": 84,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "童话王国",
+        "古代王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "哥特建筑"
+      ],
+      "element": [
+        "女巫",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "浪漫",
+        "温暖",
+        "神秘"
+      ],
+      "exclude": [
+        "含大量歌舞"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "为替父亲送还一枝玫瑰，爱读书的姑娘走进森林深处那座被诅咒的城堡，那里住着一头野兽和一群会说话的家具。她用自己的自由换回父亲的平安，在烛光、藏书与长长的晚餐之间慢慢看清对方的脾气。城堡里的玫瑰正一片片落下，村里的猎人也在打着别的主意。",
+    "recommendation_zh": "会说话的烛台、藏书室与一首舞厅圆舞曲，这是把「爱上野兽」讲得最有说服力的一次。",
+    "audience_fit": "喜欢古典浪漫、城堡与慢热关系的观众。",
+    "audience_mismatch": "不接受「以爱解咒」设定的人会觉得别扭。"
+  },
+  {
+    "catalog_key": "aladdin",
+    "chinese_title": "阿拉丁（1992）",
+    "original_title": "Aladdin",
+    "release_year": 1992,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "aladdin",
+    "franchise_name": "阿拉丁系列",
+    "series_order": 1,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Ron Clements",
+      "John Musker"
+    ],
+    "cast": [
+      "Scott Weinger",
+      "Robin Williams",
+      "Linda Larkin",
+      "Jonathan Freeman",
+      "Frank Welker"
+    ],
+    "runtime_minutes": 90,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Adventure",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "童话王国",
+        "古代王国"
+      ],
+      "aesthetic": [
+        "东方幻想",
+        "梦幻唯美"
+      ],
+      "element": [
+        "魔法师",
+        "神秘物品",
+        "魔法生物"
+      ],
+      "mood": [
+        "浪漫",
+        "荒诞",
+        "温暖"
+      ],
+      "exclude": [
+        "含大量歌舞"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "在集市上讨生活的少年偶然得到一盏旧油灯，擦亮之后放出被封印千年的精灵，从此有了实现愿望的机会。他想借魔法换个身份，去接近深宫里那位厌倦了被安排的公主。沙漠、宝库与一个野心勃勃的宰相，让每一次许愿都要付出代价，也让谎话越滚越大。",
+    "recommendation_zh": "精灵的即兴表演与沙漠集市的热闹，让这部片子像一场停不下来的脱口秀加冒险。",
+    "audience_fit": "喜欢快节奏喜剧与精灵式即兴搞笑的观众。",
+    "audience_mismatch": "对夸张配音与密集笑点过敏的人。"
+  },
+  {
+    "catalog_key": "pocahontas",
+    "chinese_title": "风中奇缘",
+    "original_title": "Pocahontas",
+    "release_year": 1995,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "pocahontas",
+    "franchise_name": "风中奇缘系列",
+    "series_order": 1,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Mike Gabriel",
+      "Eric Goldberg"
+    ],
+    "cast": [
+      "Irene Bedard",
+      "Mel Gibson",
+      "David Ogden Stiers",
+      "Russell Means",
+      "John Kassir"
+    ],
+    "runtime_minutes": 81,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Mythological Fantasy",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "神话世界"
+      ],
+      "aesthetic": [
+        "自然幻想",
+        "梦幻唯美"
+      ],
+      "element": [
+        "超自然力量",
+        "魔法生物"
+      ],
+      "mood": [
+        "浪漫",
+        "宏大",
+        "神秘"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "十七世纪的北美海岸，部落酋长之女在风与河流之间长大，能从水面的倒影里读出预兆。当载着陌生人的帆船靠岸，两个族群对土地与神明的理解正面相撞。她救下一位英国船长，试着在语言不通的敌意之间搭起一座桥，也第一次看见自己族群之外的世界。",
+    "recommendation_zh": "风、河流与两种世界观的相撞，配上宽银幕的自然景色，是迪士尼最像诗的一部。",
+    "audience_fit": "喜欢自然景色、诗性叙事与历史背景的观众。",
+    "audience_mismatch": "想要紧凑冲突或严格历史考据的人会失望。"
+  },
+  {
+    "catalog_key": "mulan",
+    "chinese_title": "花木兰（1998）",
+    "original_title": "Mulan",
+    "release_year": 1998,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "mulan",
+    "franchise_name": "花木兰系列",
+    "series_order": 1,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Tony Bancroft",
+      "Barry Cook"
+    ],
+    "cast": [
+      "Ming-Na Wen",
+      "Eddie Murphy",
+      "BD Wong",
+      "Miguel Ferrer",
+      "Lea Salonga"
+    ],
+    "runtime_minutes": 88,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "古代王国",
+        "神话世界"
+      ],
+      "aesthetic": [
+        "东方幻想",
+        "古典神话"
+      ],
+      "element": [
+        "巨龙",
+        "鬼魂",
+        "超自然力量"
+      ],
+      "mood": [
+        "宏大",
+        "温暖",
+        "史诗感"
+      ],
+      "exclude": [
+        "含大量歌舞"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "北方边关告急，征召令送到花家，独女不忍年迈的父亲再上战场，剪去长发换上男装，顶着他的名字进了军营。她在一群粗声大气的士兵中间藏起身份，被严苛的训练和一条莽撞的龙形守护者折腾得狼狈不堪。雪山与烽火之间，她必须证明自己不只是个冒名顶替的人。",
+    "recommendation_zh": "剪发替父从军的段落干脆利落，雪山行军与祠堂祖先的插科打诨让故事既壮阔又好笑。",
+    "audience_fit": "喜欢成长线、军营喜剧与东方背景的观众。",
+    "audience_mismatch": "对历史细节与考据要求很高的观众。"
+  },
+  {
+    "catalog_key": "the-little-mermaid-ii-return-to-the-sea",
+    "chinese_title": "小美人鱼2：重返大海",
+    "original_title": "The Little Mermaid II: Return to the Sea",
+    "release_year": 2000,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "the-little-mermaid",
+    "franchise_name": "小美人鱼系列",
+    "series_order": 2,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Jim Kammerud",
+      "Brian Smith"
+    ],
+    "cast": [
+      "Jodi Benson",
+      "Tara Charendoff",
+      "Samuel E. Wright",
+      "Pat Carroll",
+      "Kenneth Mars"
+    ],
+    "runtime_minutes": 75,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Animation",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "自然幻想"
+      ],
+      "element": [
+        "女巫",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "浪漫",
+        "神秘"
+      ],
+      "exclude": [
+        "目标受众偏低龄"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "人鱼公主与王子成婚后生下一个女儿，孩子在海与陆地之间长大，却被禁止靠近大海。她偷偷游向深处，遇见一位被放逐的女巫，也第一次听见关于外祖父和那片王国的旧事。海面下的阴谋与一枚能号令海洋的护身符，让母女两人不得不一起面对当年结下的恩怨。",
+    "recommendation_zh": "想补完美人鱼世界的人可以一看，母女两条线索让海底王国多了点家常气。",
+    "audience_fit": "看过第一部、想补完海底设定的观众和孩子。",
+    "audience_mismatch": "没看前作、或期待同等水准的成年观众。"
+  },
+  {
+    "catalog_key": "cinderella-ii-dreams-come-true",
+    "chinese_title": "灰姑娘2：美梦成真",
+    "original_title": "Cinderella II: Dreams Come True",
+    "release_year": 2002,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "cinderella",
+    "franchise_name": "灰姑娘系列",
+    "series_order": 2,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "John Kafka"
+    ],
+    "cast": [
+      "Jennifer Hale",
+      "Rob Paulsen",
+      "Corey Burton",
+      "Tress MacNeille",
+      "Russi Taylor"
+    ],
+    "runtime_minutes": 73,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美"
+      ],
+      "element": [
+        "超自然力量",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "治愈"
+      ],
+      "exclude": [
+        "目标受众偏低龄"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "嫁给王子的姑娘搬进城堡，才发现宫廷生活并不比阁楼轻松：礼仪、宴会和一堆看不懂的规矩都在等她。影片由几个小故事串起，她替朋友张罗一场相遇，也学着在众人的目光里做一个不太合规矩的公主。老鼠与仙女教母仍旧会在关键时刻帮上一把。",
+    "recommendation_zh": "三段小故事拼成的婚后日常，轻松、短，适合想再看一眼这套角色的时候。",
+    "audience_fit": "喜欢这套角色、想看点轻松日常的观众和小朋友。",
+    "audience_mismatch": "期待长片规格剧情与完整人物弧光的人。"
+  },
+  {
+    "catalog_key": "cinderella-iii-a-twist-in-time",
+    "chinese_title": "灰姑娘3：时间魔法",
+    "original_title": "Cinderella III: A Twist in Time",
+    "release_year": 2007,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "cinderella",
+    "franchise_name": "灰姑娘系列",
+    "series_order": 3,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Frank Nissen"
+    ],
+    "cast": [
+      "Jennifer Hale",
+      "Christopher Daniel Barnes",
+      "Susanne Blakeslee",
+      "Tress MacNeille",
+      "Russi Taylor"
+    ],
+    "runtime_minutes": 74,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Animation",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美"
+      ],
+      "element": [
+        "女巫",
+        "超自然力量",
+        "神秘物品"
+      ],
+      "mood": [
+        "浪漫",
+        "温暖",
+        "神秘"
+      ],
+      "exclude": [
+        "目标受众偏低龄"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "仙女教母的魔杖落入继母手中，时间被扭回那只玻璃鞋被试穿的那一天，原本属于灰姑娘的去处被悄悄改写。她被留在阁楼里，看着姐姐顶替自己走进王宫，连王子都不记得她。为了把错位的故事拨回原处，她带上几只老鼠，追上了一艘驶向王宫的船。",
+    "recommendation_zh": "把时间倒回去重写童话，这个点子让续集有了真正的戏剧张力，灰姑娘也第一次主动出手。",
+    "audience_fit": "喜欢时间倒流设定与灰姑娘角色的观众。",
+    "audience_mismatch": "介意续集画风与电视动画质感的人。"
+  },
+  {
+    "catalog_key": "the-princess-and-the-frog",
+    "chinese_title": "公主与青蛙",
+    "original_title": "The Princess and the Frog",
+    "release_year": 2009,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "princess-and-the-frog",
+    "franchise_name": "公主与青蛙系列",
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Ron Clements",
+      "John Musker"
+    ],
+    "cast": [
+      "Anika Noni Rose",
+      "Bruno Campos",
+      "Keith David",
+      "Michael-Leon Wooley",
+      "Jim Cummings"
+    ],
+    "runtime_minutes": 97,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Adventure",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "童话王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "自然幻想"
+      ],
+      "element": [
+        "女巫",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "浪漫",
+        "神秘"
+      ],
+      "exclude": [
+        "含大量歌舞"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "新奥尔良的姑娘白天在餐馆端盘子，晚上数着攒下的钱，只等盘下那间旧店面，煮出一锅属于自己的秋葵汤。一场化装舞会上，她吻了一只自称王子的青蛙，结果连自己也变成了蛙，两人只好沿着沼泽去找能解咒的女巫。鳄鱼、萤火虫与河口的夜色，把这场追寻变成一段意外的旅程。",
+    "recommendation_zh": "沼泽夜色、爵士与秋葵汤，这是迪士尼最后一部手绘长片，也是最有烟火气的一部。",
+    "audience_fit": "喜欢爵士、沼泽夜景与手绘动画的观众。",
+    "audience_mismatch": "不喜欢歌舞、或对公主叙事已经免疫的人。"
+  },
+  {
+    "catalog_key": "tangled",
+    "chinese_title": "魔发奇缘",
+    "original_title": "Tangled",
+    "release_year": 2010,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "tangled",
+    "franchise_name": "魔发奇缘系列",
+    "series_order": 1,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Nathan Greno",
+      "Byron Howard"
+    ],
+    "cast": [
+      "Mandy Moore",
+      "Zachary Levi",
+      "Donna Murphy",
+      "Ron Perlman",
+      "Brad Garrett"
+    ],
+    "runtime_minutes": 100,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Adventure",
+        "Fantasy Animation"
+      ],
+      "world": [
+        "童话王国",
+        "古代王国"
+      ],
+      "aesthetic": [
+        "梦幻唯美",
+        "自然幻想"
+      ],
+      "element": [
+        "女巫",
+        "神秘物品",
+        "超自然力量"
+      ],
+      "mood": [
+        "浪漫",
+        "温暖",
+        "神秘"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "高塔上的姑娘留着一头会发光的金色长发，从小被教导外面的世界处处危险，只有这座塔是安全的。一个逃犯闯进塔里，她把他绑起来，要求他带自己去看每年生日那天升上天空的灯。旅途上有追兵、有酒馆里的怪人，也有她第一次踩在草地上的风。",
+    "recommendation_zh": "长发、灯笼与一座高塔，把最熟悉的童话拍成轻快的公路片，男女主都难得地好相处。",
+    "audience_fit": "想要轻松浪漫、画面明亮的合家欢动画的观众。",
+    "audience_mismatch": "期待史诗格局与复杂反派的人。"
+  },
+  {
+    "catalog_key": "brave",
+    "chinese_title": "勇敢传说",
+    "original_title": "Brave",
+    "release_year": 2012,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "brave",
+    "franchise_name": "勇敢传说系列",
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Mark Andrews",
+      "Brenda Chapman"
+    ],
+    "cast": [
+      "Kelly Macdonald",
+      "Billy Connolly",
+      "Emma Thompson",
+      "Julie Walters",
+      "Robbie Coltrane"
+    ],
+    "runtime_minutes": 93,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Animation",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "古代王国",
+        "童话王国"
+      ],
+      "aesthetic": [
+        "自然幻想",
+        "梦幻唯美"
+      ],
+      "element": [
+        "女巫",
+        "魔法生物",
+        "超自然力量"
+      ],
+      "mood": [
+        "温暖",
+        "神秘",
+        "宏大"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "苏格兰高地上，擅长骑射的公主不愿接受母亲安排的婚事，在一场争执之后跑进森林，向一位古怪的木匠女巫求一个能改变母亲的法子。她得到的东西并不像承诺的那样简单，王国里的领主们又各自带着人马赶来。她必须在弓箭、家族与自己的任性之间找到一条路。",
+    "recommendation_zh": "红发、弓箭与高地风笛，母女之间那场迟来的和解，比任何魔法都更有力量。",
+    "audience_fit": "喜欢母女关系题材与苏格兰高地风光的观众。",
+    "audience_mismatch": "期待王子、爱情线或大场面的观众。"
+  },
+  {
+    "catalog_key": "moana",
+    "chinese_title": "海洋奇缘",
+    "original_title": "Moana",
+    "release_year": 2016,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "moana",
+    "franchise_name": "海洋奇缘系列",
+    "series_order": 1,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Ron Clements",
+      "John Musker"
+    ],
+    "cast": [
+      "Auli'i Cravalho",
+      "Dwayne Johnson",
+      "Rachel House",
+      "Temuera Morrison",
+      "Jemaine Clement"
+    ],
+    "runtime_minutes": 107,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fantasy Animation",
+        "Mythological Fantasy"
+      ],
+      "world": [
+        "神话世界",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "自然幻想",
+        "梦幻唯美"
+      ],
+      "element": [
+        "神祇",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "宏大",
+        "温暖",
+        "史诗感"
+      ],
+      "exclude": [
+        "含大量歌舞"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "小岛上的酋长之女从小被大海吸引，却被教导要留在礁湖之内。当渔获一天天减少、岛屿开始衰败，她循着祖母留下的故事驾船出海，去找那位偷走女神之心的半神，请他归还宝物。沿途是巨浪、怪兽与一片没有尽头的海，她得先学会做一个真正的航海者。",
+    "recommendation_zh": "海面会呼吸，祖母会化作鳐鱼，这部片子把航海与神话都拍得很亮，歌也一首接一首。",
+    "audience_fit": "喜欢海洋、航海神话与成长故事的观众。",
+    "audience_mismatch": "对歌舞和「命定英雄」结构不感兴趣的人。"
+  },
+  {
+    "catalog_key": "raya-and-the-last-dragon",
+    "chinese_title": "寻龙传说",
+    "original_title": "Raya and the Last Dragon",
+    "release_year": 2021,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": "raya",
+    "franchise_name": "寻龙传说系列",
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Don Hall",
+      "Carlos López Estrada"
+    ],
+    "cast": [
+      "Kelly Marie Tran",
+      "Awkwafina",
+      "Gemma Chan",
+      "Daniel Dae Kim",
+      "Benedict Wong"
+    ],
+    "runtime_minutes": 107,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Fantasy Animation",
+        "Mythological Fantasy"
+      ],
+      "world": [
+        "异世界冒险",
+        "神话世界"
+      ],
+      "aesthetic": [
+        "东方幻想",
+        "自然幻想"
+      ],
+      "element": [
+        "巨龙",
+        "神秘物品",
+        "魔法生物"
+      ],
+      "mood": [
+        "宏大",
+        "史诗感",
+        "温暖"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "在龙与人类共存的土地上，一枚宝石守护着五个部落，却在一次争夺中碎成五片，黑暗随之蔓延。多年后，孤独的少女骑着坐骑穿过荒原，寻找最后一条龙，想借它的力量把碎片重新拼合。她必须说服彼此仇视的部落交出各自那一块，也要面对当年背叛过她的朋友。",
+    "recommendation_zh": "东南亚的纹样、剑术与龙的传说被缝在一起，动作场面利落，世界观像一卷摊开的地图。",
+    "audience_fit": "喜欢动作冒险、东南亚神话与团队叙事的观众。",
+    "audience_mismatch": "嫌世界观铺陈太密、节奏偏赶的观众。"
+  }
+]

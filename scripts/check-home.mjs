@@ -1,0 +1,10 @@
+const res = await fetch("http://127.0.0.1:4317/");
+const html = await res.text();
+console.log("status", res.status, "len", html.length);
+console.log("gallery-heading:", html.includes("gallery-heading"));
+console.log("五个世界:", html.includes("五个世界"));
+console.log("进入魔法世界:", html.includes("进入魔法世界"));
+console.log("h2 count:", (html.match(/<h2/g) || []).length);
+console.log("theme links:", (html.match(/href="\/themes\//g) || []).length);
+const i = html.indexOf("gallery-heading");
+if (i > 0) console.log(html.slice(i - 300, i + 300).replace(/\s+/g, " "));

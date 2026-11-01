@@ -1,0 +1,795 @@
+[
+  {
+    "catalog_key": "jason-and-the-argonauts",
+    "chinese_title": "杰逊王子战群妖",
+    "original_title": "Jason and the Argonauts",
+    "release_year": 1963,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "GB",
+      "US"
+    ],
+    "director": [
+      "Don Chaffey"
+    ],
+    "cast": [
+      "Todd Armstrong",
+      "Nancy Kovack",
+      "Honor Blackman",
+      "Gary Raymond"
+    ],
+    "runtime_minutes": 104,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Mythological Fantasy",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "神话世界",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "古典神话"
+      ],
+      "element": [
+        "神祇",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "宏大",
+        "神秘",
+        "怀旧"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "王位被叔父夺走的杰逊，为夺回故国踏上寻找金羊毛的航程。他造出阿尔戈号，召集各路英雄，穿过会撞碎船只的巨岩，在荒岛上遇见青铜巨人塔罗斯，又因一场误杀被海神追债。最后他必须面对守护羊毛的七头蛇，以及从龙牙里长出来的战士。",
+    "recommendation_zh": "定格动画的青铜巨人、骷髅战士至今仍会让人屏息，这是特效史与冒险片交汇的一夜。",
+    "audience_fit": "喜欢希腊神话、老派冒险与定格怪兽特效的观众。",
+    "audience_mismatch": "对六十年代的布景与表演风格接受无能的观众。"
+  },
+  {
+    "catalog_key": "excalibur",
+    "chinese_title": "神剑",
+    "original_title": "Excalibur",
+    "release_year": 1981,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US",
+      "GB"
+    ],
+    "director": [
+      "John Boorman"
+    ],
+    "cast": [
+      "Nigel Terry",
+      "Helen Mirren",
+      "Nicol Williamson",
+      "Nicholas Clay",
+      "Cherie Lunghi"
+    ],
+    "runtime_minutes": 140,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Epic Fantasy",
+        "Mythological Fantasy"
+      ],
+      "world": [
+        "古代王国",
+        "神话世界"
+      ],
+      "aesthetic": [
+        "古典神话",
+        "哥特建筑"
+      ],
+      "element": [
+        "魔法师",
+        "神祇",
+        "神秘物品"
+      ],
+      "mood": [
+        "宏大",
+        "史诗感",
+        "黑暗"
+      ],
+      "exclude": [
+        "血腥"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "巫师梅林把湖中剑交到乌瑟王手中，也把预言交给了他未出世的孩子。亚瑟在不知身世中长大，拔出石中剑，成为不列颠的王，建起圆桌，与骑士们立誓寻找圣杯。荣耀、欲望与背叛在同一座城堡里滋长，剑柄上的光芒照亮王国，也照出人心的裂缝。",
+    "recommendation_zh": "雾、铁甲、湖面上的剑与一句句咒语，这部把亚瑟传说拍成了歌剧，适合想看神话原貌的人。",
+    "audience_fit": "迷恋亚瑟王传说、圆桌骑士与古典史诗气质的观众。",
+    "audience_mismatch": "受不了八十年代布景质感与舞台化台词的观众。"
+  },
+  {
+    "catalog_key": "the-secret-garden",
+    "chinese_title": "秘密花园",
+    "original_title": "The Secret Garden",
+    "release_year": 1993,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US",
+      "GB"
+    ],
+    "director": [
+      "Agnieszka Holland"
+    ],
+    "cast": [
+      "Kate Maberly",
+      "Heydon Prowse",
+      "Andrew Knott",
+      "Maggie Smith"
+    ],
+    "runtime_minutes": 101,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Gothic Fantasy"
+      ],
+      "world": [
+        "童话王国"
+      ],
+      "aesthetic": [
+        "复古英伦",
+        "自然幻想"
+      ],
+      "element": [
+        "神秘物品",
+        "魔法生物"
+      ],
+      "mood": [
+        "温暖",
+        "治愈",
+        "怀旧"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "父母在印度死于霍乱后，性情乖戾的玛丽被送回英国，住进姑父那座有一百个房间、大半上了锁的庄园。她在荒原上遇见会跟动物说话的少年狄肯，又循着哭声找到整日卧床的表弟柯林。一把埋在地下的钥匙，一扇被常春藤遮住的木门，把三个孩子引向一座被遗忘的花园。",
+    "recommendation_zh": "它把「把孩子重新种活」拍得极安静：荒原、钥匙、苔藓与一扇门，适合想在阴天里被慢慢照亮的人。",
+    "audience_fit": "喜欢英伦庄园、缓慢成长故事与自然意象的观众。",
+    "audience_mismatch": "期待魔法打斗或快节奏情节的人会觉得平淡。"
+  },
+  {
+    "catalog_key": "the-indian-in-the-cupboard",
+    "chinese_title": "印第安人在橱柜里",
+    "original_title": "The Indian in the Cupboard",
+    "release_year": 1995,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Frank Oz"
+    ],
+    "cast": [
+      "Hal Scardino",
+      "Litefoot",
+      "Lindsay Crouse",
+      "Richard Jenkins",
+      "Rishi Bhat"
+    ],
+    "runtime_minutes": 96,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Urban Fantasy"
+      ],
+      "world": [
+        "超自然现代社会"
+      ],
+      "aesthetic": [
+        "梦幻唯美"
+      ],
+      "element": [
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "怀旧",
+        "神秘"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "九岁男孩欧姆里收到一只旧橱柜和一把小钥匙，他把塑料印第安人玩偶锁进去，第二天发现玩偶活了，只有几厘米高，会说话、会害怕、也有自己的名字与部落。男孩又陆续让牛仔和坐骑复活，小小的秘密在房间里越滚越大，他必须学会的不是魔法，而是怎样对一个真实的人负责。",
+    "recommendation_zh": "一个玩偶活过来的旧点子，被拍成了关于责任与告别的温柔寓言，适合和孩子一起看。",
+    "audience_fit": "喜欢八十到九十年代家庭奇幻、玩具题材的观众。",
+    "audience_mismatch": "会对老式特效与偏低龄叙事没耐心的成年观众。"
+  },
+  {
+    "catalog_key": "dragonheart",
+    "chinese_title": "龙之心",
+    "original_title": "Dragonheart",
+    "release_year": 1996,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": "dragonheart",
+    "franchise_name": "龙之心系列",
+    "series_order": 1,
+    "country": [
+      "US",
+      "GB"
+    ],
+    "director": [
+      "Rob Cohen"
+    ],
+    "cast": [
+      "Dennis Quaid",
+      "David Thewlis",
+      "Pete Postlethwaite",
+      "Dina Meyer",
+      "Sean Connery"
+    ],
+    "runtime_minutes": 103,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Epic Fantasy"
+      ],
+      "world": [
+        "古代王国"
+      ],
+      "aesthetic": [
+        "自然幻想"
+      ],
+      "element": [
+        "巨龙",
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "怀旧",
+        "宏大"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "骑士鲍温曾受封于一位年轻的王子，也亲手把半颗龙心献给了对方，让这位君主得以长生。多年后他才看清，自己换来的是一位暴虐的王。他四处猎龙赎罪，却遇上最后一条龙德拉科，两个本该是死敌的家伙达成了一桩荒唐的交易，一起对付那个不老的王。",
+    "recommendation_zh": "一条会挖苦人的龙和一个背誓的骑士，把英雄叙事换成了两个失败者的相互救赎，龙迷别错过。",
+    "audience_fit": "喜欢巨龙、骑士与九十年代老派冒险片这类元素的观众。",
+    "audience_mismatch": "对早期 CGI 巨龙与套路化反派比较挑剔的成年观众。"
+  },
+  {
+    "catalog_key": "the-13th-warrior",
+    "chinese_title": "第十三个勇士",
+    "original_title": "The 13th Warrior",
+    "release_year": 1999,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "John McTiernan"
+    ],
+    "cast": [
+      "Antonio Banderas",
+      "Diane Venora",
+      "Vladimir Kulich",
+      "Dennis Storhøi",
+      "Omar Sharif"
+    ],
+    "runtime_minutes": 102,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Mythological Fantasy"
+      ],
+      "world": [
+        "神话世界",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "自然幻想",
+        "古典神话"
+      ],
+      "element": [
+        "妖怪",
+        "超自然力量"
+      ],
+      "mood": [
+        "阴森",
+        "黑暗",
+        "神秘"
+      ],
+      "exclude": [
+        "血腥"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "一位被流放的阿拉伯诗人与使节，在北方遇上一群维京战士，被征入一支十二人的队伍，去调查一个被迷雾笼罩的村庄。敌人不像是人，也不肯留下尸体，恐惧像雾一样渗进营地。预言说队伍里还差第十三个人，于是这个不会用剑的外乡人，被迫成了他们中的一员。",
+    "recommendation_zh": "火堆、异乡人与听不懂的语言，它把北地传说拍成了接近恐怖片的围城，气氛比场面更吓人。",
+    "audience_fit": "喜欢维京题材、低魔设定与浓重压迫氛围的观众。",
+    "audience_mismatch": "对血腥战斗场面与整体阴冷色调感到不适的观众。"
+  },
+  {
+    "catalog_key": "eragon",
+    "chinese_title": "龙骑士",
+    "original_title": "Eragon",
+    "release_year": 2006,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US",
+      "GB"
+    ],
+    "director": [
+      "Stefen Fangmeier"
+    ],
+    "cast": [
+      "Ed Speleers",
+      "Jeremy Irons",
+      "Sienna Guillory",
+      "Robert Carlyle",
+      "John Malkovich"
+    ],
+    "runtime_minutes": 104,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Epic Fantasy",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "古代王国",
+        "异世界冒险"
+      ],
+      "aesthetic": [
+        "自然幻想"
+      ],
+      "element": [
+        "巨龙",
+        "魔法师",
+        "精灵"
+      ],
+      "mood": [
+        "宏大",
+        "史诗感"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "农家少年伊拉龙在荒山间捡到一块发亮的蓝色石头，它孵出了一条小龙。巨龙与骑手的血脉一旦相连，就再也分不开，而统治大陆的国王正悬赏追捕最后一位龙骑士。少年跟着隐姓埋名的老者学剑与咒语，穿过森林与峡谷，去投奔那支还未成形的反抗军。",
+    "recommendation_zh": "它把「少年与龙一起长大」的经典配方拍得直白，适合想轻松进入龙骑士世界的新观众。",
+    "audience_fit": "青少年读者，以及龙与剑与魔法题材的入门观众。",
+    "audience_mismatch": "读过原著小说的读者，可能会嫌世界观删减太多。"
+  },
+  {
+    "catalog_key": "the-water-horse",
+    "chinese_title": "尼斯湖水怪",
+    "original_title": "The Water Horse",
+    "release_year": 2007,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US",
+      "NZ"
+    ],
+    "director": [
+      "Jay Russell"
+    ],
+    "cast": [
+      "Alex Etel",
+      "Emily Watson",
+      "Ben Chaplin",
+      "David Morrissey",
+      "Brian Cox"
+    ],
+    "runtime_minutes": 112,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fairy Tale",
+        "Fantasy Adventure"
+      ],
+      "world": [
+        "神话世界"
+      ],
+      "aesthetic": [
+        "自然幻想"
+      ],
+      "element": [
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "温暖",
+        "怀旧"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "二战期间，苏格兰高地上的小男孩安格斯在海边捡到一颗奇怪的蛋，孵出来的东西一天天变大，浴缸和池塘都装不下。他把它藏进湖里，与看管庄园的老兵一起守着这个秘密，而军队正进驻湖边，把他唯一的藏身之处变成了禁区。",
+    "recommendation_zh": "苏格兰的湖、雾与一头越长越大的秘密，是那种适合周末下午和孩子一起看的温柔奇幻。",
+    "audience_fit": "喜欢尼斯湖水怪传说、家庭冒险与动物题材的观众。",
+    "audience_mismatch": "一心期待怪兽惊悚片或密集特效大场面的观众。"
+  },
+  {
+    "catalog_key": "clash-of-the-titans",
+    "chinese_title": "诸神之战",
+    "original_title": "Clash of the Titans",
+    "release_year": 2010,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": "clash-of-the-titans",
+    "franchise_name": "诸神之战系列",
+    "series_order": 1,
+    "country": [
+      "US",
+      "GB"
+    ],
+    "director": [
+      "Louis Leterrier"
+    ],
+    "cast": [
+      "Sam Worthington",
+      "Liam Neeson",
+      "Ralph Fiennes",
+      "Gemma Arterton",
+      "Mads Mikkelsen"
+    ],
+    "runtime_minutes": 106,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Mythological Fantasy",
+        "Epic Fantasy"
+      ],
+      "world": [
+        "神话世界"
+      ],
+      "aesthetic": [
+        "古典神话"
+      ],
+      "element": [
+        "神祇",
+        "魔法生物",
+        "神秘物品"
+      ],
+      "mood": [
+        "宏大",
+        "黑暗"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "渔夫之子珀修斯在海上失去了家人，才得知自己是宙斯与凡人所生。他拒绝神赐的力量，带着几名同伴前往冥界边缘，寻找能斩断美杜莎目光的办法。诸神在奥林匹斯山上争吵，冥王哈迪斯步步逼近人间，而一座即将被海怪吞没的城，把所有人的赌注都押在一个不肯低头的凡人身上。",
+    "recommendation_zh": "它把奥林匹斯众神拍成一群会嫉妒的家族，海怪、美杜莎与冥界都足够热闹，是纯粹的爆米花神话。",
+    "audience_fit": "想轻松看一场神怪大战、不太在意考据的观众。",
+    "audience_mismatch": "期待严肃神话正剧改编或高度还原原著的观众。"
+  },
+  {
+    "catalog_key": "immortals",
+    "chinese_title": "惊天战神",
+    "original_title": "Immortals",
+    "release_year": 2011,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US"
+    ],
+    "director": [
+      "Tarsem Singh"
+    ],
+    "cast": [
+      "Henry Cavill",
+      "Mickey Rourke",
+      "Freida Pinto",
+      "Luke Evans",
+      "Stephen Dorff"
+    ],
+    "runtime_minutes": 110,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Mythological Fantasy",
+        "Dark Fantasy"
+      ],
+      "world": [
+        "神话世界",
+        "古代王国"
+      ],
+      "aesthetic": [
+        "古典神话",
+        "超现实主义"
+      ],
+      "element": [
+        "神祇",
+        "神秘物品",
+        "超自然力量"
+      ],
+      "mood": [
+        "宏大",
+        "黑暗"
+      ],
+      "exclude": [
+        "血腥"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "宙斯禁止众神干预人间，残暴的国王希珀里昂却带着军队四处屠城，只为找到传说中能释放泰坦的伊庇鲁斯之弓。出身贫寒的忒修斯在石中取出神锤，被推举为反抗的旗帜。他带着一群乌合之众守住峡谷，身后是即将陷落的城邦，头顶是不能出手的神。",
+    "recommendation_zh": "画面像一幅会动的古典油画，金色与血红对撞，适合只为一场视觉仪式而来的观众。",
+    "audience_fit": "偏爱强烈美术风格、慢镜头动作与神话寓言的观众。",
+    "audience_mismatch": "会在意剧情逻辑与人物动机是否足够完整的观众。"
+  },
+  {
+    "catalog_key": "wolfwalkers",
+    "chinese_title": "狼行者",
+    "original_title": "Wolfwalkers",
+    "release_year": 2020,
+    "media_type": "movie",
+    "format": "animation",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "IE",
+      "FR"
+    ],
+    "director": [
+      "Tomm Moore",
+      "Ross Stewart"
+    ],
+    "cast": [
+      "Honor Kneafsey",
+      "Eva Whittaker",
+      "Sean Bean",
+      "Simon McBurney",
+      "Maria Doyle Kennedy"
+    ],
+    "runtime_minutes": 103,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Animation",
+        "Fairy Tale"
+      ],
+      "world": [
+        "童话王国",
+        "神话世界"
+      ],
+      "aesthetic": [
+        "自然幻想",
+        "梦幻唯美"
+      ],
+      "element": [
+        "狼人",
+        "魔法生物",
+        "精灵"
+      ],
+      "mood": [
+        "温暖",
+        "神秘",
+        "治愈"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "十七世纪的基尔肯尼，英格兰来的女孩罗宾跟着父亲进城，父亲受命清剿城外的狼群。她偷偷出城，遇见在林中长大的女孩梅芙，才发现这片森林里有一族人在睡着时化作狼。城墙越修越高，猎人越逼越近，罗宾必须在父亲的命令与森林的秘密之间选一边。",
+    "recommendation_zh": "手绘线条像会呼吸，森林与城墙对望，它把一段殖民旧事讲成了两个女孩的同盟。",
+    "audience_fit": "喜欢手绘动画、凯尔特传说与成长故事的观众。",
+    "audience_mismatch": "更偏好三维动画质感与快节奏叙事的低龄观众。"
+  },
+  {
+    "catalog_key": "the-green-knight",
+    "chinese_title": "绿衣骑士",
+    "original_title": "The Green Knight",
+    "release_year": 2021,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": null,
+    "franchise_name": null,
+    "series_order": null,
+    "country": [
+      "US",
+      "IE",
+      "CA"
+    ],
+    "director": [
+      "David Lowery"
+    ],
+    "cast": [
+      "Dev Patel",
+      "Alicia Vikander",
+      "Joel Edgerton",
+      "Sean Harris",
+      "Sarita Choudhury"
+    ],
+    "runtime_minutes": 130,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Dark Fantasy",
+        "Mythological Fantasy"
+      ],
+      "world": [
+        "古代王国",
+        "神话世界"
+      ],
+      "aesthetic": [
+        "暗黑童话",
+        "自然幻想"
+      ],
+      "element": [
+        "魔法生物",
+        "鬼魂",
+        "神秘物品"
+      ],
+      "mood": [
+        "神秘",
+        "阴森",
+        "迷离"
+      ],
+      "exclude": [
+        "节奏缓慢",
+        "剧情晦涩"
+      ]
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "亚瑟王的圆桌旁来了一个浑身苔绿的高大骑士，他提出一场游戏：谁砍下他的头，一年后就要到绿教堂去，让他回敬一刀。年轻的高文接下这场赌局，一年后独自上路，穿过劫匪、幽灵与一座有会说话狐狸出没的荒野，去赴一个几乎必死的约。",
+    "recommendation_zh": "它不急着讲冒险，而是把荣誉、恐惧与腐朽拍成一则潮湿的梦，适合愿意被画面带走的人。",
+    "audience_fit": "喜欢亚瑟传说变体、诗性影像与寓言结构的观众。",
+    "audience_mismatch": "想要清晰打斗与明确结局的观众，会觉得晦涩。"
+  },
+  {
+    "catalog_key": "dungeons-dragons-honor-among-thieves",
+    "chinese_title": "龙与地下城：侠盗荣耀",
+    "original_title": "Dungeons & Dragons: Honor Among Thieves",
+    "release_year": 2023,
+    "media_type": "movie",
+    "format": "live_action",
+    "franchise": "dungeons-and-dragons",
+    "franchise_name": "龙与地下城系列",
+    "series_order": 1,
+    "country": [
+      "US",
+      "CA"
+    ],
+    "director": [
+      "Jonathan Goldstein",
+      "John Francis Daley"
+    ],
+    "cast": [
+      "Chris Pine",
+      "Michelle Rodriguez",
+      "Regé-Jean Page",
+      "Justice Smith",
+      "Sophia Lillis",
+      "Hugh Grant"
+    ],
+    "runtime_minutes": 134,
+    "seasons": null,
+    "original_language": "en",
+    "watch_status": "watched",
+    "creator_note": null,
+    "wikidata_hint": null,
+    "external_title_hints": [],
+    "tags": {
+      "type": [
+        "Fantasy Adventure",
+        "Epic Fantasy"
+      ],
+      "world": [
+        "异世界冒险",
+        "古代王国"
+      ],
+      "aesthetic": [
+        "自然幻想"
+      ],
+      "element": [
+        "魔法师",
+        "魔法生物",
+        "巨龙"
+      ],
+      "mood": [
+        "荒诞",
+        "温暖",
+        "宏大"
+      ],
+      "exclude": []
+    },
+    "tag_confidence": "medium",
+    "synopsis_zh": "吟游诗人埃德金与野蛮人霍尔加从监狱里逃出来，发现昔日的同伙已经成了城主，还带走了他的女儿。为了夺回孩子，他们凑起一支不靠谱的队伍：一个自卑的术士、一个变形德鲁伊，还有一位不请自来的圣武士。计划从偷一块牌匾开始，一路歪成了对抗整座城池。",
+    "recommendation_zh": "它不装深沉，把跑团式的胡闹、失败与临场发挥拍成两小时笑声，是近年最痛快的奇幻冒险。",
+    "audience_fit": "玩过跑团桌游、喜欢群像喜剧与轻松冒险的观众。",
+    "audience_mismatch": "一心期待厚重正剧质感与严肃史诗气质的观众。"
+  }
+]
