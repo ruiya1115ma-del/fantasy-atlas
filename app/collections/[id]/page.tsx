@@ -3,13 +3,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MovieCard } from "@/components/MovieCard";
 import { Note } from "@/components/ui";
-import { getMovies } from "@/lib/data";
-import { loadHomeConfig } from "@/lib/home-config";
+import { getMoviesRuntime } from "@/lib/admin/store-kv";
+import { loadHomeConfigRuntime } from "@/lib/home-config-kv";
 
 export const dynamic = "force-dynamic";
 
-function findTheme(themeId: string) {
-  const config = loadHomeConfig();
+async function findTheme(themeId: string) {
+  const config = await loadHomeConfigRuntime();
   for (const section of config.sections) {
     const theme = section.themes.find((t) => t.id === themeId);
     if (theme) return { config, section, theme };
@@ -19,7 +19,7 @@ function findTheme(themeId: string) {
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
-  const found = findTheme(id);
+  const found = await findTheme(id);
   if (!found) return { title: "主题不存在" };
   return { title: `${found.theme.name} · ${found.section.title}`, description: `${found.section.title} / ${found.theme.name}` };
 }
@@ -27,14 +27,15 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 /** 首页主题卡片点进来看到的片单：完全由后台配置的电影归属决定 */
 export default async function CollectionPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const found = findTheme(id);
+  const found = await findTheme(id);
   if (!found) notFound();
   const { section, theme } = found;
 
   if (theme.hidden || section.hidden) notFound();
 
-  const byId = new Map(getMovies().map((m) => [m.id, m]));
-  const list = theme.movieIds.map((movieId) => byId.get(movieId)).filter(Boolean) as ReturnType<typeof getMovies>;
+  const movies = await getMoviesRuntime();
+  const byId = new Map(movies.map((m) => [m.id, m]));
+  const list = theme.movieIds.map((movieId) => byId.get(movieId)).filter(Boolean) as typeof movies;
   const coverImage =
     theme.image || list.find((m) => m.backdrop?.src)?.backdrop?.src || list.find((m) => m.poster?.src)?.poster?.src || "";
 

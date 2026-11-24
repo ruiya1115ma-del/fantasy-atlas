@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { errorResponse, requireAdminApi } from "@/lib/admin/api";
-import { getMovies } from "@/lib/data";
+import { getMoviesRuntime } from "@/lib/admin/store-kv";
 
 /** GET /api/admin/home/movies?q=关键词 → 从 274 部电影库里搜索，供后台挑片加片 */
 export async function GET(request: Request) {
@@ -9,7 +9,7 @@ export async function GET(request: Request) {
 
   try {
     const q = (new URL(request.url).searchParams.get("q") ?? "").trim().toLowerCase();
-    const movies = getMovies();
+    const movies = await getMoviesRuntime();
 
     const matched = (q
       ? movies.filter((m) =>

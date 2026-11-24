@@ -1,7 +1,9 @@
 import { NextResponse } from "next/server";
 import { errorResponse, requireAdminApi } from "@/lib/admin/api";
+import { getKv } from "@/lib/admin/kv";
+import { getMoviesRuntime } from "@/lib/admin/store-kv";
 import { loadHomeConfig, saveHomeConfig } from "@/lib/home-config";
-import { getMovies } from "@/lib/data";
+import { loadHomeConfigRuntime, saveHomeConfigKv } from "@/lib/home-config-kv";
 
 /**
  * POST /api/admin/home/action
@@ -22,8 +24,9 @@ export async function POST(request: Request) {
       movieId?: string;
       image?: string;
     };
-    const config = loadHomeConfig();
-    const validIds = new Set(getMovies().map((m) => m.id));
+    const kv = await getKv();
+    const config = kv ? await loadHomeConfigRuntime() : loadHomeConfig();
+    const validIds = new Set((await getMoviesRuntime()).map((m) => m.id));
 
     const section = config.sections.find((s) => s.themes.some((t) => t.id === body.themeId));
     const theme = section?.themes.find((t) => t.id === body.themeId);
@@ -57,7 +60,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ ok: false, error: "未知操作类型" }, { status: 422 });
     }
 
-    const result = saveHomeConfig(config);
+    const result = kv ? await saveHomeConfigKv(config) : saveHomeConfig(config);
     const saved = result.config.sections.find((s) => s.id === section.id)?.themes.find((t) => t.id === theme.id);
     return NextResponse.json({
       ok: true,
@@ -65,6 +68,7 @@ export async function POST(request: Request) {
       movieIds: saved?.movieIds ?? [],
       movedFrom,
       duplicateDropped: result.duplicates,
+      storage: kv ? "kv" : "file",
     });
   } catch (err) {
     return errorResponse(err);

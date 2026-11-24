@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { isAdmin } from "@/lib/admin/auth";
+import { getKv } from "@/lib/admin/kv";
 import { readCatalog, searchMovies } from "@/lib/admin/store";
+import { getMoviesRuntime, searchMoviesKv } from "@/lib/admin/store-kv";
 
 export const metadata: Metadata = { title: "电影资料", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
@@ -15,8 +17,9 @@ export default async function AdminMoviesPage({
   if (!(await isAdmin())) redirect("/admin/login");
 
   const { q = "" } = await searchParams;
-  const catalog = readCatalog();
-  const movies = searchMovies(q, 80);
+  const kv = await getKv();
+  const allCount = kv ? (await getMoviesRuntime()).length : readCatalog().movies.length;
+  const movies = kv ? await searchMoviesKv(q, 80) : searchMovies(q, 80);
 
   return (
     <div>
@@ -25,7 +28,7 @@ export default async function AdminMoviesPage({
           <p className="eyebrow">Admin · Library</p>
           <h1 className="display mt-3 text-3xl text-ivory">电影资料</h1>
           <p className="mt-3 text-[0.82rem] text-[var(--color-ivory-dim)]">
-            共 {catalog.movies.length} 部作品，当前显示 {movies.length} 条。
+            共 {allCount} 部作品，当前显示 {movies.length} 条。
           </p>
         </div>
         <Link href="/admin/movies/new" className="btn btn-primary !px-6 !py-3 !text-[0.8rem]">

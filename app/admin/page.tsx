@@ -2,23 +2,27 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { Note } from "@/components/ui";
 import { isAdmin, usingDefaultPassword } from "@/lib/admin/auth";
+import { getKv } from "@/lib/admin/kv";
 import { listBackups, missingPosters, readCatalog, tagUsage } from "@/lib/admin/store";
+import { getMoviesRuntime, missingPostersKv, tagUsageKv } from "@/lib/admin/store-kv";
 import { listSubmissionsWithFlags } from "@/lib/admin/submissions";
 import { loadHomeConfig } from "@/lib/home-config";
+import { loadHomeConfigRuntime } from "@/lib/home-config-kv";
 
 export const dynamic = "force-dynamic";
 
 export default async function AdminHome() {
   if (!(await isAdmin())) redirect("/admin/login");
 
-  const catalog = readCatalog();
-  const missing = missingPosters();
+  const kv = await getKv();
+  const catalogMovies = kv ? await getMoviesRuntime() : readCatalog().movies;
+  const missing = kv ? await missingPostersKv() : missingPosters();
   const submissions = listSubmissionsWithFlags();
   const pending = submissions.filter((s) => s.status === "pending");
-  const backups = listBackups();
-  const tags = tagUsage();
+  const backups = kv ? [] : listBackups();
+  const tags = kv ? await tagUsageKv() : tagUsage();
   const unusedTags = tags.filter((t) => t.unused);
-  const homeConfig = loadHomeConfig();
+  const homeConfig = kv ? await loadHomeConfigRuntime() : loadHomeConfig();
   const homeThemes = homeConfig.sections.flatMap((s) => s.themes);
   const homeLinks = homeThemes.reduce((acc, t) => acc + t.movieIds.length, 0);
   const firstSectionId = homeConfig.sections[0]?.id;
@@ -35,7 +39,7 @@ export default async function AdminHome() {
       href: "/admin/movies",
       kicker: "Library",
       title: "电影资料",
-      value: `${catalog.movies.length} 部作品`,
+      value: `${catalogMovies.length} 部作品`,
       desc: "新增、修改、删除作品：片名、年份、简介、海报、分类标签，保存即写入正式数据库。",
     },
     {

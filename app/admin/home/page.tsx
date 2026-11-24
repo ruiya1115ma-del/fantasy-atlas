@@ -4,8 +4,10 @@ import { redirect } from "next/navigation";
 import { AdminHomeManager } from "@/components/admin/AdminHomeManager";
 import { Note } from "@/components/ui";
 import { isAdmin } from "@/lib/admin/auth";
-import { getMovies } from "@/lib/data";
+import { getKv } from "@/lib/admin/kv";
+import { getMoviesRuntime } from "@/lib/admin/store-kv";
 import { loadHomeConfig } from "@/lib/home-config";
+import { loadHomeConfigRuntime } from "@/lib/home-config-kv";
 
 export const metadata: Metadata = { title: "首页内容管理", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
@@ -13,8 +15,9 @@ export const dynamic = "force-dynamic";
 export default async function AdminHomePage() {
   if (!(await isAdmin())) redirect("/admin/login");
 
-  const config = loadHomeConfig();
-  const library = getMovies().map((m) => ({
+  const kv = await getKv();
+  const config = kv ? await loadHomeConfigRuntime() : loadHomeConfig();
+  const library = (await getMoviesRuntime()).map((m) => ({
     id: m.id,
     title: m.chineseTitle,
     originalTitle: m.originalTitle,

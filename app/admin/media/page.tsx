@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { isAdmin } from "@/lib/admin/auth";
+import { getKv } from "@/lib/admin/kv";
 import { missingPosters, readCatalog } from "@/lib/admin/store";
+import { getMoviesRuntime, missingPostersKv } from "@/lib/admin/store-kv";
 
 export const metadata: Metadata = { title: "缺失海报", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
@@ -10,8 +12,9 @@ export const dynamic = "force-dynamic";
 export default async function AdminMediaPage() {
   if (!(await isAdmin())) redirect("/admin/login");
 
-  const missing = missingPosters();
-  const total = readCatalog().movies.length;
+  const kv = await getKv();
+  const missing = kv ? await missingPostersKv() : missingPosters();
+  const total = kv ? (await getMoviesRuntime()).length : readCatalog().movies.length;
 
   return (
     <div>

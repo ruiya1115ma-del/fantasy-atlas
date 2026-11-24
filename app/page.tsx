@@ -4,15 +4,16 @@ import { FateDraw, type FateFilm } from "@/components/FateDraw";
 import { HomeExpandGallery, type ExpandTheme } from "@/components/HomeExpandGallery";
 import { HomeThemes, type HomeThemeCard } from "@/components/HomeThemes";
 import { Reveal } from "@/components/Reveal";
-import { getMovies, getStats } from "@/lib/data";
-import { loadHomeConfig } from "@/lib/home-config";
+import { getStats } from "@/lib/data";
+import { getMoviesRuntime } from "@/lib/admin/store-kv";
+import { loadHomeConfigRuntime } from "@/lib/home-config-kv";
 import { tagLabel } from "@/lib/vocabulary";
 
 /** 首页内容（板块 / 主题卡片 / 电影归属）由后台 /admin/home 配置，保存后立即生效 */
 export const dynamic = "force-dynamic";
 
-export default function HomePage() {
-  const movies = getMovies();
+export default async function HomePage() {
+  const movies = await getMoviesRuntime();
   const stats = getStats();
   const movieById = new Map(movies.map((m) => [m.id, m]));
 
@@ -27,7 +28,7 @@ export default function HomePage() {
   }
 
   /* ---------- 2. 板块：布局由配置决定（expand = 原来五个主题悬停展开；grid = 平铺网格） ---------- */
-  const config = loadHomeConfig();
+  const config = await loadHomeConfigRuntime();
   const sections = config.sections
     .filter((s) => !s.hidden)
     .map((section) => {

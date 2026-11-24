@@ -6,20 +6,16 @@ import { DetailActions } from "@/components/DetailActions";
 import { MovieCard } from "@/components/MovieCard";
 import { Poster } from "@/components/Poster";
 import { KeyValue, Note, Pill, RatingBadge, TagPill } from "@/components/ui";
-import { getMovieBySlug, getMovies } from "@/lib/data";
+import { getMoviesRuntime } from "@/lib/admin/store-kv";
 import { similarMovies } from "@/lib/similar";
 import { COUNTRY_NAMES, FORMAT_LABELS, LANGUAGE_NAMES, MEDIA_TYPE_LABELS, TAG_GROUPS, tagLabel } from "@/lib/vocabulary";
 
-// 只允许 catalog 里存在的 slug：其余路径直接 404，而不是先流式输出 200 再报错
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return getMovies().map((m) => ({ slug: m.slug }));
-}
+// 详情页改为按请求渲染：后台改完简介/标签/海报，刷新就能看到（不再依赖重新构建）
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const movie = getMovieBySlug(slug);
+  const movie = (await getMoviesRuntime()).find((m) => m.slug === slug || m.id === slug);
   if (!movie) return { title: "作品不存在" };
   return {
     title: `${movie.chineseTitle}（${movie.releaseYear}）`,
@@ -31,10 +27,10 @@ const DATE = (iso: string | null | undefined) => (iso ? iso.slice(0, 10) : "未�
 
 export default async function MoviePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const movie = getMovieBySlug(slug);
+  const all = await getMoviesRuntime();
+  const movie = all.find((m) => m.slug === slug || m.id === slug);
   if (!movie) notFound();
 
-  const all = getMovies();
   const similar = similarMovies(movie, all, 5);
   const franchiseMovies =
     movie.franchise !== null ? all.filter((m) => m.franchise === movie.franchise).sort((a, b) => (a.seriesOrder ?? 0) - (b.seriesOrder ?? 0)) : [];

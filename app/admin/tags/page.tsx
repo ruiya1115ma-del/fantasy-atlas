@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { isAdmin } from "@/lib/admin/auth";
+import { getKv } from "@/lib/admin/kv";
 import { tagUsage } from "@/lib/admin/store";
+import { tagUsageKv } from "@/lib/admin/store-kv";
 
 export const metadata: Metadata = { title: "标签管理", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
@@ -18,7 +20,8 @@ const CATEGORY_ZH: Record<string, string> = {
 export default async function AdminTagsPage() {
   if (!(await isAdmin())) redirect("/admin/login");
 
-  const tags = tagUsage();
+  const kv = await getKv();
+  const tags = kv ? await tagUsageKv() : tagUsage();
   const categories = [...new Set(tags.map((t) => t.category))];
 
   return (

@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import { AdminMovieEditor } from "@/components/admin/AdminMovieEditor";
 import { isAdmin } from "@/lib/admin/auth";
+import { getKv } from "@/lib/admin/kv";
 import { getMovie } from "@/lib/admin/store";
+import { getMovieKv } from "@/lib/admin/store-kv";
 import { TAG_GROUPS } from "@/lib/vocabulary";
 
 export const metadata: Metadata = { title: "编辑作品", robots: { index: false, follow: false } };
@@ -12,7 +14,8 @@ export default async function AdminMovieEditPage({ params }: { params: Promise<{
   if (!(await isAdmin())) redirect("/admin/login");
 
   const { id } = await params;
-  const movie = getMovie(id);
+  const kv = await getKv();
+  const movie = kv ? await getMovieKv(id) : getMovie(id);
   if (!movie) notFound();
 
   const tagGroups = TAG_GROUPS.map((group) => ({

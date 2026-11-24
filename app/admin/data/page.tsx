@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { AdminBackupPanel } from "@/components/admin/AdminBackupPanel";
 import { Note } from "@/components/ui";
 import { isAdmin } from "@/lib/admin/auth";
+import { getKv } from "@/lib/admin/kv";
 import { listBackups } from "@/lib/admin/store";
 import { listSubmissionsWithFlags } from "@/lib/admin/submissions";
 
@@ -17,7 +18,8 @@ function formatSize(bytes: number) {
 export default async function AdminDataPage() {
   if (!(await isAdmin())) redirect("/admin/login");
 
-  const backups = listBackups();
+  const kv = await getKv();
+  const backups = kv ? [] : listBackups();
   const submissions = listSubmissionsWithFlags();
 
   return (

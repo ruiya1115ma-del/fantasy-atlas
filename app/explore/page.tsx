@@ -3,7 +3,7 @@ import { ExploreClient } from "@/components/ExploreClient";
 import type { HeroSlide } from "@/components/HeroCarousel";
 import { StableHeroSlides } from "@/components/StableHeroSlides";
 import { RecommendEntry } from "@/components/RecommendEntry";
-import { getMovies } from "@/lib/data";
+import { getMoviesRuntime } from "@/lib/admin/store-kv";
 import { toMediaCard, filtersFromQuery, DEFAULT_FILTERS } from "@/lib/filter";
 import { pickHeroMovies } from "@/lib/hero-picks";
 import type { Movie } from "@/lib/types";
@@ -97,7 +97,7 @@ export default async function ExplorePage({
     if (typeof value === "string") params.set(key, value);
   }
 
-  const full = getMovies();
+  const full = await getMoviesRuntime();
   const slides = buildSlides(full);
   const movies = full.map(toMediaCard);
   const initial = movies.length ? filtersFromQuery(params) : { ...DEFAULT_FILTERS };
