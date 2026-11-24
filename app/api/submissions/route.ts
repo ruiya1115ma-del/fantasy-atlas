@@ -1,9 +1,11 @@
 import { NextResponse } from "next/server";
+import { getKv } from "@/lib/admin/kv";
 import { addSubmission, listSubmissions, submissionSchema } from "@/lib/submissions";
+import { addSubmissionKv, listSubmissionsKv } from "@/lib/submissions-kv";
 
 export const dynamic = "force-dynamic";
 
-/** POST /api/submissions —— 公开投稿入口 */
+/** POST /api/submissions —— 公开投稿入口（线上写 KV，本机写文件） */
 export async function POST(request: Request) {
   let body: unknown;
   try {
@@ -20,7 +22,11 @@ export async function POST(request: Request) {
     );
   }
 
-  const created = addSubmission(parsed.data);
+  const kv = await getKv();
+  const created = kv ? await addSubmissionKv(parsed.data) : addSubmission(parsed.data);
+  if (!created) {
+    return NextResponse.json({ ok: false, error: "投稿暂时无法保存，请稍后再试" }, { status: 500 });
+  }
   return NextResponse.json({ ok: true, id: created.id, status: created.status }, { status: 201 });
 }
 
@@ -33,5 +39,7 @@ export async function GET(request: Request) {
     return NextResponse.json({ ok: false, error: "需要管理口令" }, { status: 401 });
   }
   const status = searchParams.get("status") as "pending" | "approved" | "rejected" | null;
-  return NextResponse.json({ ok: true, submissions: listSubmissions(status ?? undefined) });
+  const kv = await getKv();
+  const submissions = kv ? await listSubmissionsKv(status ?? undefined) : listSubmissions(status ?? undefined);
+  return NextResponse.json({ ok: true, submissions });
 }

@@ -8,6 +8,7 @@ import { getMoviesRuntime, missingPostersKv, tagUsageKv } from "@/lib/admin/stor
 import { listSubmissionsWithFlags } from "@/lib/admin/submissions";
 import { loadHomeConfig } from "@/lib/home-config";
 import { loadHomeConfigRuntime } from "@/lib/home-config-kv";
+import { listSubmissionsWithFlagsKv } from "@/lib/submissions-kv";
 
 export const dynamic = "force-dynamic";
 
@@ -17,7 +18,16 @@ export default async function AdminHome() {
   const kv = await getKv();
   const catalogMovies = kv ? await getMoviesRuntime() : readCatalog().movies;
   const missing = kv ? await missingPostersKv() : missingPosters();
-  const submissions = listSubmissionsWithFlags();
+  const submissions = kv
+    ? await listSubmissionsWithFlagsKv(
+        catalogMovies.map((m) => ({
+          id: m.id,
+          chineseTitle: m.chineseTitle,
+          originalTitle: m.originalTitle,
+          releaseYear: m.releaseYear,
+        })),
+      )
+    : listSubmissionsWithFlags();
   const pending = submissions.filter((s) => s.status === "pending");
   const backups = kv ? [] : listBackups();
   const tags = kv ? await tagUsageKv() : tagUsage();

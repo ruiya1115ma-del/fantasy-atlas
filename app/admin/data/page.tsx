@@ -6,6 +6,8 @@ import { isAdmin } from "@/lib/admin/auth";
 import { getKv } from "@/lib/admin/kv";
 import { listBackups } from "@/lib/admin/store";
 import { listSubmissionsWithFlags } from "@/lib/admin/submissions";
+import { getMoviesRuntime } from "@/lib/admin/store-kv";
+import { listSubmissionsWithFlagsKv } from "@/lib/submissions-kv";
 
 export const metadata: Metadata = { title: "数据与备份", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
@@ -20,7 +22,16 @@ export default async function AdminDataPage() {
 
   const kv = await getKv();
   const backups = kv ? [] : listBackups();
-  const submissions = listSubmissionsWithFlags();
+  const submissions = kv
+    ? await listSubmissionsWithFlagsKv(
+        (await getMoviesRuntime()).map((m) => ({
+          id: m.id,
+          chineseTitle: m.chineseTitle,
+          originalTitle: m.originalTitle,
+          releaseYear: m.releaseYear,
+        })),
+      )
+    : listSubmissionsWithFlags();
 
   return (
     <div>
