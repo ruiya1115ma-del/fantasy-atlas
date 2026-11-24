@@ -22,11 +22,22 @@ next-env.d.ts
 # 抓取缓存与临时日志
 data/cache/
 dev.log
+dev2.log
+dev3.log
 build.log
 err.txt
+
+# 本地完整备份（体积大，独立存放，不进版本库）
+backups/
+*.tar.gz
+snap.log
+push.log
+vercel-deploy*.log
 
 # 系统与编辑器
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
+
+.vercel

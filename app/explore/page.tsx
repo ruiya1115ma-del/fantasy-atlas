@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { ExploreClient } from "@/components/ExploreClient";
-import { HeroCarousel, type HeroSlide } from "@/components/HeroCarousel";
+import type { HeroSlide } from "@/components/HeroCarousel";
+import { StableHeroSlides } from "@/components/StableHeroSlides";
 import { RecommendEntry } from "@/components/RecommendEntry";
-import { getEditorialPicks, getMovies } from "@/lib/data";
+import { getMovies } from "@/lib/data";
 import { toMediaCard, filtersFromQuery, DEFAULT_FILTERS } from "@/lib/filter";
+import { pickHeroMovies } from "@/lib/hero-picks";
 import type { Movie } from "@/lib/types";
 import { tagLabel } from "@/lib/vocabulary";
 
@@ -11,6 +13,13 @@ export const metadata: Metadata = {
   title: "电影探索",
   description: "用类型、世界观、美学、元素与氛围的标签组合筛选奇幻作品，支持按年份、评分、系列与个人收藏筛选。",
 };
+
+/**
+ * 顶部轮播每次请求都重新抽取（见 lib/hero-picks.ts）：
+ * 因此这里必须强制动态渲染，不能被打成静态页面。
+ */
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 const RUNTIME = (m: Movie) =>
   m.mediaType === "movie"
@@ -53,21 +62,26 @@ function toSlide(m: Movie): HeroSlide | null {
 }
 
 function buildSlides(movies: Movie[]): HeroSlide[] {
-  const picks = getEditorialPicks().flatMap((p) => p.movies) as Movie[];
-  const pool = [
-    ...picks.filter((m) => m.backdrop?.src && m.poster?.src),
-    ...movies.filter((m) => m.backdrop?.src && m.poster?.src),
-    ...picks.filter((m) => m.poster?.src),
-    ...movies.filter((m) => m.poster?.src),
-  ];
+  // 每次渲染都从完整库重新抽：跨系列、去重、类型/年代/世界观尽量分散
+  const picked = pickHeroMovies(movies, { count: 10 });
   const out: HeroSlide[] = [];
   const seen = new Set<string>();
-  for (const m of pool) {
+  for (const m of picked) {
     if (seen.has(m.id)) continue;
     seen.add(m.id);
     const s = toSlide(m);
     if (s) out.push(s);
-    if (out.length >= 10) break;
+  }
+  // 极端情况下（例如海报缺失）候选不足时，用其余作品补齐，保证轮播不塌
+  if (out.length < 5) {
+    for (const m of movies) {
+      if (out.length >= 10) break;
+      if (seen.has(m.id)) continue;
+      const s = toSlide(m);
+      if (!s) continue;
+      seen.add(m.id);
+      out.push(s);
+    }
   }
   return out;
 }
@@ -90,7 +104,7 @@ export default async function ExplorePage({
 
   return (
     <>
-      {slides.length > 0 && <HeroCarousel slides={slides} heightClass="h-[76svh]" />}
+      {slides.length > 0 && <StableHeroSlides slides={slides} heightClass="h-[76svh]" />}
       <RecommendEntry />
       <ExploreClient movies={movies} initial={initial} />
     </>

@@ -26,9 +26,6 @@ export function SiteFooter() {
             <Link href="/favorites" className="text-[var(--color-ivory-dim)] transition-colors hover:text-gold-soft">
               我的收藏与笔记
             </Link>
-            <Link href="/sources" className="text-[var(--color-ivory-dim)] transition-colors hover:text-gold-soft">
-              数据来源与图片授权
-            </Link>
             <Link href="/submit" className="text-[var(--color-ivory-dim)] transition-colors hover:text-gold-soft">
               投稿补充资料
             </Link>
@@ -76,6 +73,10 @@ export function SiteFooter() {
                 Wikidata
               </a>
             </span>
+            <span aria-hidden>·</span>
+            <Link href="/admin" className="text-[var(--color-ash-dim)] transition-colors hover:text-gold-soft">
+              管理入口
+            </Link>
           </p>
         </div>
       </div>

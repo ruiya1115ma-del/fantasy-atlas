@@ -1,3 +1,17 @@
 {
-  "submissions": []
+  "submissions": [
+    {
+      "chineseTitle": "星际特工：千星之城",
+      "originalTitle": "Valérian and the City of a Thousand Planets",
+      "releaseYear": 2017,
+      "doubanUrl": "https://movie.douban.com/subject/11502973/",
+      "note": "",
+      "reason": "",
+      "affection": "liked",
+      "submitter": "",
+      "id": "sub-mwupagsx-3jsr",
+      "status": "pending",
+      "createdAt": "2026-11-24T12:58:28.881Z"
+    }
+  ]
 }

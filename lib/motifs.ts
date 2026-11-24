@@ -1,32 +1,30 @@
 /**
- * 八个「叙事主题」——与五个视觉风格分类（lib/curation.ts 的 CATEGORIES）并行，互不替代。
+ * 六个「叙事主题」——与五个视觉风格分类（lib/curation.ts 的 CATEGORIES）并行，互不替代。
  *
- * 判定只用两样东西：站内已存在的六类标签 + 作品简介里的关键词。
- * 不新增标签、不改写数据；一部电影可以同时命中多个主题（允许交叉）。
- * 数量由规则实时算出，页面上不写死任何数字。
+ * 归类规则：每部作品**只能归入一个主题**，按最突出的核心特征判定；
+ * 六个都不像的作品不收录。具体归类见 lib/theme-assignments.ts（人工逐部判定）。
  */
 
-export type MotifMode = "or" | "and";
+import { THEME_BY_ID } from "./theme-assignments";
+
+export type MotifSlug =
+  | "time-rift"
+  | "magic-world"
+  | "strange-everyday"
+  | "fantasy-creatures"
+  | "dark-fairytale"
+  | "epic-quest";
 
 export interface Motif {
-  slug: string;
+  slug: MotifSlug;
   zh: string;
   en: string;
-  tagline: string;
+  /** 首页卡片上的一行小字（一句话说明这是什么主题） */
+  hint: string;
+  /** 主题详情页的一句注解 */
   description: string;
   /** 卡片标题与光晕用的暗金色系 */
   ink: string;
-  tags: {
-    world?: string[];
-    aesthetic?: string[];
-    element?: string[];
-    mood?: string[];
-    type?: string[];
-  };
-  /** 简介关键词 */
-  keywords?: RegExp;
-  /** or = 标签或关键词命中即可；and = 两者都要命中（用于收窄语义太泛的主题） */
-  mode: MotifMode;
 }
 
 export const MOTIFS: Motif[] = [
@@ -34,115 +32,70 @@ export const MOTIFS: Motif[] = [
     slug: "time-rift",
     zh: "时空裂隙",
     en: "Time Rift",
-    tagline: "时间在这里折了一道",
-    description: "时间旅行、平行世界、时空穿越 —— 角色走进另一段时间线，也走进另一个版本的自己。",
     ink: "#a9c0e0",
-    tags: { world: ["平行世界", "梦境世界"], type: ["Surreal Fantasy"] },
-    keywords: /时间|时空|穿越|平行|循环|回到过去|时间线/,
-    mode: "or",
+    hint: "时间折了一道缝",
+    description: "时间穿越、时间循环、平行世界与时空错位 —— 故事的动力来自「时间」本身。",
   },
   {
-    slug: "forbidden-pact",
-    zh: "禁忌契约",
-    en: "Forbidden Pact",
-    tagline: "每一个愿望都有代价",
-    description: "诅咒、魔法契约、灵魂交易 —— 你以为签下的是合约，交出去的却是更重要的东西。",
-    ink: "#d9a8bd",
-    tags: { aesthetic: ["黑暗浪漫", "暗黑童话"], element: ["超自然力量"] },
-    keywords: /诅咒|契约|灵魂|交易|献祭|许愿|代价/,
-    mode: "and",
-  },
-  {
-    slug: "bestiary",
-    zh: "异兽图鉴",
-    en: "Bestiary",
-    tagline: "它们一直都在，只是不常见",
-    description: "龙、精灵、吸血鬼、奇异生物 —— 这一栏收的全是「非人类住户」。",
-    ink: "#c8e2d4",
-    tags: { element: ["巨龙", "精灵", "吸血鬼", "狼人", "妖怪", "神祇"] },
-    mode: "or",
-  },
-  {
-    slug: "lost-realm",
-    zh: "失落秘境",
-    en: "Lost Realm",
-    tagline: "地图边缘之外的国度",
-    description: "神秘岛屿、隐藏王国、地下世界 —— 那些必须被找到、或者被误入的地方。",
-    ink: "#e2c87f",
-    tags: { world: ["神话世界", "古代王国"] },
-    keywords: /岛|秘境|地下|王国|遗迹|迷宫|隐藏|森林深处/,
-    mode: "or",
-  },
-  {
-    slug: "fate-shift",
-    zh: "命运变形",
-    en: "Fate Shift",
-    tagline: "醒过来，已经不是原来的自己",
-    description: "身份转换、奇妙变身、重生 —— 身体、名字或命运被换掉之后，故事才真正开始。",
-    ink: "#d5b8e0",
-    tags: { element: ["魔法生物"], mood: ["荒诞"] },
-    keywords: /变成|变身|重生|身份|化作|换脸/,
-    mode: "and",
-  },
-  {
-    slug: "magic-relic",
-    zh: "魔法遗物",
-    en: "Magic Relic",
-    tagline: "有些东西不该被捡起来",
-    description: "魔法书、神秘钥匙、古老宝物 —— 一件道具推动整个世界转动。",
+    slug: "magic-world",
+    zh: "魔法世界",
+    en: "Magic World",
     ink: "#e8d5a8",
-    tags: { element: ["神秘物品"] },
-    keywords: /魔法书|钥匙|宝物|遗物|古书|拼图|卷轴|水晶|护身符|戒指|王冠|面具|魔杖|宝盒/,
-    mode: "and",
-  },
-  {
-    slug: "youth-quest",
-    zh: "少年奇遇",
-    en: "Youth Quest",
-    tagline: "第一次走进不属于自己的世界",
-    description: "少年冒险、成长、奇幻旅程 —— 主角往往不知道自己正在长大。",
-    ink: "#b8d8c0",
-    tags: { type: ["Fantasy Adventure", "Fairy Tale"] },
-    keywords: /少年|女孩|男孩|孩子|成长|童年/,
-    mode: "and",
+    hint: "巫师与成体系的魔法",
+    description: "巫师、魔法学校、咒语与成体系的魔法力量 —— 世界按魔法的规则运转。",
   },
   {
     slug: "strange-everyday",
     zh: "怪奇日常",
     en: "Strange Everyday",
-    tagline: "怪事就发生在隔壁",
-    description: "普通生活中的超自然事件 —— 学校、小镇、公寓楼，日常里裂开一道缝。",
     ink: "#cfd0e8",
-    tags: { world: ["超自然现代社会"] },
-    keywords: /日常|小镇|学校|邻居|搬家|公寓|郊区|高中|公司/,
-    mode: "and",
+    hint: "怪事就发生在隔壁",
+    description: "哥特与怪诞的人物、超自然现象混进日常生活 —— 诡异从客厅与学校后排长出来。",
+  },
+  {
+    slug: "fantasy-creatures",
+    zh: "奇幻生物",
+    en: "Fantasy Creatures",
+    ink: "#c8e2d4",
+    hint: "异兽才是真正的主角",
+    description: "龙、精灵、妖怪、异兽或非人生命是故事的核心角色，情节围绕它们展开。",
+  },
+  {
+    slug: "dark-fairytale",
+    zh: "暗黑童话",
+    en: "Dark Fairy Tale",
+    ink: "#d9a8bd",
+    hint: "睡前故事的另一面",
+    description: "以童话原型为骨架，却用黑暗、诡谲、惊悚或成人的方式重新讲述。",
+  },
+  {
+    slug: "epic-quest",
+    zh: "史诗远征",
+    en: "Epic Quest",
+    ink: "#e2c87f",
+    hint: "出发，去很远的地方",
+    description: "远征、寻找、拯救、征服 —— 一条明确的长途旅程撑起整个世界。",
   },
 ];
 
 export const MOTIF_BY_SLUG: Record<string, Motif> = Object.fromEntries(MOTIFS.map((m) => [m.slug, m]));
 
 export interface MotifSubject {
-  tags: Record<string, string[]>;
-  synopsis?: string;
+  id?: string;
 }
 
-function tagHit(movie: MotifSubject, motif: Motif): boolean {
-  for (const [bucket, list] of Object.entries(motif.tags)) {
-    if (!list) continue;
-    const own = movie.tags?.[bucket] ?? [];
-    if (list.some((t) => own.includes(t))) return true;
-  }
-  return false;
+/** 每部作品最多一个主题；未列入人工归类表的作品不归入任何主题 */
+export function classifyMovie(movie: MotifSubject): MotifSlug | null {
+  if (!movie.id) return null;
+  return THEME_BY_ID.get(movie.id) ?? null;
 }
 
 export function matchesMotif(movie: MotifSubject, motif: Motif): boolean {
-  const t = tagHit(movie, motif);
-  const k = motif.keywords ? motif.keywords.test(movie.synopsis ?? "") : false;
-  if (motif.mode === "and") return t && k;
-  return t || k;
+  return classifyMovie(movie) === motif.slug;
 }
 
-/** 一部作品命中的所有主题（用于详情页展示交叉关系） */
+/** 一部作品命中的主题（0 或 1 个） */
 export function motifsOf(movie: MotifSubject): Motif[] {
-  return MOTIFS.filter((m) => matchesMotif(movie, m));
+  const slug = classifyMovie(movie);
+  return slug ? [MOTIF_BY_SLUG[slug]] : [];
 }

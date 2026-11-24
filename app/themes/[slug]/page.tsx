@@ -33,15 +33,22 @@ export default async function ThemePage({ params }: { params: Promise<{ slug: st
   if (!cat) notFound();
 
   const movies = getMovies();
-  const matched = movies.filter(cat.match);
-  const sorted = matched
-    .slice()
-    .sort((a, b) => (b.ratings[0]?.rating_count ?? 0) - (a.ratings[0]?.rating_count ?? 0));
+  const buckets = getCategoryBuckets();
+  const bucket = buckets.find((b) => b.category.slug === slug);
 
-  // 页头大图：优先有剧照的作品
-  const cover = matched.find((m) => m.backdrop?.src)?.backdrop?.src ?? matched.find((m) => m.poster?.src)?.poster?.src;
+  // 每部作品只归入一个分类：这里用同一份互斥归属结果
+  const matched = bucket?.movies ?? [];
+  const sorted = matched.slice().sort((a, b) => (b.ratings[0]?.rating_count ?? 0) - (a.ratings[0]?.rating_count ?? 0));
 
-  const otherThemes = getCategoryBuckets()
+  // 页头大图：优先用分类封面（与首页画廊同一张），其次找有剧照的作品
+  const coverMovie = bucket?.coverCandidates.find((m) => m.poster?.src || m.backdrop?.src);
+  const cover =
+    coverMovie?.backdrop?.src ??
+    coverMovie?.poster?.src ??
+    matched.find((m) => m.backdrop?.src)?.backdrop?.src ??
+    matched.find((m) => m.poster?.src)?.poster?.src;
+
+  const otherThemes = buckets
     .filter((b) => b.category.slug !== slug)
     .slice(0, 4);
 

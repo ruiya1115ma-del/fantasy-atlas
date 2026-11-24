@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AdminEditShortcut } from "@/components/AdminEditShortcut";
 import { DetailActions } from "@/components/DetailActions";
 import { MovieCard } from "@/components/MovieCard";
 import { Poster } from "@/components/Poster";
@@ -366,6 +367,9 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
 
           {/* 我的记录 */}
           <DetailActions movieId={movie.id} title={movie.chineseTitle} />
+
+          {/* 管理员才会看到的编辑入口（客户端检测会话，不影响静态渲染） */}
+          <AdminEditShortcut movieId={movie.id} slug={movie.slug} />
 
           {/* 同系列 */}
           {franchiseMovies.length > 1 && (

@@ -30,15 +30,29 @@ const EXCLUDED_DIRS = new Set([
   ".npm-cache",
   "cache", // 仅当路径含 data/cache，见下方判断
 ]);
-const EXCLUDED_TOP = new Set(["dev.log", "build.log", "err.txt", "next-env.d.ts", "tsconfig.tsbuildinfo"]);
+const EXCLUDED_TOP = new Set([
+  "dev.log",
+  "build.log",
+  "err.txt",
+  "snap.log",
+  "push.log",
+  "poster-hunt.log",
+  "enrich.log",
+  "next-env.d.ts",
+  "tsconfig.tsbuildinfo",
+]);
 const EXCLUDED_PREFIX = [".env", ".DS_Store", "Thumbs.db"];
+const EXCLUDED_TOP_DIRS = new Set(["backups", ".vercel", ".appdata", ".static-staging", ".tmp-push", ".npm-cache"]);
 
 function isExcluded(relPath) {
   const parts = relPath.split(posix.sep);
   const base = parts[parts.length - 1];
   if (EXCLUDED_TOP.has(base)) return true;
+  if (base.endsWith(".log")) return true;
+  if (base.endsWith(".zip")) return true;
   if (EXCLUDED_PREFIX.some((p) => base.startsWith(p))) return true;
   if (relPath.startsWith("data/cache/")) return true;
+  if (parts.length > 1 && EXCLUDED_TOP_DIRS.has(parts[0])) return true;
   for (const d of parts.slice(0, -1)) {
     if (d === "node_modules" || d === ".next" || d === "out" || d === ".test-build" || d === ".git" || d === ".npm-cache") {
       return true;
@@ -89,18 +103,29 @@ async function api(path, { token, method = "GET", body } = {}) {
   return json;
 }
 
-async function withRetry(fn, label, tries = 3) {
+async function withRetry(fn, label, tries = 8) {
   let last;
   for (let i = 0; i < tries; i += 1) {
     try {
       return await fn();
     } catch (e) {
       last = e;
-      if (e.status && e.status < 500 && e.status !== 429) throw e;
-      await new Promise((r) => setTimeout(r, 800 * (i + 1)));
+      const msg = String(e.message || "");
+      const network = /fetch failed|ECONNRESET|ETIMEDOUT|socket hang up|other side closed|UND_ERR/i.test(msg) || e.name === "TypeError";
+      const secondary = e.status === 403 && /secondary rate limit|rate limit/i.test(msg);
+      const retryable = network || secondary || e.status === 401 || e.status === 429 || (e.status && e.status >= 500);
+      if (!retryable) throw e;
+      const wait = secondary ? Math.min(120000, 30000 * (i + 1)) : Math.min(30000, 1000 * 2 ** i);
+      if (secondary) process.stdout.write(`\n  ⏳ 触发 GitHub 次要限流，等待 ${Math.round(wait / 1000)}s 后重试（${label}）\n`);
+      await new Promise((r) => setTimeout(r, wait));
     }
   }
   throw new Error(`${label} 失败：${last?.message ?? last}`);
+}
+
+function gitBlobSha(buf) {
+  const header = Buffer.from(`blob ${buf.length}\0`, "utf8");
+  return createHash("sha1").update(Buffer.concat([header, buf])).digest("hex");
 }
 
 async function pool(items, limit, worker) {
@@ -155,8 +180,18 @@ async function main() {
   // 1.5 空仓库预热：GitHub 对「完全没有提交」的仓库，Git Data API 的 blobs 会返回 409
   //     （"Git Repository is empty."）。用 Contents API 建一个 README 占位提交即可激活 git 库；
   //     正式 tree 里包含根目录 README.md，随后会被覆盖，不留垃圾文件。
-  const isEmpty = info.size === 0;
-  if (isEmpty) {
+  //     若 README.md 已存在（例如上一次预热成功但 size 字段未刷新），跳过预热。
+  let needBootstrap = info.size === 0;
+  if (needBootstrap) {
+    try {
+      await api(`/repos/${owner}/${repo}/contents/README.md?ref=${branch}`, { token });
+      needBootstrap = false;
+      console.log("README.md 已存在，跳过预热");
+    } catch (e) {
+      if (e.status !== 404) throw e;
+    }
+  }
+  if (needBootstrap) {
     const bootstrap = `# ${repo}\n\n初始化占位文件，构建完成后会被项目真正的 README 覆盖。\n`;
     await withRetry(
       () =>
@@ -174,17 +209,34 @@ async function main() {
     console.log("空仓库已预热（创建 README 占位提交）");
   }
 
-  // 2. 上传 blob（并发 6）
+  // 2. 上传 blob（并发 2 + 轻量节流，避免触发 GitHub 次要限流；已存在的 blob 直接复用）
   let done = 0;
-  const blobs = await pool(files, 6, async (f) => {
-    const content = readFileSync(f.abs).toString("base64");
-    const created = await withRetry(
-      () => api(`/repos/${owner}/${repo}/git/blobs`, { token, method: "POST", body: { content, encoding: "base64" } }),
-      `blob ${f.rel}`,
-    );
+  let reused = 0;
+  const blobs = await pool(files, 2, async (f) => {
+    const buf = readFileSync(f.abs);
+    const sha = gitBlobSha(buf);
     done += 1;
-    if (done % 25 === 0 || done === files.length) process.stdout.write(`\r  已上传 ${done}/${files.length} 个 blob`);
-    return { path: f.rel, sha: created.sha, mode: "100644", type: "blob" };
+    let exists = false;
+    try {
+      await withRetry(() => api(`/repos/${owner}/${repo}/git/blobs/${sha}`, { token }), `probe ${f.rel}`, 2);
+      exists = true;
+    } catch (e) {
+      if (e.status !== 404 && !String(e.message).includes("404")) throw e;
+    }
+    if (exists) {
+      reused += 1;
+    } else {
+      const content = buf.toString("base64");
+      await withRetry(
+        () => api(`/repos/${owner}/${repo}/git/blobs`, { token, method: "POST", body: { content, encoding: "base64" } }),
+        `blob ${f.rel}`,
+      );
+      await new Promise((r) => setTimeout(r, 120));
+    }
+    if (done % 25 === 0 || done === files.length) {
+      process.stdout.write(`\r  已处理 ${done}/${files.length} 个 blob（复用 ${reused}）`);
+    }
+    return { path: f.rel, sha, mode: "100644", type: "blob" };
   });
   process.stdout.write("\n");
 
@@ -199,7 +251,7 @@ async function main() {
   let parents = [];
   try {
     const ref = await api(`/repos/${owner}/${repo}/git/ref/heads/${branch}`, { token });
-    parents = [{ sha: ref.object.sha }];
+    parents = [ref.object.sha];
   } catch (e) {
     if (e.status !== 404) throw e;
   }

@@ -236,8 +236,14 @@ export function FateDraw({ films }: { films: FateFilm[] }) {
           <div className="fa-result w-full max-w-[780px] border border-[rgba(226,200,127,0.45)] bg-[rgba(6,9,16,0.94)] p-7 shadow-[0_0_140px_-30px_rgba(226,200,127,0.8)] sm:p-9">
             <div className="flex flex-col items-center gap-7 sm:flex-row sm:items-start sm:gap-8">
               <div className="poster-frame aspect-[2/3] w-[190px] shrink-0 overflow-hidden border border-[rgba(226,200,127,0.3)] sm:w-[236px]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={pick.poster} alt={pick.title} className="h-full w-full object-cover" />
+                {pick.poster ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={pick.poster} alt={pick.title} className="h-full w-full object-cover" />
+                ) : (
+                  <div className="flex h-full w-full items-center justify-center bg-[rgba(12,16,26,0.9)]">
+                    <span className="display text-[1.6rem] text-[rgba(226,200,127,0.55)]">{pick.title.slice(0, 1)}</span>
+                  </div>
+                )}
               </div>
 
               <div className="min-w-0 flex-1 text-center sm:text-left">

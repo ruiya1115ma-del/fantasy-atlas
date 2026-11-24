@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import type { FilterState, SortKey } from "@/lib/filter";
 import {
   DEFAULT_FILTERS,
@@ -42,18 +41,21 @@ const RATING_STEPS = [
 ];
 
 export function ExploreClient({ movies, initial }: { movies: MediaCard[]; initial: FilterState }) {
-  const router = useRouter();
   const library = useLibrary();
   const [f, setF] = useState<FilterState>({ ...DEFAULT_FILTERS, ...initial });
   const [showFilters, setShowFilters] = useState(false);
   const [expanded, setExpanded] = useState<Record<string, boolean>>({ type: true, world: true, aesthetic: true });
 
-  // URL 同步：筛选条件可分享、可刷新保持
+  // URL 同步：筛选条件可分享、可刷新保持。
+  // 用 history.replaceState 而不是 router.replace：后者会触发一次服务端重新渲染，
+  // 遇到 force-dynamic 的探索页会把顶部轮播重新随机一遍，造成「加载一秒后换片」的闪烁。
   useEffect(() => {
+    if (typeof window === "undefined") return;
     const qs = filtersToQuery(f);
     const url = qs ? `/explore?${qs}` : "/explore";
-    router.replace(url, { scroll: false });
-  }, [f, router]);
+    if (window.location.pathname + window.location.search === url) return;
+    window.history.replaceState(null, "", url);
+  }, [f]);
 
   const facetCounts = useMemo(() => {
     const out: Record<string, Record<string, number>> = {};
@@ -480,11 +482,7 @@ export function ExploreClient({ movies, initial }: { movies: MediaCard[]; initia
       </div>
 
       <p className="mt-10 text-[0.68rem] leading-relaxed text-[var(--color-ash-dim)]">
-        标签：{tagLabel("Epic Fantasy")}、{tagLabel("魔法学院")}… 全部经过词表规范化；数据来源与授权见{" "}
-        <Link href="/sources" className="text-gold-soft underline underline-offset-4">
-          数据与授权
-        </Link>
-        。
+        标签：{tagLabel("Epic Fantasy")}、{tagLabel("魔法学院")}… 全部经过词表规范化；资料与图片均标注来源与许可。
       </p>
     </div>
   );

@@ -33,18 +33,19 @@ const has = (m: TagMatchSubject, bucket: keyof MediaCard["tags"], ids: string[])
 export const CATEGORIES: Category[] = [
   {
     slug: "enchanted-worlds",
-    en: "Enchanted Worlds",
-    zh: "魔法世界",
-    tagline: "这里有另一套物理法则",
+    en: "Youth Quest",
+    zh: "少年奇遇",
+    tagline: "第一次走进不属于自己的世界",
     description:
-      "魔法不是道具，而是这些世界运转的方式。学院、咒语、会移动的楼梯，以及一套完整到可以住进去的社会规则。",
-    signatureTags: ["魔法学院", "魔法社会", "魔法学院美学", "魔法师", "女巫"],
+      "主角还是孩子或少年，被一扇门、一个衣柜、一本书或一场意外带进另一个世界；他在那里被迫长大，再带着一身伤回来。",
+    signatureTags: ["异世界冒险", "奇幻冒险", "童话改编", "少年", "成长"],
     palette: { from: "#101c33", via: "#1d2b46", to: "#0a1a14", ink: "#e2c87f" },
     motif: "arch",
+    // 少年奇遇：少年主角被卷入另一个世界 / 成长冒险是主线；魔法只是背景时不收。
     match: (m) =>
-      has(m, "world", ["魔法学院", "魔法社会"]) ||
-      has(m, "aesthetic", ["魔法学院美学"]) ||
-      (has(m, "element", ["魔法师", "女巫"]) && m.tagConfidence !== "low"),
+      has(m, "world", ["异世界冒险"]) ||
+      (has(m, "type", ["奇幻冒险"]) && (has(m, "mood", ["温暖", "治愈"]) || has(m, "world", ["童话王国"]))) ||
+      (has(m, "type", ["童话改编"]) && has(m, "world", ["异世界冒险", "童话王国"])),
   },
   {
     slug: "dark-gothic",
@@ -114,6 +115,12 @@ export const CATEGORIES: Category[] = [
 export const CATEGORY_BY_SLUG: Record<string, Category> = Object.fromEntries(
   CATEGORIES.map((c) => [c.slug, c]),
 );
+
+/**
+ * 五个视觉风格分类的「互斥归属」在 lib/style-assignments.ts：
+ * 每部作品只进一个分类，人工覆盖表见 lib/style-overrides.ts。
+ * 这里的 match 规则只作为基线（未被人工覆盖的作品用它推）。
+ */
 
 /** 首页「按感觉寻找电影」入口 */
 export interface MoodEntry {

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { MovieCard } from "@/components/MovieCard";
 import { Note } from "@/components/ui";
 import { getMovies } from "@/lib/data";
-import { MOTIFS, MOTIF_BY_SLUG, matchesMotif, motifsOf } from "@/lib/motifs";
+import { MOTIFS, MOTIF_BY_SLUG, matchesMotif } from "@/lib/motifs";
 import { tagLabel } from "@/lib/vocabulary";
 
 export const dynamicParams = false;
@@ -21,7 +21,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const motif = MOTIF_BY_SLUG[slug];
   if (!motif) return { title: "主题不存在" };
-  return { title: `${motif.zh} · 叙事主题`, description: `${motif.tagline}｜${motif.description}` };
+  return { title: `${motif.zh} · 叙事主题`, description: motif.description };
 }
 
 export default async function MotifPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -83,10 +83,9 @@ export default async function MotifPage({ params }: { params: Promise<{ slug: st
           <h1 className="display mt-4 text-[2.6rem] leading-none sm:text-[3.6rem] lg:text-[4.4rem]" style={{ color: motif.ink }}>
             {motif.zh}
           </h1>
-          <p className="mt-4 max-w-xl text-[0.9rem] italic text-[var(--color-ivory-dim)]">{motif.tagline}</p>
-          <p className="mt-5 max-w-2xl text-[0.86rem] leading-relaxed text-[var(--color-ash)]">{motif.description}</p>
+          <p className="mt-4 max-w-2xl text-[0.86rem] leading-relaxed text-[var(--color-ash)]">{motif.description}</p>
           <p className="mt-6 text-[0.68rem] uppercase tracking-[0.2em] text-[var(--color-ivory-dim)]">
-            共 {matched.length} 部 · 与五个视觉风格分类并行
+            共 {matched.length} 部 · 每部作品只归入一个主题
           </p>
         </div>
       </section>
@@ -111,14 +110,6 @@ export default async function MotifPage({ params }: { params: Promise<{ slug: st
               <div key={m.id}>
                 <MovieCard movie={m} />
                 <div className="mt-2 flex flex-wrap gap-x-2.5 gap-y-1">
-                  {motifsOf(m)
-                    .filter((x) => x.slug !== motif.slug)
-                    .slice(0, 2)
-                    .map((x) => (
-                      <span key={x.slug} className="text-[0.6rem] tracking-[0.06em] text-[var(--color-ash-dim)]">
-                        {x.zh}
-                      </span>
-                    ))}
                   {[...m.tags.element.slice(0, 1), ...m.tags.world.slice(0, 1)].map((t) => (
                     <span key={t} className="text-[0.6rem] tracking-[0.06em] text-[var(--color-ash-dim)]">
                       {tagLabel(t)}
@@ -148,8 +139,8 @@ export default async function MotifPage({ params }: { params: Promise<{ slug: st
           ))}
         </div>
         <Note className="mt-8">
-          这些叙事主题是按「标签 + 简介关键词」实时筛出来的，和五个视觉风格分类并行：
-          同一部电影可以既属于「暗黑与哥特」，又属于「禁忌契约」。
+          这些叙事主题是把全部作品逐部看过之后人工归类的：每部作品只进入最符合它核心特征的那一个主题，
+          六个主题都不像的作品不会出现在这里（仍可在探索页按标签找到）。五个视觉风格分类则是另一套并行的分类方式。
         </Note>
       </section>
     </>

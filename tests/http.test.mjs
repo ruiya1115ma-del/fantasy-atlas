@@ -27,6 +27,11 @@ test("首页是品牌落地页：大标题 + 中文品牌标题 + 进入入口 +
   assert.ok(html.includes("进入魔法世界"), "缺少「进入魔法世界」入口");
   assert.ok(html.includes("按主题寻找"), "缺少「按主题寻找」区块");
   assert.ok(html.includes("命运随机抽取"), "缺少「命运随机抽取」区块");
+  // 候选池必须是完整电影库，不能因为缺少剧照而漏掉条目
+  const plain = html.replace(/<!--.*?-->/g, "").replace(/<[^>]+>/g, " ");
+  const pool = /候选池\s*(\d+)\s*部/.exec(plain);
+  assert.ok(pool, "首页缺少「候选池 N 部」文案");
+  assert.equal(Number(pool[1]), catalog.count, `候选池应等于全库 ${catalog.count} 部，实际 ${pool[1]} 部`);
   // 品牌页不应该被某部电影的轮播占据
   assert.ok(!html.includes("进入这部电影"), "首页不该出现电影轮播");
 });
@@ -55,11 +60,13 @@ test("详情页返回 200，且剧照/简介/编辑视角/客观资料分区可�
   assert.ok(html.includes("海报来源"), "缺少海报来源标注");
 });
 
-test("推荐页 / 收藏页 / 数据与授权页都返回 200", async () => {
-  for (const p of ["/recommend", "/favorites", "/sources"]) {
+test("推荐页 / 收藏页返回 200；数据与授权页已收进后台，访客访问返回 404", async () => {
+  for (const p of ["/recommend", "/favorites"]) {
     const { status } = await get(p);
     assert.equal(status, 200, `${p} 返回 ${status}`);
   }
+  const sources = await get("/sources");
+  assert.equal(sources.status, 404, `访客访问 /sources 应返回 404，实际 ${sources.status}`);
 });
 
 test("五个编辑片单页面都返回 200", async () => {
@@ -69,17 +76,8 @@ test("五个编辑片单页面都返回 200", async () => {
   }
 });
 
-test("八个叙事主题页面都返回 200，且各自渲染了不同的作品数量", async () => {
-  const slugs = [
-    "time-rift",
-    "forbidden-pact",
-    "bestiary",
-    "lost-realm",
-    "fate-shift",
-    "magic-relic",
-    "youth-quest",
-    "strange-everyday",
-  ];
+test("六个叙事主题页面都返回 200，且各自渲染了不同的作品数量", async () => {
+  const slugs = ["time-rift", "magic-world", "strange-everyday", "fantasy-creatures", "dark-fairytale", "epic-quest"];
   const counts = new Set();
   for (const slug of slugs) {
     const { status, html } = await get(`/motifs/${slug}`);
@@ -89,17 +87,19 @@ test("八个叙事主题页面都返回 200，且各自渲染了不同的作品�
     const m = clean.match(/共\s*(\d+)\s*部/);
     if (m) counts.add(`${slug}:${m[1]}`);
   }
-  assert.ok(counts.size >= 6, `主题数量应有差异，实际只有 ${counts.size} 种`);
+  assert.equal(counts.size, slugs.length, `六个主题的作品数量应当各不相同，实际只有 ${counts.size} 种`);
 });
 
-test("首页包含八个叙事主题入口与整屏命运抽取", async () => {
+test("首页包含六个叙事主题入口与整屏命运抽取", async () => {
   const { html } = await get("/");
-  for (const zh of ["时空裂隙", "禁忌契约", "异兽图鉴", "失落秘境", "命运变形", "魔法遗物", "少年奇遇", "怪奇日常"]) {
+  for (const zh of ["时空裂隙", "魔法世界", "怪奇日常", "奇幻生物", "暗黑童话", "史诗远征"]) {
     assert.ok(html.includes(zh), `首页缺少主题：${zh}`);
   }
   assert.ok(html.includes("按主题寻找"), "缺少「按主题寻找」分区");
   assert.ok(html.includes("闭上眼，交给命运"), "缺少命运抽取文案");
   assert.ok(html.includes("允许重复抽取"), "缺少重复抽取开关");
+  // 首页主题卡片只显示主题名、图片与数量，不放介绍文字
+  assert.ok(!html.includes("故事可以同时属于"), "首页仍在展示主题介绍文字");
 });
 
 test("不存在的作品：不 500，返回友好页面（dev 流式渲染下 HTTP 码可能是 200）", async () => {

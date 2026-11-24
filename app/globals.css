@@ -466,3 +466,13 @@ body::after {
 }
 .fa-chart--drawing .fa-mote { animation-duration: 1.4s !important; }
 .fa-result { animation: fa-result-in 700ms cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+/* ---- 后台表单小标签 ---- */
+.admin-label {
+  display: block;
+  font-size: 0.66rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-ash-dim);
+}
+

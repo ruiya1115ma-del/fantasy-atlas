@@ -29,7 +29,7 @@ interface Item {
 }
 
 const THEMES = [
-  { slug: "enchanted-worlds", zh: "魔法世界" },
+  { slug: "enchanted-worlds", zh: "少年奇遇" },
   { slug: "dark-gothic", zh: "暗黑与哥特" },
   { slug: "epic-fantasy", zh: "史诗奇幻" },
   { slug: "surreal-dreams", zh: "超现实梦境" },

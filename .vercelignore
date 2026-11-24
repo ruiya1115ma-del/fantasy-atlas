@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.test-build
+backups
+data/cache
+.static-staging
+.vercel
+.appdata
+.npm-cache
+*.log
+*.zip
+.env.local
+DEVLOG.md

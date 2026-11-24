@@ -1,9 +1,11 @@
 /**
- * 八个叙事主题（motifs）的规则测试：
- *   - 每个主题都必须匹配到作品（数量动态算出，不能为 0）
- *   - 允许交叉：至少存在同时命中两个主题的作品
- *   - 规则必须确定性（同一部作品每次判定一致）
- *   - 不得与五个视觉风格分类混淆：两套 slug 集合必须互不相交
+ * 六个叙事主题（motifs）的规则测试：
+ *   - 主题名称与 slug 固定，且与五个视觉风格 slug 不冲突
+ *   - 每部作品最多属于一个主题（禁止重复归类）
+ *   - 每个主题都必须有作品，且六个主题的集合互不相同
+ *   - 归类表里的 id 必须真实存在于 catalog
+ *   - 六个主题都没有收录的作品确实存在（不强行分类）
+ *   - 判定是确定性的
  */
 import test from "node:test";
 import assert from "node:assert/strict";
@@ -14,46 +16,65 @@ import path from "node:path";
 const require = createRequire(import.meta.url);
 const ROOT = path.resolve(import.meta.dirname, "..");
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "catalog.json"), "utf8"));
-const { MOTIFS, MOTIF_BY_SLUG, matchesMotif, motifsOf } = require("../.test-build/motifs.js");
+const { MOTIFS, MOTIF_BY_SLUG, matchesMotif, classifyMovie, motifsOf } = require("../.test-build/motifs.js");
+const { THEME_ASSIGNMENTS } = require("../.test-build/theme-assignments.js");
 const { CATEGORIES } = require("../.test-build/curation.js");
 
-test("八个叙事主题齐全，且与五个视觉风格 slug 不冲突", () => {
-  assert.equal(MOTIFS.length, 8, "主题数量应为 8");
-  const motifSlugs = new Set(MOTIFS.map((m) => m.slug));
+const EXPECTED = [
+  ["time-rift", "时空裂隙"],
+  ["magic-world", "魔法世界"],
+  ["strange-everyday", "怪奇日常"],
+  ["fantasy-creatures", "奇幻生物"],
+  ["dark-fairytale", "暗黑童话"],
+  ["epic-quest", "史诗远征"],
+];
+
+test("六个叙事主题的名称、顺序固定，且与五个视觉风格 slug 不冲突", () => {
+  assert.deepEqual(
+    MOTIFS.map((m) => [m.slug, m.zh]),
+    EXPECTED,
+    "主题列表与需求不一致",
+  );
   const catSlugs = new Set(CATEGORIES.map((c) => c.slug));
-  for (const s of motifSlugs) assert.ok(!catSlugs.has(s), `slug 冲突：${s}`);
-  assert.equal(Object.keys(MOTIF_BY_SLUG).length, 8);
+  for (const motif of MOTIFS) assert.ok(!catSlugs.has(motif.slug), `slug 冲突：${motif.slug}`);
+  assert.equal(Object.keys(MOTIF_BY_SLUG).length, 6);
 });
 
-test("每个主题都能匹配到真实作品（数量 > 0）", () => {
-  for (const motif of MOTIFS) {
-    const n = catalog.movies.filter((m) => matchesMotif(m, motif)).length;
-    assert.ok(n > 0, `${motif.zh}（${motif.slug}）匹配数为 0`);
+test("每部作品最多属于一个主题（禁止重复归类）", () => {
+  const seen = new Map();
+  for (const [slug, ids] of Object.entries(THEME_ASSIGNMENTS)) {
+    for (const id of ids) {
+      assert.ok(!seen.has(id), `${id} 同时出现在 ${seen.get(id)} 与 ${slug}`);
+      seen.set(id, slug);
+    }
   }
 });
 
-test("主题允许交叉：存在同时命中多个主题的作品", () => {
-  const multi = catalog.movies.filter((m) => motifsOf(m).length >= 2);
-  assert.ok(multi.length > 10, `交叉命中作品太少：${multi.length}`);
-});
-
-test("判定是确定性的（同一作品两次结果一致）", () => {
-  for (const motif of MOTIFS) {
-    const a = catalog.movies.filter((m) => matchesMotif(m, motif)).length;
-    const b = catalog.movies.filter((m) => matchesMotif(m, motif)).length;
-    assert.equal(a, b);
+test("归类表里的作品都必须真实存在", () => {
+  const ids = new Set(catalog.movies.map((m) => m.id));
+  for (const [slug, list] of Object.entries(THEME_ASSIGNMENTS)) {
+    for (const id of list) assert.ok(ids.has(id), `${slug} 里有不存在的 id：${id}`);
   }
 });
 
-test("不同主题给出的作品集合不完全相同", () => {
-  const sets = MOTIFS.map((motif) => catalog.movies.filter((m) => matchesMotif(m, motif)).map((m) => m.id).join(","));
-  const unique = new Set(sets);
-  assert.equal(unique.size, MOTIFS.length, "存在两个主题命中了完全相同的作品集合");
+test("每个主题都有作品，且六个主题的集合互不相同", () => {
+  const signatures = new Set();
+  for (const motif of MOTIFS) {
+    const list = catalog.movies.filter((m) => matchesMotif(m, motif));
+    assert.ok(list.length > 0, `${motif.zh} 作品数为 0`);
+    signatures.add(list.map((m) => m.id).sort().join(","));
+  }
+  assert.equal(signatures.size, MOTIFS.length, "存在两个主题收录了完全相同的作品集合");
 });
 
-test("标签命中优先于关键词：带『巨龙』标签的作品一定进异兽图鉴", () => {
-  const bestiary = MOTIF_BY_SLUG.bestiary;
-  const dragons = catalog.movies.filter((m) => (m.tags.element ?? []).includes("巨龙"));
-  assert.ok(dragons.length > 0, "数据里应该有带『巨龙』标签的作品");
-  for (const m of dragons) assert.ok(matchesMotif(m, bestiary), `${m.chineseTitle} 未进异兽图鉴`);
+test("存在不归入任何主题的作品（不强行分类）", () => {
+  const none = catalog.movies.filter((m) => classifyMovie(m) === null);
+  assert.ok(none.length > 0, "所有作品都被强行归类了，与需求不符");
+});
+
+test("一部作品最多命中一个主题，判定具有确定性", () => {
+  for (const m of catalog.movies) {
+    assert.ok(motifsOf(m).length <= 1, `${m.chineseTitle} 命中多个主题`);
+    assert.equal(classifyMovie(m), classifyMovie(m));
+  }
 });

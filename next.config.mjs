@@ -1,6 +1,18 @@
 /** @type {import('next').NextConfig} */
+const staticExport = process.env.FA_STATIC_EXPORT === "1";
+
 const nextConfig = {
   reactStrictMode: true,
+  // 静态导出（Cloudflare Pages / 任意静态托管）时使用：
+  //   FA_STATIC_EXPORT=1 node scripts/build-static-pages.mjs  →  out/
+  // 导出模式下没有服务端，图片优化要关掉，路由改由目录 + index.html 承载。
+  ...(staticExport
+    ? {
+        output: "export",
+        images: { unoptimized: true },
+        trailingSlash: true,
+      }
+    : {}),
   experimental: {
     // keep the JSON catalog importable at build time without bundling it into client JS
     optimizePackageImports: [],

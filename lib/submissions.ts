@@ -15,6 +15,14 @@ const ROOT = process.cwd();
 const DIR = path.join(ROOT, "data", "submissions");
 const FILE = path.join(DIR, "submissions.json");
 
+export const AFFECTION_OPTIONS = [
+  { id: "loved", zh: "非常喜欢" },
+  { id: "liked", zh: "喜欢" },
+  { id: "meh", zh: "一般" },
+] as const;
+
+export type Affection = (typeof AFFECTION_OPTIONS)[number]["id"];
+
 export const submissionSchema = z.object({
   chineseTitle: z.string().trim().min(1, "请填写中文片名").max(60),
   originalTitle: z.string().trim().max(120).optional().default(""),
@@ -24,6 +32,10 @@ export const submissionSchema = z.object({
     .trim()
     .regex(/douban\.com\/subject\/\d+/, "请填写豆瓣条目链接，例如 https://movie.douban.com/subject/1291561/"),
   note: z.string().trim().max(400, "补充说明最多 400 字").optional().default(""),
+  /** 推荐理由：为什么值得被收进图鉴 */
+  reason: z.string().trim().max(300, "推荐理由最多 300 字").optional().default(""),
+  /** 喜爱程度，后台审核时用来判断收录优先级 */
+  affection: z.enum(["loved", "liked", "meh"]).optional(),
   submitter: z.string().trim().max(40).optional().default("anonymous"),
 });
 

@@ -1,0 +1,274 @@
+  1 snow-white-and-the-seven-dwarfs  白雪公主和七个小矮人（1937）
+  2 the-wizard-of-oz-1939  绿野仙踪（1939）
+  3 cinderella  灰姑娘（1950）（1950）
+  4 the-7th-voyage-of-sinbad  辛巴达七航妖岛（1958）
+  5 sleeping-beauty  睡美人（1959）
+  6 jason-and-the-argonauts  杰逊王子战群妖（1963）
+  7 the-golden-voyage-of-sinbad  辛巴达黄金航程（1973）
+  8 the-castle-of-cagliostro  鲁邦三世：卡里奥斯特罗之城（1979）
+  9 excalibur  神剑（1981）
+ 10 the-dark-crystal  黑水晶（1982）
+ 11 the-last-unicorn  最后的独角兽（1982）
+ 12 splash-1984  美人鱼（1984）
+ 13 the-neverending-story  大魔域（1984）
+ 14 the-company-of-wolves  狼的公司（1984）
+ 15 nausicaa-of-the-valley-of-the-wind  风之谷（1984）
+ 16 legend  诡秘怪谈（1985）
+ 17 return-to-oz  重返奥兹国（1985）
+ 18 castle-in-the-sky  天空之城（1986）
+ 19 labyrinth-1986  魔幻迷宫（1986）
+ 20 the-princess-bride  公主新娘（1987）
+ 21 my-neighbor-totoro-1988  龙猫（1988）
+ 22 beetlejuice-1988  阴间大法师（1988）
+ 23 the-adventures-of-baron-munchausen  终极天将（1988）
+ 24 kikis-delivery-service-1989  魔女宅急便（1989）
+ 25 the-little-mermaid  小美人鱼（1989）（1989）
+ 26 edward-scissorhands  剪刀手爱德华（1990）
+ 27 the-witches  女巫（1990）（1990）
+ 28 the-addams-family-1991  亚当斯一家（1991）
+ 29 beauty-and-the-beast  美女与野兽（1991）（1991）
+ 30 bram-stokers-dracula-1992  吸血鬼惊情四百年（1992）
+ 31 aladdin  阿拉丁（1992）（1992）
+ 32 porco-rosso  红猪（1992）
+ 33 hocus-pocus-1993  女巫也疯狂（1993）
+ 34 the-secret-garden  秘密花园（1993）
+ 35 the-mask-1994  变相怪杰（1994）
+ 36 interview-with-the-vampire-1994  夜访吸血鬼（1994）
+ 37 the-pagemaster  图书馆员奇幻之旅（1994）
+ 38 the-return-of-jafar  贾方复仇记（1994）
+ 39 jumanji-1995  勇敢者的游戏（1995）
+ 40 casper-1995  鬼马小精灵（1995）
+ 41 the-city-of-lost-children  童梦失魂夜（1995）
+ 42 the-indian-in-the-cupboard  印第安人在橱柜里（1995）
+ 43 pocahontas  风中奇缘（1995）
+ 44 dragonheart  龙之心（1996）
+ 45 aladdin-and-the-king-of-thieves  阿拉丁和大盗之王（1996）
+ 46 princess-mononoke-1997  幽灵公主（1997）
+ 47 beauty-and-the-beast-the-enchanted-christmas  美女与野兽：贝儿的心愿（1997）
+ 48 cinderella-1997  灰姑娘（1997）（1997）
+ 49 mulan  花木兰（1998）（1998）
+ 50 beauty-and-the-beast-belle-s-magical-world  美女与野兽：贝儿的奇幻世界（1998）
+ 51 pocahontas-ii-journey-to-a-new-world  风中奇缘2：伦敦之旅（1998）
+ 52 the-mummy-1999  木乃伊（1999）
+ 53 sleepy-hollow-1999  断头谷（1999）
+ 54 a-midsummer-nights-dream-1999  仲夏夜之梦（1999）
+ 55 the-13th-warrior  第十三个勇士（1999）
+ 56 the-little-mermaid-ii-return-to-the-sea  小美人鱼2：重返大海（2000）
+ 57 harry-potter-and-the-philosophers-stone  哈利·波特与魔法石（2001）
+ 58 the-lord-of-the-rings-the-fellowship-of-the-ring  指环王：护戒使者（2001）
+ 59 spirited-away  千与千寻（2001）
+ 60 barbie-in-the-nutcracker  芭比与胡桃夹子的梦幻之旅（2001）
+ 61 the-mummy-returns-2001  木乃伊归来（2001）
+ 62 harry-potter-and-the-chamber-of-secrets  哈利·波特与密室（2002）
+ 63 the-lord-of-the-rings-the-two-towers  指环王：双塔奇兵（2002）
+ 64 barbie-as-rapunzel  芭比之长发公主（2002）
+ 65 the-cat-returns  猫的报恩（2002）
+ 66 cinderella-ii-dreams-come-true  灰姑娘2：美梦成真（2002）
+ 67 the-lord-of-the-rings-the-return-of-the-king  指环王：王者无敌（2003）
+ 68 pirates-of-the-caribbean-the-curse-of-the-black-pearl  加勒比海盗：黑珍珠号的诅咒（2003）
+ 69 barbie-of-swan-lake  芭比之天鹅湖（2003）
+ 70 the-haunted-mansion-2003  幽灵鬼屋（2003）
+ 71 big-fish-2003  大鱼（2003）
+ 72 peter-pan-2003  小飞侠彼得潘（2003）
+ 73 harry-potter-and-the-prisoner-of-azkaban  哈利·波特与阿兹卡班的囚徒（2004）
+ 74 howls-moving-castle  哈尔的移动城堡（2004）
+ 75 barbie-as-the-princess-and-the-pauper  芭比之真假公主（2004）
+ 76 ella-enchanted-2004  魔法灰姑娘（2004）
+ 77 hellboy-2004  地狱男爵（2004）
+ 78 a-series-of-unfortunate-events-2004  雷蒙·斯尼奇的不幸历险（2004）
+ 79 van-helsing-2004  范海辛（2004）
+ 80 mulan-ii  花木兰2（2004）
+ 81 harry-potter-and-the-goblet-of-fire  哈利·波特与火焰杯（2005）
+ 82 the-chronicles-of-narnia-the-lion-the-witch-and-the-wardrobe  纳尼亚传奇：狮子、女巫和魔衣橱（2005）
+ 83 barbie-fairytopia  芭比之奇幻乐园（2005）
+ 84 barbie-and-the-magic-of-pegasus  芭比与魔幻飞马（2005）
+ 85 nanny-mcphee-2005  魔法保姆麦克菲（2005）
+ 86 zathura-2005  勇敢者的游戏2：太空飞行棋（2005）
+ 87 corpse-bride-2005  僵尸新娘（2005）
+ 88 constantine-2005  康斯坦丁（2005）
+ 89 the-brothers-grimm-2005  格林兄弟（2005）
+ 90 mirrormask-2005  镜子面具（2005）
+ 91 tideland-2005  潮涨海岸（2005）
+ 92 charlie-and-the-chocolate-factory-2005  查理和巧克力工厂（2005）
+ 93 pirates-of-the-caribbean-dead-mans-chest  加勒比海盗2：聚魂棺（2006）
+ 94 pans-labyrinth  潘神的迷宫（2006）
+ 95 barbie-fairytopia-mermaidia  芭比之美人鱼（2006）
+ 96 barbie-in-the-12-dancing-princesses  芭比之十二芭蕾公主（2006）
+ 97 night-at-the-museum-2006  博物馆奇妙夜（2006）
+ 98 monster-house-2006  怪兽屋（2006）
+ 99 arthur-and-the-invisibles-2006  亚瑟和迷你王国（2006）
+100 the-fall-2006  坠入（2006）
+101 eragon  龙骑士（2006）
+102 harry-potter-and-the-order-of-the-phoenix  哈利·波特与凤凰社（2007）
+103 pirates-of-the-caribbean-at-worlds-end  加勒比海盗3：世界的尽头（2007）
+104 enchanted  魔法奇缘（2007）
+105 barbie-fairytopia-magic-of-the-rainbow  芭比之彩虹仙子（2007）
+106 barbie-as-the-island-princess  芭比之海岛公主（2007）
+107 stardust-2007  星尘（2007）
+108 bridge-to-terabithia-2007  仙境之桥（2007）
+109 the-golden-compass-2007  黄金罗盘（2007）
+110 mr-magoriums-wonder-emporium-2007  马格瑞姆的神奇玩具店（2007）
+111 the-water-horse  尼斯湖水怪（2007）
+112 cinderella-iii-a-twist-in-time  灰姑娘3：时间魔法（2007）
+113 the-chronicles-of-narnia-prince-caspian  纳尼亚传奇：凯斯宾王子（2008）
+114 twilight  暮光之城（2008）
+115 barbie-and-the-diamond-castle  芭比之钻石城堡（2008）
+116 barbie-in-a-christmas-carol  芭比之圣诞欢歌（2008）
+117 the-mummy-tomb-of-the-dragon-emperor-2008  木乃伊3：龙帝之墓（2008）
+118 inkheart-2008  墨水心（2008）
+119 city-of-ember-2008  微光城市（2008）
+120 ponyo-2008  崖上的波妞（2008）
+121 the-secret-of-moonacre-2008  月亮坪的秘密（2008）
+122 phoebe-in-wonderland-2008  菲比梦游奇境（2008）
+123 the-spiderwick-chronicles-2008  奇幻精灵事件簿（2008）
+124 the-little-mermaid-ariel-s-beginning  小美人鱼：艾莉儿的起源（2008）
+125 harry-potter-and-the-half-blood-prince  哈利·波特与混血王子（2009）
+126 the-twilight-saga-new-moon  暮光之城2：新月（2009）
+127 coraline  鬼妈妈（2009）
+128 barbie-presents-thumbelina  芭比之拇指姑娘（2009）
+129 barbie-and-the-three-musketeers  芭比与三个火枪手（2009）
+130 night-at-the-museum-battle-of-the-smithsonian-2009  博物馆奇妙夜2（2009）
+131 up-2009  飞屋环游记（2009）
+132 the-imaginarium-of-doctor-parnassus  魔法奇幻秀（2009）
+133 the-secret-of-kells  凯尔经的秘密（2009）
+134 the-princess-and-the-frog  公主与青蛙（2009）
+135 harry-potter-and-the-deathly-hallows-part-1  哈利·波特与死亡圣器（上）（2010）
+136 the-chronicles-of-narnia-the-voyage-of-the-dawn-treader  纳尼亚传奇：黎明踏浪号（2010）
+137 the-twilight-saga-eclipse  暮光之城3：月食（2010）
+138 alice-in-wonderland-2010  爱丽丝梦游仙境（2010）
+139 barbie-in-a-mermaid-tale  芭比之美人鱼历险记（2010）
+140 barbie-a-fashion-fairytale  芭比之时尚童话（2010）
+141 nanny-mcphee-returns-2010  魔法保姆麦克菲2（2010）
+142 the-secret-world-of-arrietty-2010  借东西的小人阿莉埃蒂（2010）
+143 adele-blanc-sec-2010  阿黛拉的非凡冒险（2010）
+144 percy-jackson-the-lightning-thief-2010  波西·杰克逊与神火之盗（2010）
+145 clash-of-the-titans  诸神之战（2010）
+146 the-sorcerer-s-apprentice  魔法师的学徒（2010）
+147 tangled  魔发奇缘（2010）
+148 harry-potter-and-the-deathly-hallows-part-2  哈利·波特与死亡圣器（下）（2011）
+149 pirates-of-the-caribbean-on-stranger-tides  加勒比海盗4：惊涛怪浪（2011）
+150 the-twilight-saga-breaking-dawn-part-1  暮光之城4：破晓（上）（2011）
+151 once-upon-a-time-2011  童话镇（2011）
+152 hugo-2011  雨果（2011）
+153 barbie-a-fairy-secret-2011  芭比之仙子的秘密（2011）
+154 barbie-princess-charm-school-2011  芭比之魅力公主学院（2011）
+155 barbie-a-perfect-christmas-2011  芭比之完美圣诞（2011）
+156 immortals  惊天战神（2011）
+157 children-who-chase-lost-voices  追逐繁星的孩子（2011）
+158 the-hobbit-an-unexpected-journey  霍比特人：意外之旅（2012）
+159 the-twilight-saga-breaking-dawn-part-2  暮光之城4：破晓（下）（2012）
+160 hotel-transylvania-2012  精灵旅社（2012）
+161 snow-white-and-the-huntsman-2012  白雪公主与猎人（2012）
+162 mirror-mirror-2012  白雪公主之魔镜魔镜（2012）
+163 frankenweenie-2012  科学怪狗（2012）
+164 dark-shadows-2012  黑暗阴影（2012）
+165 paranorman-2012  通灵男孩诺曼（2012）
+166 barbie-in-a-mermaid-tale-2-2012  芭比之美人鱼历险记2（2012）
+167 barbie-the-princess-and-the-popstar-2012  芭比之歌星公主（2012）
+168 brave  勇敢传说（2012）
+169 tangled-ever-after-2012  魔发奇缘：幸福终点站（2012）
+170 the-hobbit-the-desolation-of-smaug  霍比特人：史矛革之战（2013）
+171 percy-jackson-sea-of-monsters-2013  波西·杰克逊与魔兽之海（2013）
+172 only-lovers-left-alive-2013  唯爱永生（2013）
+173 oz-the-great-and-powerful-2013  魔境仙踪（2013）
+174 barbie-in-the-pink-shoes-2013  芭比之粉红舞鞋（2013）
+175 barbie-mariposa-and-the-fairy-princess-2013  芭比之蝴蝶仙子和精灵公主（2013）
+176 barbie-and-her-sisters-in-a-pony-tale-2013  芭比姐妹与小马（2013）
+177 the-tale-of-the-princess-kaguya  辉夜姬物语（2013）
+178 the-wind-rises  起风了（2013）
+179 the-hobbit-the-battle-of-the-five-armies  霍比特人：五军之战（2014）
+180 night-at-the-museum-secret-of-the-tomb-2014  博物馆奇妙夜3：墓葬秘密（2014）
+181 maleficent-2014  沉睡魔咒（2014）
+182 la-belle-et-la-bete-2014  美女与野兽（法国版）（2014）
+183 barbie-the-pearl-princess-2014  芭比之珍珠公主（2014）
+184 barbie-and-the-secret-door-2014  芭比之神秘之门（2014）
+185 song-of-the-sea  海洋之歌（2014）
+186 seventh-son  第七子：降魔之战（2014）
+187 the-book-of-life  生命之书（2014）
+188 crimson-peak  猩红山峰（2015）
+189 hotel-transylvania-2-2015  精灵旅社2（2015）
+190 cinderella-2015  灰姑娘（2015）
+191 the-witch-2015  女巫（2015）
+192 he-is-a-dragon-2015  他是龙（2015）
+193 inside-out-2015  头脑特工队（2015）
+194 tale-of-tales-2015  故事的故事（2015）
+195 the-last-witch-hunter-2015  最后的巫师猎人（2015）
+196 barbie-in-princess-power-2015  芭比之非凡公主（2015）
+197 barbie-in-rock-n-royals-2015  芭比之摇滚训练营（2015）
+198 barbie-and-her-sisters-in-the-great-puppy-adventure-2015  芭比之狗狗大冒险（2015）
+199 the-boy-and-the-beast  怪物之子（2015）
+200 strange-magic  奇异魔法（2015）
+201 fantastic-beasts-and-where-to-find-them  神奇动物在哪里（2016）
+202 alice-through-the-looking-glass  爱丽丝梦游仙境2：镜中奇遇记（2016）
+203 miss-peregrines-home-for-peculiar-children  佩小姐的奇幻城堡（2016）
+204 stranger-things-2016  怪奇物语（2016）
+205 the-huntsman-winters-war-2016  猎神：冬日之战（2016）
+206 the-bfg-2016  圆梦巨人（2016）
+207 a-monster-calls-2016  当怪物来敲门（2016）
+208 barbie-spy-squad-2016  芭比之特工队（2016）
+209 barbie-star-light-adventure-2016  芭比之星际大冒险（2016）
+210 barbie-and-her-sisters-in-a-puppy-chase-2016  芭比之狗狗奇遇记（2016）
+211 kubo-and-the-two-strings  魔弦传说（2016）
+212 moana  海洋奇缘（2016）
+213 the-jungle-book  森林王子（2016）
+214 pirates-of-the-caribbean-dead-men-tell-no-tales  加勒比海盗5：死无对证（2017）
+215 jumanji-welcome-to-the-jungle-2017  勇敢者游戏：决战丛林（2017）
+216 beauty-and-the-beast-2017  美女与野兽（2017）
+217 dark-2017  暗黑（2017）
+218 the-gifted-2017  天赋异禀（2017）
+219 the-shape-of-water-2017  水形物语（2017）
+220 coco-2017  寻梦环游记（2017）
+221 barbie-video-game-hero-2017  芭比之电玩英雄（2017）
+222 barbie-dolphin-magic-2017  芭比之海豚魔法（2017）
+223 mary-and-the-witch-s-flower  玛丽与魔女之花（2017）
+224 tangled-before-ever-after  魔发奇缘：幸福前奏（2017）
+225 fantastic-beasts-the-crimes-of-grindelwald  神奇动物：格林德沃之罪（2018）
+226 chilling-adventures-of-sabrina-2018  萨布丽娜的惊心冒险（2018）
+227 hotel-transylvania-3-2018  精灵旅社3：疯狂假期（2018）
+228 the-nutcracker-and-the-four-realms-2018  胡桃夹子和四个王国（2018）
+229 aquaman-2018  海王（2018）
+230 the-house-with-a-clock-in-its-walls-2018  滴答屋（2018）
+231 barbie-dreamhouse-adventures-2016  芭比之梦境奇遇记（2018）
+232 a-wrinkle-in-time  时间的皱折（2018）
+233 jumanji-the-next-level-2019  勇敢者游戏2：再战巅峰（2019）
+234 aladdin-2019  阿拉丁（2019）
+235 the-lion-king-2019  狮子王（2019）
+236 the-lighthouse-2019  灯塔（2019）
+237 good-omens-2019  好兆头（2019）
+238 his-dark-materials-2019  黑暗物质（2019）
+239 the-wonderland  生日幻境（2019）
+240 maleficent-mistress-of-evil  沉睡魔咒2：恶魔夫人（2019）
+241 dolittle-2020  多力特的奇幻冒险（2020）
+242 barbie-princess-adventure-2020  芭比公主历险记（2020）
+243 roald-dahl-s-the-witches  女巫（2020）（2020）
+244 wolfwalkers  狼行者（2020）
+245 mulan-2020  花木兰（2020）（2020）
+246 cruella-2021  黑白魔女库伊拉（2021）
+247 encanto-2021  魔法满屋（2021）
+248 barbie-and-chelsea-the-lost-birthday-2021  芭比与切尔西：丢失的生日（2021）
+249 barbie-big-city-big-dreams-2021  芭比之城市大梦想（2021）
+250 the-green-knight  绿衣骑士（2021）
+251 raya-and-the-last-dragon  寻龙传说（2021）
+252 fantastic-beasts-the-secrets-of-dumbledore  神奇动物：邓布利多之谜（2022）
+253 wednesday  星期三（2022）
+254 disenchanted-2022  魔法奇缘2：解除魔法（2022）
+255 hotel-transylvania-transformania-2022  精灵旅社4：变身大冒险（2022）
+256 slumberland-2022  梦乡（2022）
+257 the-school-for-good-and-evil-2022  善恶魔法学院（2022）
+258 barbie-mermaid-power-2022  芭比之美人鱼（2022）
+259 barbie-road-trip-adventure-2022  芭比之公路大冒险（2022）
+260 the-amazing-maurice  神奇的莫里斯（2022）
+261 pinocchio  匹诺曹（2022）
+262 the-little-mermaid-2023  小美人鱼（2023）
+263 barbie-2023  芭比（2023）
+264 wonka-2023  旺卡（2023）
+265 the-boy-and-the-heron-2023  你想活出怎样的人生（2023）
+266 percy-jackson-and-the-olympians-2023  波西·杰克逊与奥林匹斯众神（2023）
+267 barbie-skipper-and-the-big-babysitting-adventure-2023  芭比与思佩的保姆大冒险（2023）
+268 barbie-a-touch-of-magic-2023  芭比公主之魔法大冒险（2023）
+269 dungeons-dragons-honor-among-thieves  龙与地下城：侠盗荣耀（2023）
+270 peter-pan-wendy  彼得潘与温蒂（2023）
+271 barbie-mysteries-the-great-horse-chase-2024  芭比之谜：神驹追踪（2024）
+272 barbie-and-stacie-to-the-rescue-2024  芭比与史黛西的救援（2024）
+273 moana-2  海洋奇缘2（2024）
+274 mufasa-the-lion-king  狮子王：木法沙传奇（2024）

@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import type { CatalogFile, Franchise, Movie } from "./types";
 import { CATEGORIES, EDITORIAL_LISTS, MOODS } from "./curation";
+import { assignStyle } from "./style-assignments";
 
 /**
  * 数据加载层（仅服务端）。
@@ -60,19 +61,43 @@ export function getFranchises(): Franchise[] {
     .sort((a, b) => b.movies.length - a.movies.length);
 }
 
-/** 首页「按奇幻世界探索」 */
+/**
+ * 五个视觉风格的封面偏好（按顺序取第一部还没被别的分类用掉的作品）。
+ * 只影响首页画廊与分类页头图，不影响分类成员。
+ */
+const CATEGORY_COVER_PREF: Record<string, string[]> = {
+  "enchanted-worlds": ["the-nutcracker-and-the-four-realms-2018", "narnia", "the-neverending-story"],
+  "dark-gothic": ["twilight", "crimson-peak", "sleepy-hollow-1999", "the-brothers-grimm-2005"],
+  "epic-fantasy": [
+    "the-lord-of-the-rings-the-fellowship-of-the-ring",
+    "the-hobbit-an-unexpected-journey",
+    "the-lord-of-the-rings-the-two-towers",
+  ],
+  "surreal-dreams": ["alice-in-wonderland-2010", "big-fish-2003", "coraline"],
+  "whimsical-tales": ["coraline", "spirited-away", "my-neighbor-totoro-1988"],
+};
+
+/** 首页「按奇幻世界探索」：每部作品只归入一个分类（互斥），人工归属表见 lib/style-overrides.ts */
 export function getCategoryBuckets() {
   const movies = getMovies();
+  const assigned = new Map<string, string>();
+  for (const m of movies) {
+    const slug = assignStyle(m);
+    if (slug) assigned.set(m.id, slug);
+  }
+
+  const byRating = (a: Movie, b: Movie) => (b.ratings[0]?.rating_count ?? 0) - (a.ratings[0]?.rating_count ?? 0);
+
   return CATEGORIES.map((cat) => {
-    const matched = movies.filter(cat.match);
+    const matched = movies.filter((m) => assigned.get(m.id) === cat.slug);
+    const sorted = matched.slice().sort(byRating);
+    const coverCandidates = [...(CATEGORY_COVER_PREF[cat.slug] ?? []).map((id) => movies.find((m) => m.id === id)).filter(Boolean) as Movie[]];
     return {
       category: cat,
       count: matched.length,
-      movies: matched.slice().sort((a, b) => (b.ratings[0]?.rating_count ?? 0) - (a.ratings[0]?.rating_count ?? 0)),
-      representatives: matched
-        .slice()
-        .sort((a, b) => (b.ratings[0]?.rating_count ?? 0) - (a.ratings[0]?.rating_count ?? 0))
-        .slice(0, 3),
+      movies: sorted,
+      coverCandidates: [...coverCandidates, ...sorted.filter((m) => !coverCandidates.some((c) => c.id === m.id))],
+      representatives: sorted.slice(0, 3),
     };
   });
 }

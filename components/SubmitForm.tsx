@@ -15,6 +15,8 @@ export function SubmitForm() {
       originalTitle: String(fd.get("originalTitle") ?? ""),
       releaseYear: fd.get("releaseYear") ? Number(fd.get("releaseYear")) : undefined,
       doubanUrl: String(fd.get("doubanUrl") ?? ""),
+      reason: String(fd.get("reason") ?? ""),
+      affection: String(fd.get("affection") ?? "") || undefined,
       note: String(fd.get("note") ?? ""),
       submitter: String(fd.get("submitter") ?? ""),
     };
@@ -73,8 +75,36 @@ export function SubmitForm() {
       </label>
 
       <label className="block">
+        <span className="text-[0.68rem] uppercase tracking-[0.18em] text-[var(--color-ash-dim)]">推荐理由</span>
+        <textarea
+          name="reason"
+          rows={3}
+          className="field mt-2 w-full"
+          placeholder="它哪里打动你？一句也行——这句话会出现在审核后台，帮我们判断要不要收录。"
+        />
+      </label>
+
+      <fieldset>
+        <legend className="text-[0.68rem] uppercase tracking-[0.18em] text-[var(--color-ash-dim)]">
+          你的喜爱程度
+        </legend>
+        <div className="mt-3 flex flex-wrap gap-4">
+          {[
+            { id: "loved", zh: "非常喜欢" },
+            { id: "liked", zh: "喜欢" },
+            { id: "meh", zh: "一般" },
+          ].map((opt) => (
+            <label key={opt.id} className="flex items-center gap-2 text-[0.82rem] text-[var(--color-ivory-dim)]">
+              <input type="radio" name="affection" value={opt.id} className="accent-[var(--color-gold)]" />
+              {opt.zh}
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <label className="block">
         <span className="text-[0.68rem] uppercase tracking-[0.18em] text-[var(--color-ash-dim)]">补充说明</span>
-        <textarea name="note" rows={4} className="field mt-2 w-full" placeholder="为什么想把它加进来？或者要更正哪条资料？" />
+        <textarea name="note" rows={3} className="field mt-2 w-full" placeholder="要更正哪条资料？或者有其他线索？" />
       </label>
 
       <div className="flex flex-wrap items-center gap-4">

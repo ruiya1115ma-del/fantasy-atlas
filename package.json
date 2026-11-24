@@ -2,7 +2,7 @@
   "name": "fantasy-atlas",
   "version": "0.1.0",
   "private": true,
-  "description": "Fantasy Atlas · 一个人的奇幻电影探索指南（视觉美学优先 + 可解释推荐）",
+  "description": "Fantasy Atlas —— 一个私人的奇幻电影图鉴（视觉与氛围优先，而非评分排行）",
   "scripts": {
     "dev": "next dev -p 4317",
     "dev:sandbox": "node scripts/dev.mjs",
@@ -19,17 +19,20 @@
     "verify-pages": "node scripts/verify-pages.mjs",
     "validate": "node scripts/validate-data.mjs",
     "test:build": "tsc -p tsconfig.test.json",
-    "test:unit": "node --test --test-isolation=none tests/data.test.mjs tests/logic.test.mjs tests/motifs.test.mjs",
+    "test:unit": "node --test --test-isolation=none tests/data.test.mjs tests/logic.test.mjs tests/motifs.test.mjs tests/hero-picks.test.mjs",
     "test:e2e": "node --test --test-isolation=none tests/http.test.mjs",
     "test": "npm run test:build && npm run test:unit",
     "poster:hunt": "node scripts/poster-hunt.mjs",
     "poster:audit": "node scripts/audit-posters.mjs",
     "poster:shrink": "node scripts/shrink-posters.mjs",
-    "poster:fill": "node scripts/fill-posters.mjs"
+    "poster:fill": "node scripts/fill-posters.mjs",
+    "push:api": "node scripts/push-to-github.mjs",
+    "push:git": "node scripts/push-isogit.mjs",
+    "backup": "node scripts/backup.mjs",
+    "snapshot": "node scripts/git-snapshot.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
-    "isomorphic-git": "^1.44.9",
     "next": "16.0.7",
     "react": "19.2.0",
     "react-dom": "19.2.0",
