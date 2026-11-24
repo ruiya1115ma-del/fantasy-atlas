@@ -1,5 +1,4 @@
-import fs from "node:fs";
-import path from "node:path";
+import catalogSource from "@/data/catalog.json";
 import type { CatalogFile, Franchise, Movie } from "./types";
 import { CATEGORIES, EDITORIAL_LISTS, MOODS } from "./curation";
 import { assignStyle } from "./style-assignments";
@@ -7,25 +6,22 @@ import { assignStyle } from "./style-assignments";
 /**
  * 数据加载层（仅服务端）。
  * 站点唯一数据源是 data/catalog.json —— 由 scripts/merge-catalog.mjs 生成。
+ * 这里用**静态 JSON 导入**而不是 fs 读取：这样数据会被打进服务端 bundle，
+ * 在 Cloudflare Workers 这类没有文件系统的运行环境里也能读。
  * 读取失败时返回空目录而不是崩溃，页面负责显示"数据尚未就绪"的空状态。
  */
 
-const CATALOG_PATH = path.join(process.cwd(), "data", "catalog.json");
-
 let cache: CatalogFile | null = null;
-let cacheMtime = 0;
 
 export function loadCatalog(): CatalogFile {
   try {
-    const stat = fs.statSync(CATALOG_PATH);
-    if (cache && stat.mtimeMs === cacheMtime) return cache;
-    const parsed = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8")) as CatalogFile;
+    if (cache) return cache;
+    const parsed = catalogSource as unknown as CatalogFile;
     cache = {
       generatedAt: parsed.generatedAt ?? new Date().toISOString(),
       count: Array.isArray(parsed.movies) ? parsed.movies.length : 0,
       movies: Array.isArray(parsed.movies) ? parsed.movies : [],
     };
-    cacheMtime = stat.mtimeMs;
     return cache;
   } catch {
     return { generatedAt: new Date().toISOString(), count: 0, movies: [] };

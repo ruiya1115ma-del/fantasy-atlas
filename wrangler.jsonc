@@ -1,0 +1,23 @@
+{
+  // Cloudflare Workers（OpenNext）部署配置。
+  // 构建：npx opennextjs-cloudflare build   → 产出 .open-next/worker.js + .open-next/assets
+  // 部署：npx wrangler deploy
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fantasy-atlas",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-11-25",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "FA_DATA",
+      "id": "8d2ed4325d8946b3a57e3440d04b9416"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}

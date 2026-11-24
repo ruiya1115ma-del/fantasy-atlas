@@ -1,0 +1,16 @@
+{
+  // 阶段一：Workers 静态资源托管（预渲染的 out/ 直接挂在 Worker 上）
+  // 用 `node node_modules/wrangler/bin/wrangler.js deploy --config wrangler.static.jsonc --no-bundle`
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fantasyatlas",
+  "main": "cloudflare/worker.mjs",
+  "compatibility_date": "2025-11-25",
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

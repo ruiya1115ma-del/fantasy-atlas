@@ -10,6 +10,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import configSource from "@/data/home-config.json";
 import { CATEGORIES } from "@/lib/curation";
 import { assignStyle } from "@/lib/style-assignments";
 import { MOTIFS, classifyMovie } from "@/lib/motifs";
@@ -250,6 +251,15 @@ export function loadHomeConfig(): HomeConfig {
     if (!parsed || !Array.isArray(parsed.sections)) return buildSeedConfig();
     return normalizeConfig(parsed).config;
   } catch {
+    // 没有文件系统（Cloudflare Workers 等）：用构建时打进 bundle 的配置快照
+    try {
+      const bundled = configSource as unknown as HomeConfig;
+      if (bundled && Array.isArray(bundled.sections)) {
+        return normalizeConfig(bundled).config;
+      }
+    } catch {
+      /* 忽略，继续用 seed */
+    }
     const seed = buildSeedConfig();
     try {
       atomicWrite(CONFIG_PATH, JSON.stringify(seed, null, 2));
