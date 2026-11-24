@@ -5,7 +5,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "fantasy-atlas",
   "main": ".open-next/worker.js",
-  "compatibility_date": "2026-11-25",
+  "compatibility_date": "2026-11-24",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "assets": {
     "directory": ".open-next/assets",
