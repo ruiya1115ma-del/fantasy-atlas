@@ -6,6 +6,7 @@ import { DetailActions } from "@/components/DetailActions";
 import { MovieCard } from "@/components/MovieCard";
 import { Poster } from "@/components/Poster";
 import { KeyValue, Note, Pill, RatingBadge, TagPill } from "@/components/ui";
+import { isAdmin } from "@/lib/admin/auth";
 import { getMoviesRuntime } from "@/lib/admin/store-kv";
 import { similarMovies } from "@/lib/similar";
 import { COUNTRY_NAMES, FORMAT_LABELS, LANGUAGE_NAMES, MEDIA_TYPE_LABELS, TAG_GROUPS, tagLabel } from "@/lib/vocabulary";
@@ -30,6 +31,8 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
   const all = await getMoviesRuntime();
   const movie = all.find((m) => m.slug === slug || m.id === slug);
   if (!movie) notFound();
+
+  const viewerIsAdmin = await isAdmin();
 
   const similar = similarMovies(movie, all, 5);
   const franchiseMovies =
@@ -69,36 +72,8 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
           <div className="poster-frame aspect-[2/3] w-full">
             <Poster movie={movie} variant="hero" className="h-full w-full" />
           </div>
-          <Note className="mt-3">
-            {movie.poster ? (
-              <>
-                海报来源：
-                <a
-                  href={movie.poster.articleUrl || movie.poster.sourceUrl}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="text-[var(--color-gold-soft)] underline decoration-dotted"
-                >
-                  {movie.poster.source?.includes("douban")
-                    ? "豆瓣电影条目"
-                    : movie.poster.source?.includes("imdb")
-                      ? "IMDb 条目（官方发行海报）"
-                      : movie.poster.source?.includes("tvmaze")
-                        ? "TVmaze 条目"
-                        : movie.poster.source?.includes("commons")
-                          ? "Wikimedia Commons"
-                          : "维基百科条目"}
-                </a>
-                （{movie.poster.license}）。版权归发行方所有，本站仅在个人非商业范围内引用，
-                <span className="text-[var(--color-ivory-dim)]">不作官方物料使用</span>。
-              </>
-            ) : (
-              <>
-                暂无可用海报，封面为本站程序化生成的原创抽象视觉，
-                <span className="text-[var(--color-ivory-dim)]">不是官方海报</span>。
-              </>
-            )}
-          </Note>
+          {/* 我的记录：海报正下方，第一行状态、第二行评分 */}
+          <DetailActions movieId={movie.id} title={movie.chineseTitle} />
 
           <blockquote className="mt-6 border-l border-[rgba(226,200,127,0.4)] pl-4">
             <p className="text-[0.9rem] leading-relaxed text-[var(--color-ivory-dim)]">{movie.recommendation}</p>
@@ -136,12 +111,7 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
               <RatingBadge ratings={movie.ratings} />
               {movie.ratings.length === 0 && (
                 <p className="text-[0.72rem] text-[var(--color-ash-dim)]">
-                  尚未接入可核验的外部评分 —— 本站<span className="text-[var(--color-ivory-dim)]">不会为了填满页面而编造分数</span>
-                  。评分数据的来源与更新方式见{" "}
-                  <Link href="/sources" className="text-gold-soft underline underline-offset-4">
-                    数据与授权
-                  </Link>
-                  。
+                  尚未接入可核验的外部评分 —— 本站<span className="text-[var(--color-ivory-dim)]">不会为了填满页面而编造分数</span>。
                 </p>
               )}
             </div>
@@ -149,21 +119,13 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
 
           <div className="hairline my-8" />
 
-          {/* 剧照 —— 全部来自豆瓣条目 */}
+          {/* 剧照 */}
           {movie.stills && movie.stills.length > 0 && (
             <section aria-labelledby="stills" className="mt-0">
               <div className="mb-4 flex items-baseline justify-between gap-4">
                 <h2 id="stills" className="display text-2xl text-ivory">
                   剧照
                 </h2>
-                <a
-                  href={movie.stills[0].sourceUrl || movie.doubanUrl || "#"}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="text-[0.66rem] uppercase tracking-[0.16em] text-[var(--color-ash-dim)] transition-colors hover:text-gold-soft"
-                >
-                  图片来源：豆瓣 ↗
-                </a>
               </div>
               <div className="grid gap-3 sm:grid-cols-3">
                 {movie.stills.map((s) => (
@@ -355,14 +317,11 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
               </div>
             )}
             <Note className="mt-3">
-              标签由编辑按固定词表人工标注（不是算法抓取），置信度与来源见下方「数据来源与核对」。
+              {viewerIsAdmin
+                ? "标签由编辑按固定词表人工标注（不是算法抓取），置信度与来源见下方「数据来源与核对」。"
+                : "标签由编辑按固定词表人工标注（不是算法抓取）。"}
             </Note>
           </section>
-
-          <div className="hairline my-8" />
-
-          {/* 我的记录 */}
-          <DetailActions movieId={movie.id} title={movie.chineseTitle} />
 
           {/* 管理员才会看到的编辑入口（客户端检测会话，不影响静态渲染） */}
           <AdminEditShortcut movieId={movie.id} slug={movie.slug} />
@@ -427,9 +386,11 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
             </>
           )}
 
-          {/* 来源与核对 */}
-          <div className="hairline my-8" />
-          <section aria-labelledby="provenance">
+          {/* 来源与核对 —— 仅管理员可见；访客不展示任何来源说明 */}
+          {viewerIsAdmin && (
+            <>
+              <div className="hairline my-8" />
+              <section aria-labelledby="provenance">
             <h2 id="provenance" className="display text-2xl text-ivory">
               数据来源与核对
             </h2>
@@ -486,6 +447,8 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
               该记录如需修正，请修改原始片单文件后重新运行导入脚本，站点不会手工覆盖原始记录。
             </Note>
           </section>
+            </>
+          )}
         </article>
       </div>
     </div>
