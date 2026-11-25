@@ -247,27 +247,12 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
                   <span>
                     {rating.source} {rating.rating_value}/{rating.rating_scale}
                     {rating.rating_count ? `（${rating.rating_count.toLocaleString("en-US")} 人）` : ""}
-                    {rating.source_url && (
-                      <>
-                        {" · "}
-                        <a href={rating.source_url} target="_blank" rel="noreferrer" className="text-gold-soft underline underline-offset-4">
-                          来源
-                        </a>
-                      </>
-                    )}
-                    {" · 核对于 "}
-                    {DATE(rating.last_checked_at)}
                   </span>
                 ) : (
                   <span className="text-[var(--color-ash-dim)]">未接入（不编造）</span>
                 )}
               </KeyValue>
             </dl>
-            <Note className="mt-3">
-              资料来自创作者片单 + Wikidata（CC0）等公开事实源；评分来自 IMDb 公开数据集。最后核对时间：
-              {DATE(movie.provenance.ratingCheckedAt ?? movie.provenance.enrichment?.generatedAt ?? movie.updatedAt)}。
-              豆瓣仅作者人工核对时参考，<span className="text-[var(--color-ivory-dim)]">本站不抓取豆瓣数据</span>。
-            </Note>
           </section>
 
           <div className="hairline my-8" />
