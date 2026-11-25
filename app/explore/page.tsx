@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ExploreClient } from "@/components/ExploreClient";
+import { ExploreMount } from "@/components/ExploreMount";
 import type { HeroSlide } from "@/components/HeroCarousel";
 import { StableHeroSlides } from "@/components/StableHeroSlides";
 import { RecommendEntry } from "@/components/RecommendEntry";
@@ -106,7 +106,7 @@ export default async function ExplorePage({
     <>
       {slides.length > 0 && <StableHeroSlides slides={slides} heightClass="h-[76svh]" />}
       <RecommendEntry />
-      <ExploreClient movies={movies} initial={initial} />
+      <ExploreMount movies={movies} initial={initial} />
     </>
   );
 }

@@ -6,7 +6,6 @@ import { DetailActions } from "@/components/DetailActions";
 import { MovieCard } from "@/components/MovieCard";
 import { Poster } from "@/components/Poster";
 import { KeyValue, Note, Pill, RatingBadge, TagPill } from "@/components/ui";
-import { isAdmin } from "@/lib/admin/auth";
 import { getMoviesRuntime } from "@/lib/admin/store-kv";
 import { similarMovies } from "@/lib/similar";
 import { COUNTRY_NAMES, FORMAT_LABELS, LANGUAGE_NAMES, MEDIA_TYPE_LABELS, TAG_GROUPS, tagLabel } from "@/lib/vocabulary";
@@ -31,8 +30,6 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
   const all = await getMoviesRuntime();
   const movie = all.find((m) => m.slug === slug || m.id === slug);
   if (!movie) notFound();
-
-  const viewerIsAdmin = await isAdmin();
 
   const similar = similarMovies(movie, all, 5);
   const franchiseMovies =
@@ -316,11 +313,7 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
                 </div>
               </div>
             )}
-            <Note className="mt-3">
-              {viewerIsAdmin
-                ? "标签由编辑按固定词表人工标注（不是算法抓取），置信度与来源见下方「数据来源与核对」。"
-                : "标签由编辑按固定词表人工标注（不是算法抓取）。"}
-            </Note>
+            <Note className="mt-3">标签由编辑按固定词表人工标注（不是算法抓取）。</Note>
           </section>
 
           {/* 管理员才会看到的编辑入口（客户端检测会话，不影响静态渲染） */}
@@ -386,69 +379,7 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
             </>
           )}
 
-          {/* 来源与核对 —— 仅管理员可见；访客不展示任何来源说明 */}
-          {viewerIsAdmin && (
-            <>
-              <div className="hairline my-8" />
-              <section aria-labelledby="provenance">
-            <h2 id="provenance" className="display text-2xl text-ivory">
-              数据来源与核对
-            </h2>
-            <dl className="panel mt-4 px-5 py-2">
-              <KeyValue label="原始记录">{movie.provenance.recordFile}</KeyValue>
-              <KeyValue label="记录来源">{movie.provenance.recordSource}</KeyValue>
-              <KeyValue label="外部补全">
-                {movie.provenance.enrichment ? (
-                  <span>
-                    {movie.provenance.enrichment.method} · 置信度{" "}
-                    {movie.provenance.enrichment.confidence.toFixed(2)} ·{" "}
-                    {movie.provenance.enrichment.reviewStatus === "matched"
-                      ? "已匹配"
-                      : movie.provenance.enrichment.reviewStatus === "needs_review"
-                        ? "待人工确认"
-                        : "未匹配"}
-                  </span>
-                ) : (
-                  <span className="text-[var(--color-ash-dim)]">尚未执行外部补全</span>
-                )}
-              </KeyValue>
-              <KeyValue label="收录时间">{DATE(movie.createdAt)}</KeyValue>
-              <KeyValue label="最后更新">{DATE(movie.updatedAt)}</KeyValue>
-              <KeyValue label="外部链接">
-                <div className="flex flex-wrap gap-3">
-                  {movie.links.imdb && (
-                    <a href={movie.links.imdb} target="_blank" rel="noreferrer" className="text-gold-soft underline underline-offset-4">
-                      IMDb
-                    </a>
-                  )}
-                  {movie.links.wikidata && (
-                    <a href={movie.links.wikidata} target="_blank" rel="noreferrer" className="text-gold-soft underline underline-offset-4">
-                      Wikidata
-                    </a>
-                  )}
-                  {!movie.links.imdb && !movie.links.wikidata && (
-                    <span className="text-[var(--color-ash-dim)]">尚未匹配到外部条目</span>
-                  )}
-                </div>
-              </KeyValue>
-              {movie.provenance.reviewReasons.length > 0 && (
-                <KeyValue label="待复核原因">
-                  <ul className="list-inside list-disc space-y-1">
-                    {movie.provenance.reviewReasons.map((r) => (
-                      <li key={r}>{r}</li>
-                    ))}
-                  </ul>
-                </KeyValue>
-              )}
-              {movie.creatorNote && <KeyValue label="创作者备注">{movie.creatorNote}</KeyValue>}
-            </dl>
-            <Note className="mt-3">
-              创作者片单标注：{movie.watchStatus === "unknown" ? "观看状态待创作者确认（未标注不等于没看过）" : movie.watchStatus}。
-              该记录如需修正，请修改原始片单文件后重新运行导入脚本，站点不会手工覆盖原始记录。
-            </Note>
-          </section>
-            </>
-          )}
+          {/* 相似作品结束；来源与核对只在后台展示，前台不出现任何来源说明 */}
         </article>
       </div>
     </div>
