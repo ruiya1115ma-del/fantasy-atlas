@@ -49,15 +49,17 @@ test("探索页带筛选参数时结果收敛，不会 500", async () => {
   assert.ok(html.length > 1000);
 });
 
-test("详情页返回 200，且剧照/简介/编辑视角/客观资料分区可见", async () => {
+test("详情页返回 200；访客看不到来源与版权说明，但能看到记录入口", async () => {
   const slug = catalog.movies[0].slug;
   const { status, html } = await get(`/movies/${slug}`);
   assert.equal(status, 200);
   assert.ok(html.includes("编辑视角"), "缺少编辑视角分区");
   assert.ok(html.includes("客观资料"), "缺少客观资料分区");
-  assert.ok(html.includes("数据来源与核对"), "缺少来源与核对分区");
-  assert.ok(html.includes("我的记录"), "缺少个人记录分区");
-  assert.ok(html.includes("海报来源"), "缺少海报来源标注");
+  assert.ok(!html.includes("数据来源与核对"), "访客不应看到「数据来源与核对」");
+  assert.ok(!html.includes("海报来源"), "访客不应看到「海报来源」");
+  assert.ok(!html.includes("不作官方物料使用"), "访客不应看到海报版权说明");
+  assert.ok(html.includes("已看") && html.includes("收藏") && html.includes("待看"), "缺少记录入口按钮");
+  assert.equal((html.match(/aria-label="[1-5] 星"/g) || []).length, 5, "缺少五星个人评分");
 });
 
 test("推荐页 / 收藏页返回 200；数据与授权页已收进后台，访客访问返回 404", async () => {
@@ -90,15 +92,15 @@ test("六个叙事主题页面都返回 200，且各自渲染了不同的作品�
   assert.equal(counts.size, slugs.length, `六个主题的作品数量应当各不相同，实际只有 ${counts.size} 种`);
 });
 
-test("首页包含六个叙事主题入口与整屏命运抽取", async () => {
+test("首页按配置渲染主题入口，并含整屏命运抽取", async () => {
   const { html } = await get("/");
-  for (const zh of ["时空裂隙", "魔法世界", "怪奇日常", "奇幻生物", "暗黑童话", "史诗远征"]) {
-    assert.ok(html.includes(zh), `首页缺少主题：${zh}`);
-  }
+  // 首页板块/主题名可在后台改名，因此只校验结构：每个主题都有一个 /collections/ 入口
+  const themeLinks = new Set(html.match(/\/collections\/[a-z0-9-]+/g) || []);
+  assert.ok(themeLinks.size >= 11, `首页主题入口不足（实际 ${themeLinks.size} 个）`);
   assert.ok(html.includes("按主题寻找"), "缺少「按主题寻找」分区");
   assert.ok(html.includes("闭上眼，交给命运"), "缺少命运抽取文案");
   assert.ok(html.includes("允许重复抽取"), "缺少重复抽取开关");
-  // 首页主题卡片只显示主题名、图片与数量，不放介绍文字
+  // 首页主题卡片只显示主题名、图片与（可选的）一行小字，不放长介绍
   assert.ok(!html.includes("故事可以同时属于"), "首页仍在展示主题介绍文字");
 });
 

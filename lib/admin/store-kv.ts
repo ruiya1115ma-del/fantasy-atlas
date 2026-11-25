@@ -12,6 +12,19 @@ import { TAG_GROUPS } from "@/lib/vocabulary";
 
 const bundled = catalogSource as unknown as CatalogFile;
 
+/**
+ * 进程内缓存：Workers 同一个 isolate 会连续处理多个请求，
+ * 每次请求都从 KV 取回 1.3MB 的 catalog 再 JSON.parse 非常耗 CPU，
+ * 在免费额度（10ms/请求）下会直接超限返回 503。
+ * 缓存 20 秒；后台写入时立即失效，跨 isolate 最多 20 秒延迟。
+ */
+const MEMO_TTL_MS = 20_000;
+let catalogMemo: { catalog: CatalogFile; at: number } | null = null;
+
+export function invalidateCatalogMemo(): void {
+  catalogMemo = null;
+}
+
 export function bundledCatalog(): CatalogFile {
   return {
     generatedAt: bundled.generatedAt ?? new Date().toISOString(),
@@ -22,21 +35,32 @@ export function bundledCatalog(): CatalogFile {
 
 /** 读线上目录：KV 里有就用 KV；本地没有 KV 时读文件；两者都没有就用构建时打包的那份 */
 export async function readCatalogKv(): Promise<CatalogFile> {
+  const now = Date.now();
+  if (catalogMemo && now - catalogMemo.at < MEMO_TTL_MS) return catalogMemo.catalog;
+
   const fromKv = await kvReadJson<CatalogFile>(KV_KEYS.catalog);
   if (fromKv && Array.isArray(fromKv.movies) && fromKv.movies.length > 0) {
-    return { ...fromKv, count: fromKv.movies.length };
+    const catalog = { ...fromKv, count: fromKv.movies.length };
+    catalogMemo = { catalog, at: now };
+    return catalog;
   }
   try {
     const local = readCatalog();
-    if (local.movies.length > 0) return local;
+    if (local.movies.length > 0) {
+      catalogMemo = { catalog: local, at: now };
+      return local;
+    }
   } catch {
     /* 没有文件系统（Workers）时忽略 */
   }
-  return bundledCatalog();
+  const fallback = bundledCatalog();
+  catalogMemo = { catalog: fallback, at: now };
+  return fallback;
 }
 
 export async function writeCatalogKv(catalog: CatalogFile): Promise<void> {
   await kvWriteJson(KV_KEYS.catalog, { ...catalog, count: catalog.movies.length });
+  invalidateCatalogMemo();
 }
 
 /** 前台/后台读取用的目录：KV 优先，未改过时就是构建时打包的那份 */
