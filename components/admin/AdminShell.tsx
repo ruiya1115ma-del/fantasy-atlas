@@ -11,6 +11,7 @@ const LINKS = [
   { href: "/admin/tags", label: "标签" },
   { href: "/admin/media", label: "缺海报" },
   { href: "/admin/data", label: "数据与备份" },
+  { href: "/admin/traffic", label: "访问统计" },
   { href: "/admin/sources", label: "数据与授权" },
 ];
 

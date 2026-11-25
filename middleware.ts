@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { countView, UV_COOKIE } from "@/lib/traffic-edge";
 
 /**
  * 后台访问控制（第一道闸）。
@@ -73,12 +74,58 @@ export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const token = request.cookies.get(SESSION_COOKIE)?.value;
 
+  // 只在「真正的页面浏览」上计数：跳过资源、接口、预取、后台
+  const isDocument =
+    (request.method === "GET" || request.method === "HEAD") &&
+    !pathname.startsWith("/_next") &&
+    !pathname.startsWith("/api") &&
+    !pathname.startsWith("/admin") &&
+    !pathname.startsWith("/posters") &&
+    (request.headers.get("accept") ?? "").includes("text/html") &&
+    request.headers.get("next-router-prefetch") === null &&
+    request.headers.get("purpose") !== "prefetch" &&
+    request.headers.get("x-middleware-prefetch") === null;
+
   const isAdminArea = pathname.startsWith("/admin") && pathname !== "/admin/login";
   const isAdminApi = pathname.startsWith("/api/admin") && pathname !== "/api/admin/login";
   const isRetiredPublicPage = pathname === "/sources" || pathname.startsWith("/sources/");
 
+  if (isDocument) {
+    try {
+      const today = new Date().toISOString().slice(0, 10);
+      const seen = request.cookies.get(UV_COOKIE)?.value;
+      const firstToday = seen !== today;
+      countView(firstToday);
+
+      const response = isAdminArea || isAdminApi || isRetiredPublicPage
+        ? await gate(request, token, { isAdminArea, isAdminApi, isRetiredPublicPage })
+        : NextResponse.next();
+
+      if (firstToday) {
+        response.cookies.set(UV_COOKIE, today, {
+          path: "/",
+          maxAge: 60 * 60 * 24,
+          sameSite: "lax",
+          httpOnly: false,
+        });
+      }
+      return response;
+    } catch {
+      /* 计数出错不影响访问 */
+    }
+  }
+
   if (!isAdminArea && !isAdminApi && !isRetiredPublicPage) return NextResponse.next();
 
+  return gate(request, token, { isAdminArea, isAdminApi, isRetiredPublicPage });
+}
+
+async function gate(
+  request: NextRequest,
+  token: string | undefined,
+  flags: { isAdminArea: boolean; isAdminApi: boolean; isRetiredPublicPage: boolean },
+): Promise<NextResponse> {
+  const { isAdminArea, isAdminApi, isRetiredPublicPage } = flags;
   if (await isValidSession(token)) return NextResponse.next();
 
   if (isAdminApi) {
@@ -92,10 +139,14 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(url);
   }
 
-  // 已下架的公开页面：对普通访客直接 404，不暴露它存在过
-  return new NextResponse("Not Found", { status: 404, headers: { "content-type": "text/plain; charset=utf-8" } });
+  if (isRetiredPublicPage) {
+    // 已下架的公开页面：对普通访客直接 404，不暴露它存在过
+    return new NextResponse("Not Found", { status: 404, headers: { "content-type": "text/plain; charset=utf-8" } });
+  }
+
+  return NextResponse.next();
 }
 
 export const config = {
-  matcher: ["/admin/:path*", "/sources", "/sources/:path*", "/api/admin/:path*"],
+  matcher: ["/((?!_next/static|_next/image|posters|posters-douban|favicon.ico|robots.txt|sitemap.xml).*)"],
 };
