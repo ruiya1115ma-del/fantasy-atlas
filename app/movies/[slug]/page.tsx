@@ -98,20 +98,14 @@ export default async function MoviePage({ params }: { params: Promise<{ slug: st
               )}
               <Pill>{MEDIA_TYPE_LABELS[movie.mediaType] ?? movie.mediaType}</Pill>
               <Pill>{FORMAT_LABELS[movie.format] ?? movie.format}</Pill>
-              <Pill tone={movie.tagConfidence === "high" ? "ok" : "warn"}>
-                标签置信度：{movie.tagConfidence === "high" ? "高" : movie.tagConfidence === "medium" ? "中" : "低"}
-              </Pill>
-              {movie.provenance.needsReview && <Pill tone="warn">待人工复核</Pill>}
+              <RatingBadge ratings={movie.ratings} />
             </div>
 
-            <div className="mt-6">
-              <RatingBadge ratings={movie.ratings} />
-              {movie.ratings.length === 0 && (
-                <p className="text-[0.72rem] text-[var(--color-ash-dim)]">
-                  尚未接入可核验的外部评分 —— 本站<span className="text-[var(--color-ivory-dim)]">不会为了填满页面而编造分数</span>。
-                </p>
-              )}
-            </div>
+            {movie.ratings.length === 0 && (
+              <p className="mt-3 text-[0.72rem] text-[var(--color-ash-dim)]">
+                尚未接入可核验的外部评分 —— 本站<span className="text-[var(--color-ivory-dim)]">不会为了填满页面而编造分数</span>。
+              </p>
+            )}
           </header>
 
           <div className="hairline my-8" />
